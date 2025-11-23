@@ -2,7 +2,7 @@
 
 import { useRouter } from "next/navigation"
 import Link from "next/link"
-import { BarChart3, Compass, Briefcase, BookOpen, Map } from "lucide-react"
+import { BarChart3, Compass, Briefcase, BookOpen, Map, Users } from "lucide-react"
 
 const iconMap = {
   BarChart3,
@@ -10,6 +10,7 @@ const iconMap = {
   Briefcase,
   BookOpen,
   Map,
+  Users,
 }
 
 export type LinkPanelItemType = {
@@ -31,7 +32,7 @@ const LinkPanelItem = ({
 
   return (
     <div
-      className="link-panel-item m-3 max-w-xs text-center text-sm flex-[1_1_30%] flex-col text-black dark:text-[#cccccc] hover:cursor-pointer bg-white dark:bg-transparent border border-gray-200 dark:border-gray-700 rounded-lg transition-all duration-300 overflow-hidden focus:outline-2 focus:outline-offset-2 focus:outline-[#FFB81C]"
+      className="link-panel-item text-center text-sm text-black dark:text-[#cccccc] hover:cursor-pointer bg-white dark:bg-transparent border border-gray-200 dark:border-gray-700 rounded-lg transition-all duration-300 overflow-hidden focus:outline-2 focus:outline-offset-2 focus:outline-[#FFB81C] flex flex-col h-full w-full md:flex-shrink-0 h-70"
       style={{
         boxShadow: 'rgba(0, 0, 0, 0.08) 0px 2px 12px, rgba(0, 0, 0, 0.04) 0px 1px 4px'
       }}
@@ -58,7 +59,7 @@ const LinkPanelItem = ({
           transition: 'box-shadow 300ms ease'
         }}
       />
-      <div className="p-6 pt-8">
+      <div className="p-6 pt-8 flex flex-col flex-1">
         {icon &&
           (() => {
             const IconComponent = iconMap[icon]
@@ -75,7 +76,7 @@ const LinkPanelItem = ({
           })()
         }
         <h3 className="mb-2 font-bold dark:text-white text-base leading-tight">{title}</h3>
-        <p className="flex-[1_0_auto] text-xs leading-relaxed mb-3">
+        <p className="text-xs leading-relaxed mb-3">
           {description}
         </p>
         <Link

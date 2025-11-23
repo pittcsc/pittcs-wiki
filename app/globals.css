@@ -774,6 +774,13 @@ blockquote {
     display: block;
     margin: 0 auto;
   }
+
+  @media (min-width: 768px) {
+    width: calc((100% - 3rem) / 3) !important;
+    min-width: calc((100% - 3rem) / 3) !important;
+    max-width: calc((100% - 3rem) / 3) !important;
+    flex-shrink: 0 !important;
+  }
 }
 
 @keyframes stripes {
@@ -999,6 +1006,30 @@ html.dark .card:hover {
     margin-bottom: 1rem;
     height: 1rem;
   }
+}
+
+/* Custom box styles for markdown content */
+.warning-box {
+  background-color: #fed7aa;
+  color: #92400e;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 4px;
+}
+
+html.dark .warning-box {
+  background-color: #78350f;
+  color: #fcd34d;
+}
+
+.info-box {
+  font-size: 0.875rem;
+  border: 1px solid var(--border-color);
+  padding: 0.75rem;
+  margin-bottom: 2rem;
+  border-radius: 4px;
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
 }
 
 /* Responsive Design */
@@ -1241,4 +1272,74 @@ a:focus-visible {
   html {
     scroll-behavior: auto;
   }
+}
+
+/* New Guide Ribbon */
+/* Guide Card Container */
+.guide-card-container {
+  position: relative;
+  overflow: hidden;
+}
+
+/* New Ribbon */
+.guide-card-container .new-ribbon::before {
+  content: "NEW";
+  position: absolute;
+  bottom: 40px;
+  right: -20px;
+  background: linear-gradient(135deg, #FFB81C 0%, #f5a623 100%);
+  color: white;
+  padding: 6px 32px;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transform: rotate(-45deg);
+  transform-origin: bottom right;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  white-space: nowrap;
+  animation: ribbonFadeIn 0.6s ease-out;
+}
+
+/* Updated Ribbon */
+.guide-card-container .updated-ribbon::before {
+  content: "UPDATED";
+  position: absolute;
+  bottom: 52px;
+  right: -28px;
+  background: linear-gradient(135deg, #243e8b 0%, #1a2e66 100%);
+  color: white;
+  padding: 6px 32px;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transform: rotate(-45deg);
+  transform-origin: bottom right;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  white-space: nowrap;
+  animation: ribbonFadeIn 0.6s ease-out;
+}
+
+/* Ribbon Animation */
+@keyframes ribbonFadeIn {
+  from {
+    opacity: 0;
+    transform: rotate(-45deg) translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: rotate(-45deg) translateX(0);
+  }
+}
+
+/* Dark mode support for ribbons */
+html.dark .guide-card-container .new-ribbon::before {
+  background: linear-gradient(135deg, #FFB81C 0%, #f5a623 100%);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+html.dark .guide-card-container .updated-ribbon::before {
+  background: linear-gradient(135deg, #243e8b 0%, #1a2e66 100%);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
 }

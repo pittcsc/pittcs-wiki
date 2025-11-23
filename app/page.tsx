@@ -25,8 +25,8 @@ export default function Home() {
     return () => observer.disconnect()
   }, [])
 
-  const lightGradient = `linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 40%, rgba(255,255,255,0.3) 70%, rgba(255,255,255,0.8) 85%, #fafbfc 100%), url('${CampusBackground.src}')`
-  const darkGradient = `linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 40%, rgba(0,0,0,0.3) 70%, rgba(0,0,0,0.7) 85%, #0f0f0f 100%), url('${CampusBackground.src}')`
+  const lightGradient = `linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 65%, rgba(255,255,255,0.3) 78%, rgba(255,255,255,0.8) 90%, #fafbfc 100%), url('${CampusBackground.src}')`
+  const darkGradient = `linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 65%, rgba(0,0,0,0.3) 78%, rgba(0,0,0,0.7) 90%, #0f0f0f 100%), url('${CampusBackground.src}')`
 
   return (
     <main>
@@ -38,7 +38,7 @@ export default function Home() {
           width: '100vw',
           marginLeft: 'calc(-50vw + 50%)',
           marginTop: '-20px',
-          paddingTop: '3rem',
+          paddingTop: '5rem',
           paddingBottom: '3rem',
           backgroundPosition: 'center top',
           backgroundColor: isDark ? '#0f0f0f' : '#fafbfc',

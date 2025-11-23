@@ -1,5 +1,5 @@
 ---
-title: "[02O] 3. Building your Case"
+title: "[Z2O] 3. Building your Case"
 ---
 
 > This is a part of a series of guides called Zero to Offer aimed to help you navigate the internship process. We recommend you start [here](/guides/zero-to-offer/)!
@@ -120,4 +120,4 @@ In the meantime, make a plan how you are going to improve your skills and what s
 
 ---
 
-_Next: [Acing your Interviews](/guides/zero-to-offer/ace-your-interview)_
+_Next: [Acing your Interviews](/guides/zero-to-offer/ace-your-interview.md)_

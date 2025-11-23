@@ -57,7 +57,7 @@ const Search = () => {
           ref={inputRef}
           id="search-bar"
           type="text"
-          placeholder="Search courses, guides..."
+          placeholder="Search"
           value={query}
           onChange={handleInputChange}
           onKeyDown={handleEscape}

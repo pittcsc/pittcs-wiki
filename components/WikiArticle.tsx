@@ -7,6 +7,7 @@ import EditOnGithub from "./EditOnGithub"
 import { MDFrontMatterType } from "@/utils/frontmatter-parser"
 import Markdown from "react-markdown"
 import remarkGfm from "remark-gfm"
+import rehypeRaw from "rehype-raw"
 
 type WikiArticleProps = {
   file: string
@@ -59,7 +60,7 @@ const WikiArticle = ({
           </div>
           <FreshnessDisclaimer lastUpdated={gitAuthorTime} />
           <div className="mt-4 blog-post-content">
-            <Markdown remarkPlugins={[remarkGfm]}>{relevantContent}</Markdown>
+            <Markdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]}>{relevantContent}</Markdown>
           </div>
           <RelatedGuides related={frontmatter.related} />
           <div className={"my-8 sm:w-full md:w-auto"}>

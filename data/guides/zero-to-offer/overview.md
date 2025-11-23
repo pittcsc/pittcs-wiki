@@ -1,5 +1,5 @@
 ---
-title: "[02O] 1. Overview"
+title: "[Z2O] 1. Overview"
 ---
 
 > This is a part of a series of guides called Zero to Offer aimed to help you navigate the internship process. We recommend you start [here](/guides/zero-to-offer/)!
@@ -126,4 +126,4 @@ All of this interviewing ends up being a decent amount of work! To successfully 
 
 ---
 
-_Next: [Mindset](/guides/zero-to-offer/mindset)_
+_Next: [Mindset](/guides/zero-to-offer/mindset.md)_

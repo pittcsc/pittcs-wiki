@@ -6,6 +6,7 @@ import { sortStrings } from "@/utils/sort-strings"
 import { promises as fs } from "fs"
 import Markdown from "react-markdown"
 import { GetFolderInformation } from "@/utils/guides-page-helper"
+import { getGuideStatus } from "@/config/newGuides"
 
 export type FileTitlesType = {
   title: string
@@ -77,15 +78,44 @@ export default async function GuidePage({
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
               {fileTitles
                 .sort(sortStrings)
-                .map((file: FileTitlesType, i: number) => (
-                  <a
-                    key={i}
-                    href={file.href}
-                    className="w-full h-32 p-4 border text-gray-800 bg-gray-200 shadow-sm transition hover:text-white hover:bg-gray-600 hover:font-bold hover:shadow-md"
-                  >
-                    {file.title}
-                  </a>
-                ))}
+                .map((file: FileTitlesType, i: number) => {
+                  // Extract guide slug from href (e.g., "guides/career/running-for-officer.md" -> "running-for-officer")
+                  let guideSlug = file.href.split("/").pop() || ""
+                  // Remove .md or .mdx extension
+                  guideSlug = guideSlug.replace(/\.(md|mdx)$/, "")
+                  const categorySlug = curPath.split("/").pop() || ""
+                  const guideStatus = getGuideStatus(categorySlug, guideSlug)
+
+                  return (
+                    <div key={i} className="guide-card-container">
+                      <a
+                        href={file.href}
+                        className="w-full h-32 p-4 border text-gray-800 bg-gray-200 shadow-sm transition hover:text-white hover:bg-gray-600 hover:font-bold hover:shadow-md block"
+                        aria-label={
+                          guideStatus
+                            ? `${file.title} (${guideStatus} guide)`
+                            : file.title
+                        }
+                      >
+                        {file.title}
+                      </a>
+                      {guideStatus === "new" && (
+                        <div
+                          className="new-ribbon"
+                          aria-label="New guide"
+                          role="img"
+                        />
+                      )}
+                      {guideStatus === "updated" && (
+                        <div
+                          className="updated-ribbon"
+                          aria-label="Updated guide"
+                          role="img"
+                        />
+                      )}
+                    </div>
+                  )
+                })}
             </div>
           </div>
         </div>

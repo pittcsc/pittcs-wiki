@@ -1,5 +1,5 @@
 ---
-title: "[02O] 2. Mindset"
+title: "[Z2O] 2. Mindset"
 ---
 
 > This is a part of a series of guides called Zero to Offer aimed to help you navigate the internship process. We recommend you start [here](/guides/zero-to-offer/)!
@@ -12,7 +12,7 @@ By keeping a good mindset you can avoid feeding into any toxicity. Below are som
 
 Carol Dweck is a famous psychologist who studied the idea of a “growth mindset.”
 
-<div class="text-sm border p-3 mb-8">
+<div class="info-box">
 In a fixed mindset students believe their basic abilities, their intelligence, their talents, are just fixed traits. They have a certain amount and that's that, and then their goal becomes to look smart all the time and never look dumb. In a growth mindset students understand that their talents and abilities can be developed through effort, good teaching and persistence. They don't necessarily think everyone's the same or anyone can be Einstein, but they believe everyone can get smarter if they work at it. - Carol Dweck
 </div>
 
@@ -106,4 +106,4 @@ Subreddits like [r/cscareerquestions](https://www.reddit.com/r/cscareerquestions
 
 ---
 
-_Next: [Building your Case](/guides/zero-to-offer/building-your-case)_
+_Next: [Building your Case](/guides/zero-to-offer/building-your-case.md)_
