@@ -92,3 +92,4 @@ You can find more on the [MLH website](https://mlh.io/)
 | BitCamp         | University of Maryland     | One of the largest hackathons on the East Coast where PittCSC was able to give a talk. |
 | TartanHacks     | Carnegie Mellon University | A major Pittsburgh-area hackathon hosted by ScottyLabs just down the road. |
 
+> Updater's Note: When updating this article I kept the both Alex's use of first-person and even added my own to maintain the personal feel of the article. 
