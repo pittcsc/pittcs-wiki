@@ -623,8 +623,9 @@ blockquote {
 }
 
 .markdown-toc {
-  margin-top: 5rem;
-  overflow: hidden;
+  margin-top: 1rem;
+  max-height: 80vh;
+  overflow-y: auto;
 
   .toc-heading-depth-2 {
     margin-left: 20rem;
@@ -651,6 +652,112 @@ blockquote {
     margin-left: 60rem;
     @apply text-xs;
   }
+}
+
+/* Sidebar Navigation Base Styling */
+.sidebar-nav-link {
+  transition: color 0.2s ease;
+  text-decoration: none;
+}
+
+.sidebar-nav-link:hover {
+  text-decoration: underline;
+}
+
+.sidebar-section-header {
+  margin-bottom: 12px;
+}
+
+.sidebar-subsection {
+  padding-left: 12px;
+}
+
+/* Sidebar Navigation Light Mode Styling */
+.sidebar-section-header {
+  color: #1f2937;
+  font-weight: 600;
+}
+
+.sidebar-section-header a {
+  color: #1f2937;
+}
+
+.sidebar-nav-link {
+  color: #4b5563;
+  font-weight: 400;
+}
+
+.sidebar-nav-link:hover {
+  color: #243e8b; /* Pitt blue on hover in light mode */
+}
+
+.sidebar-nav-link.active {
+  color: #243e8b;
+  font-weight: 500;
+}
+
+.sidebar-subsection {
+  color: #6b7280;
+}
+
+.sidebar-subsection a {
+  color: #6b7280;
+}
+
+.sidebar-subsection a:hover {
+  color: #243e8b;
+}
+
+/* Sidebar Navigation Dark Mode Styling */
+/* Section headers (Recruiters 101, Resume Basics, etc.) */
+html.dark .sidebar-section-header {
+  color: #ffffff; /* Pure white for main headers */
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+html.dark .sidebar-section-header a {
+  color: #ffffff;
+}
+
+/* Navigation links */
+html.dark .sidebar-nav-link {
+  color: #b0b0b0; /* Lighter gray for better readability */
+  font-weight: 400;
+  transition: color 0.2s ease;
+}
+
+html.dark .sidebar-nav-link:hover {
+  color: #FFB81C; /* Pitt gold on hover */
+}
+
+/* Active/current page link */
+html.dark .sidebar-nav-link.active {
+  color: #FFB81C;
+  font-weight: 500;
+}
+
+/* Subsection items (if any) */
+html.dark .sidebar-subsection {
+  color: #9ca3af; /* Slightly dimmer for hierarchy */
+  padding-left: 12px;
+}
+
+html.dark .sidebar-subsection a {
+  color: #9ca3af;
+}
+
+html.dark .sidebar-subsection a:hover {
+  color: #FFB81C;
+}
+
+/* Ensure proper spacing between sections */
+html.dark .markdown-toc li {
+  margin-bottom: 8px;
+}
+
+html.dark .markdown-toc .sidebar-section-header {
+  margin-bottom: 12px;
 }
 
 .reqs-dots {
@@ -1344,6 +1451,482 @@ html.dark .guide-card-container .updated-ribbon::before {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
 }
 
+/* Career Page Dark Mode Styling */
+/* Dark mode page styling */
+html.dark .career-page {
+  background-color: #0f0f0f; /* Consistent dark background */
+  color: #ffffff;
+}
+
+/* Dark mode cards */
+html.dark .guide-card {
+  background-color: #2a2a2a; /* Light enough to stand out */
+  border: 1px solid #404040 !important; /* Subtle border for definition */
+  color: #ffffff !important;
+}
+
+html.dark .guide-card:hover {
+  background-color: #333333;
+  transform: scale(1.02);
+  border-color: #404040 !important;
+}
+
+/* Dark mode text hierarchy */
+html.dark .career-title {
+  color: #ffffff;
+}
+
+html.dark .career-description {
+  color: #e0e0e0;
+}
+
+/* Zero to Offer link styling in dark mode */
+html.dark .career-description a,
+html.dark .zero-to-offer-link {
+  color: #FFB81C; /* Use Pitt gold for important links */
+}
+
+html.dark .career-description a:hover,
+html.dark .zero-to-offer-link:hover {
+  color: #fcd34d;
+}
+
+/* Card titles in dark mode */
+html.dark .guide-card h3 {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+/* Breadcrumb Navigation Dark Mode */
+html.dark .breadcrumb-nav {
+  color: #a0a0a0;
+}
+
+html.dark .breadcrumb-nav a {
+  color: #FFB81C; /* Gold for active links */
+}
+
+html.dark .breadcrumb-nav a:hover {
+  color: #fcd34d;
+}
+
+html.dark .breadcrumb-nav span {
+  color: #888888; /* Gray for separators and current page */
+}
+
+/* Courses Page Dark Mode Styling */
+/* Yellow Highlight Box - Dark Mode */
+html.dark .scheduling-guide-highlight {
+  background-color: rgba(255, 184, 28, 0.2) !important; /* Much more subtle gold background */
+  border: 1px solid #FFB81C;
+  color: #ffffff !important; /* White text instead of keeping yellow text */
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+html.dark .scheduling-guide-highlight a {
+  color: #FFB81C; /* Gold link color for contrast */
+  text-decoration: underline;
+}
+
+html.dark .scheduling-guide-highlight a:hover {
+  color: #fcd34d;
+}
+
+/* Filter Button Styling - Dark Mode */
+html.dark .filter-button {
+  background-color: #2a2a2a !important;
+  border: 1px solid #404040 !important;
+  color: #ffffff !important;
+  border-radius: 6px;
+  padding: 12px 20px;
+}
+
+html.dark .filter-button:hover {
+  background-color: #333333 !important;
+  border-color: #FFB81C !important;
+}
+
+/* Ensure ribbons work well in dark mode */
+html.dark .new-ribbon::before {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* Career page container and headings */
+html.dark .career-page .blog-post-container {
+  background-color: #0f0f0f;
+}
+
+html.dark .career-page h3 {
+  color: #ffffff;
+}
+
+html.dark .career-page .frontmatter {
+  color: #ffffff;
+}
+
+/* Header Styling */
+header.header {
+  height: 64px; /* Slightly reduced from original for better proportion */
+  padding: 0 24px; /* Increased padding for breathing room */
+  display: flex;
+  align-items: center; /* Vertically center all items */
+  justify-content: space-between;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08); /* Subtle shadow for separation */
+  position: relative;
+  z-index: 10;
+}
+
+/* Make header background match page background exactly in dark mode */
+html.dark header.header {
+  background-color: #0f0f0f !important; /* Match exact page background color */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3); /* Enhanced shadow for dark mode */
+}
+
+/* Logo container with fixed height for predictable centering */
+.header-logo {
+  display: flex;
+  align-items: center;
+  height: 40px; /* Set fixed height for predictable centering */
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 0; /* Remove gap, use margin-right on search container for spacing */
+}
+
+.pitt-logo {
+  height: 36px; /* Increased by ~12% from 32px for better visual balance */
+  width: auto;
+  transition: transform 0.2s ease;
+}
+
+.header-logo:hover .pitt-logo {
+  transform: scale(1.05);
+}
+
+/* Search Bar Styling - Modern Redesign with 8px Grid System */
+.search-container {
+  width: 180px; /* Width to fit "Search..." placeholder text exactly */
+  max-width: 100%;
+  position: relative;
+}
+
+.search-input-wrapper {
+  position: relative;
+  width: 100%;
+  height: 40px; /* 8px grid: 40px = 5 units */
+  display: flex;
+  align-items: center;
+}
+
+/* Target the Search component in header */
+.header-right > div {
+  width: 180px; /* Width to fit "Search..." placeholder text exactly */
+  max-width: 100%;
+  margin-right: 16px; /* Give breathing room before the moon icon */
+}
+
+.header-right > div .search-input-wrapper {
+  height: 40px;
+  width: 100%;
+}
+
+.search-input {
+  width: 100%;
+  height: 40px;
+  padding: 8px 40px 8px 40px; /* 8px grid: left padding for icon, right for clear button */
+  border-radius: 8px; /* Consistent border radius */
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  background-color: rgba(255, 255, 255, 0.95);
+  color: #1a1a1a; /* WCAG AA: 4.5:1 contrast ratio */
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: inherit;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: none; /* Remove elevation to blend into navbar */
+}
+
+.search-input::placeholder {
+  color: rgba(0, 0, 0, 0.6); /* WCAG AA compliant */
+  font-weight: 400;
+}
+
+.search-input:hover {
+  border-color: rgba(0, 0, 0, 0.2);
+  box-shadow: none; /* Keep no shadow on hover to blend */
+}
+
+.search-input:focus {
+  background-color: #ffffff;
+  border-color: #FFB81C;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(255, 184, 28, 0.1), 0 2px 8px rgba(0, 0, 0, 0.15);
+  transform: translateY(-1px);
+}
+
+.search-icon-wrapper {
+  position: absolute;
+  left: 12px; /* 8px grid: 12px = 1.5 units */
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.search-icon {
+  width: 18px;
+  height: 18px;
+  color: rgba(0, 0, 0, 0.6);
+  stroke-width: 2.5px;
+  transition: color 0.2s ease;
+}
+
+.search-input:focus ~ .search-icon-wrapper .search-icon {
+  color: #FFB81C;
+}
+
+.search-clear-button {
+  position: absolute;
+  right: 8px; /* 8px grid */
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  padding: 4px;
+  border-radius: 4px;
+  background-color: transparent;
+  border: none;
+  color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  z-index: 10;
+}
+
+.search-clear-button:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.search-clear-button:focus {
+  outline: 2px solid #FFB81C;
+  outline-offset: 2px;
+}
+
+.search-clear-button:active {
+  transform: translateY(-50%) scale(0.95);
+}
+
+/* Keyboard navigation indicators */
+.search-input:focus-visible {
+  outline: 2px solid #FFB81C;
+  outline-offset: 2px;
+}
+
+/* Responsive design for search */
+@media (max-width: 768px) {
+  .search-container {
+    width: 100%;
+    max-width: 180px;
+  }
+  
+  .header-right > div {
+    width: 100%;
+    max-width: 180px;
+  }
+  
+  header.header {
+    padding: 0 12px; /* 8px grid: 12px = 1.5 units */
+  }
+  
+  .header-right {
+    gap: 8px; /* 8px grid */
+  }
+}
+
+@media (max-width: 640px) {
+  .search-container {
+    max-width: 180px;
+  }
+  
+  .header-right > div {
+    max-width: 180px;
+  }
+  
+  .search-input {
+    font-size: 13px;
+  }
+}
+
+/* Search Results Dropdown Styling */
+.search-container [id="search-results"] {
+  animation: slideDown 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Enhanced focus states for keyboard navigation */
+.search-input:focus-visible {
+  outline: 2px solid #FFB81C;
+  outline-offset: 2px;
+  border-radius: 8px;
+}
+
+/* Smooth transitions for all interactive elements */
+.search-input,
+.search-clear-button,
+.theme-toggle-button {
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  .search-input,
+  .search-clear-button,
+  .theme-toggle-button,
+  .search-container [id="search-results"] {
+    transition: none;
+    animation: none;
+  }
+}
+
+/* Dark mode search bar styling - glassmorphism with proper contrast */
+html.dark .search-input {
+  width: 100% !important;
+  height: 40px !important;
+  padding: 8px 40px 8px 40px !important;
+  border-radius: 8px !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important; /* Visible border */
+  background-color: rgba(255, 255, 255, 0.12) !important; /* Glassmorphism background */
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  color: #ffffff !important; /* WCAG AA: 4.5:1 contrast ratio */
+  font-size: 14px;
+  box-shadow: none !important; /* Remove elevation to blend into navbar */
+}
+
+html.dark .search-input::placeholder {
+  color: rgba(255, 255, 255, 0.7) !important; /* WCAG AA compliant */
+}
+
+html.dark .search-input:hover {
+  background-color: rgba(255, 255, 255, 0.16) !important;
+  border-color: rgba(255, 255, 255, 0.3) !important;
+  box-shadow: none !important; /* Keep no shadow on hover to blend */
+}
+
+html.dark .search-input:focus {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  border-color: #FFB81C !important; /* Gold border on focus */
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(255, 184, 28, 0.15), 0 2px 8px rgba(0, 0, 0, 0.4);
+  transform: translateY(-1px);
+}
+
+html.dark .search-icon {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+html.dark .search-input:focus ~ .search-icon-wrapper .search-icon {
+  color: #FFB81C !important;
+}
+
+html.dark .search-clear-button {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+html.dark .search-clear-button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* Theme Toggle Button - Clean Icon Design */
+.theme-toggle-button {
+  width: 24px;
+  height: 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: none;
+  background: none;
+  padding: 0;
+  color: rgba(255, 255, 255, 0.8); /* Match search icon color */
+  transition: opacity 0.3s ease, transform 0.3s ease, color 0.3s ease;
+  position: relative;
+}
+
+/* Placeholder for hydration */
+.theme-toggle-button-placeholder {
+  width: 24px;
+  height: 24px;
+}
+
+.theme-toggle-button:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+}
+
+.theme-toggle-button:active {
+  transform: scale(0.95);
+}
+
+.theme-toggle-button:focus {
+  outline: 2px solid #FFB81C;
+  outline-offset: 4px;
+  border-radius: 4px;
+}
+
+.theme-toggle-button:hover svg {
+  transform: scale(1.1);
+}
+
+/* Dark mode styling */
+html.dark .theme-toggle-button {
+  color: rgba(255, 255, 255, 0.8); /* Match search icon color in dark mode */
+}
+
+html.dark .theme-toggle-button:hover {
+  opacity: 1;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+/* Icon styling - moon in light mode (filled white, no stroke), sun in dark mode (filled gold) */
+.theme-toggle-button svg {
+  fill: currentColor;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Moon icon - no stroke, just filled */
+.theme-toggle-button svg path[d*="12.79"] {
+  fill: currentColor;
+  stroke: none;
+}
+
+/* Sun icon in dark mode - filled with gold, keep stroke for rays */
+html.dark .theme-toggle-button svg {
+  fill: #FFB81C; /* Gold color for sun icon */
+  stroke: #FFB81C;
+  color: #FFB81C;
+}
+
 /* Article Layout - Container Width & Centering */
 .article-container {
   max-width: 800px;
@@ -1366,9 +1949,19 @@ html.dark .guide-card-container .updated-ribbon::before {
 /* Breadcrumb Alignment */
 .breadcrumb-nav {
   max-width: 800px;
-  margin: 0 auto;
+  margin: 0 0 32px 0; /* Left align - remove auto margins */
   padding: 0 24px;
-  margin-bottom: 32px;
+  text-align: left; /* Move from center to left alignment */
+  justify-content: flex-start; /* Ensure flex items align left */
+  align-items: flex-start; /* Align items to start */
+}
+
+.breadcrumb-nav a {
+  color: #243e8b; /* Pitt blue for links in light mode */
+}
+
+.breadcrumb-nav span {
+  color: #888888; /* Gray for separators and current page */
 }
 
 @media (min-width: 768px) {
@@ -1406,10 +1999,50 @@ html.dark .guide-card-container .updated-ribbon::before {
   width: 100%;
 }
 
+html.dark .article-content-wrapper {
+  color: var(--text-primary);
+}
+
+html.dark .article-content-wrapper h1,
+html.dark .article-content-wrapper h2,
+html.dark .article-content-wrapper h3,
+html.dark .article-content-wrapper h4,
+html.dark .article-content-wrapper h5,
+html.dark .article-content-wrapper h6 {
+  color: white;
+}
+
+html.dark .article-content-wrapper p,
+html.dark .article-content-wrapper li,
+html.dark .article-content-wrapper div {
+  color: var(--text-secondary);
+}
+
+html.dark .article-content-wrapper a {
+  color: var(--gold-accent);
+}
+
+html.dark .article-content-wrapper a:hover {
+  color: var(--gold-accent-hover);
+}
+
 /* Typography & Reading Experience */
 .blog-post-content {
   line-height: 1.7;
   font-size: 16px;
+}
+
+html.dark .blog-post-content {
+  color: var(--text-secondary);
+}
+
+html.dark .blog-post-content h1,
+html.dark .blog-post-content h2,
+html.dark .blog-post-content h3,
+html.dark .blog-post-content h4,
+html.dark .blog-post-content h5,
+html.dark .blog-post-content h6 {
+  color: white;
 }
 
 .blog-post-content p {

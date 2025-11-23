@@ -1,5 +1,3 @@
-import html2pdf from "html2pdf.js"
-
 export interface PDFExportOptions {
   title: string
   author?: string
@@ -8,6 +6,7 @@ export interface PDFExportOptions {
 }
 
 export const exportGuideToPDF = async (options: PDFExportOptions) => {
+  const html2pdf = (await import("html2pdf.js")).default
   const { title, author, publishDate, content } = options
 
   // Create a temporary container with styled content
