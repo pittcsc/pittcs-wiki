@@ -81,4 +81,4 @@ Ultimately the decision is up to you, but we highly recommend taking caution whe
 
 ---
 
-_Next: [Potpourri](/zero-to-offer/potpourri)_
+_Next: [Potpourri](/guides/zero-to-offer/potpourri)_

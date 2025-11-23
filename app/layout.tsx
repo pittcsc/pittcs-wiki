@@ -4,6 +4,7 @@ import "./globals.css"
 import Header from "@/components/Header"
 import Footer from "@/components/Footer"
 import { ThemeProvider } from "@/context/ThemeContext"
+import DarkModeWelcomePopup from "@/components/DarkModeWelcomePopup"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -42,6 +43,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <ThemeProvider>
           <Header />
+          <DarkModeWelcomePopup />
           <div className="lg:w-[80vw] mx-auto container px-2">{children}</div>
           <Footer />
         </ThemeProvider>

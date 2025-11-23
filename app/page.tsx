@@ -25,14 +25,14 @@ export default function Home() {
     return () => observer.disconnect()
   }, [])
 
-  const lightGradient = `linear-gradient(to bottom, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.3) 70%, rgba(255,255,255,1) 100%), url('${CampusBackground.src}')`
-  const darkGradient = `linear-gradient(to bottom, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.5) 70%, rgba(15,15,15,1) 100%), url('${CampusBackground.src}')`
+  const lightGradient = `linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 40%, rgba(255,255,255,0.3) 70%, rgba(255,255,255,0.8) 85%, #fafbfc 100%), url('${CampusBackground.src}')`
+  const darkGradient = `linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 40%, rgba(0,0,0,0.3) 70%, rgba(0,0,0,0.7) 85%, #0f0f0f 100%), url('${CampusBackground.src}')`
 
   return (
     <main>
       {/* Hero Section with Background Image and Gradient Fade */}
       <div
-        className="hero-section relative overflow-hidden bg-white dark:bg-[#1a1a1a]"
+        className="hero-section relative overflow-hidden bg-[#fafbfc] dark:bg-[#0f0f0f]"
         style={{
           backgroundImage: isDark ? darkGradient : lightGradient,
           width: '100vw',
@@ -41,6 +41,7 @@ export default function Home() {
           paddingTop: '3rem',
           paddingBottom: '3rem',
           backgroundPosition: 'center top',
+          backgroundColor: isDark ? '#0f0f0f' : '#fafbfc',
         }}
       >
         {/* Hero Content */}
@@ -84,7 +85,7 @@ export default function Home() {
       </div>
 
       {/* LinkPanel Section */}
-      <div className="w-full bg-white dark:bg-[#1a1a1a]">
+      <div className="w-full bg-[#fafbfc] dark:bg-[#0f0f0f]">
         <div className="max-w-4xl mx-auto">
           <LinkPanel />
         </div>

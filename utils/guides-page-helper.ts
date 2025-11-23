@@ -58,7 +58,7 @@ export const GetFolderInformation = async (curPath: string) => {
     // Add it as a title
     fileTitles.push({
       title: folderFileFrontMatter.title,
-      href: `${curPath}/${folderName}`,
+      href: `/guides/${curPath}/${folderName}`,
     })
   }
 

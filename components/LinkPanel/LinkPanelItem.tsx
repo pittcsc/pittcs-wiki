@@ -31,48 +31,60 @@ const LinkPanelItem = ({
 
   return (
     <div
-      className="link-panel-item m-3 max-w-xs text-center text-sm flex-[1_1_30%] flex-col text-black dark:text-[#cccccc] hover:cursor-pointer bg-white dark:bg-[#333333] border border-transparent dark:border-[#404040] rounded-lg transition-all duration-300 overflow-hidden"
+      className="link-panel-item m-3 max-w-xs text-center text-sm flex-[1_1_30%] flex-col text-black dark:text-[#cccccc] hover:cursor-pointer bg-white dark:bg-transparent border border-gray-200 dark:border-gray-700 rounded-lg transition-all duration-300 overflow-hidden focus:outline-2 focus:outline-offset-2 focus:outline-[#FFB81C]"
       style={{
-        boxShadow: '0 4px 12px rgba(0,0,0,0.25), 0 1px 4px rgba(0,0,0,0.1)',
+        boxShadow: 'rgba(0, 0, 0, 0.08) 0px 2px 12px, rgba(0, 0, 0, 0.04) 0px 1px 4px'
       }}
       onMouseEnter={(e) => {
-        e.currentTarget.style.boxShadow = '0 6px 20px rgba(0,0,0,0.4)'
+        e.currentTarget.style.transform = 'scale(1.02)'
       }}
       onMouseLeave={(e) => {
-        e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.25), 0 1px 4px rgba(0,0,0,0.1)'
+        e.currentTarget.style.transform = 'scale(1)'
       }}
       onClick={() => router.push(path)}
       onKeyDown={(e) => {
-        if (e.key === "Enter") {
+        if (e.key === "Enter" || e.key === " ") {
           router.push(path)
         }
       }}
       role="button"
       tabIndex={0}
+      aria-label={title}
     >
       <div
         className="h-2"
         style={{
-          background: 'linear-gradient(90deg, #FFB81C 0%, #1e3a5f 100%)'
+          background: 'linear-gradient(90deg, #FFB81C 0%, #1e3a5f 100%)',
+          transition: 'box-shadow 300ms ease'
         }}
       />
-      <div className="p-4 pt-6">
+      <div className="p-6 pt-8">
         {icon &&
           (() => {
             const IconComponent = iconMap[icon]
             return (
-              <IconComponent
-                size={40}
-                className="mx-auto mb-3 text-gray-800 dark:text-[#e0e0e0] ease-in-out duration-300 transition-colors"
-                aria-label={iconAlt}
-              />
+              <div className="flex justify-center mb-4" style={{height: '32px', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+                <IconComponent
+                  size={32}
+                  className="text-gray-800 dark:text-[#e0e0e0] ease-in-out duration-300 transition-all"
+                  aria-label={iconAlt}
+                  role="img"
+                />
+              </div>
             )
           })()
         }
-        <h3 className="mb-1 font-bold dark:text-white">{title}</h3>
-        <p className="flex-[1_0_auto]">
-          {description} <Link href={path} style={{color: 'inherit'}} className="dark:text-[#4A9EFF] hover:underline">Learn more.</Link>
+        <h3 className="mb-2 font-bold dark:text-white text-base leading-tight">{title}</h3>
+        <p className="flex-[1_0_auto] text-xs leading-relaxed mb-3">
+          {description}
         </p>
+        <Link
+          href={path}
+          className="inline-block text-[#4A9EFF] dark:text-[#4A9EFF] hover:text-[#6ab8ff] dark:hover:text-[#6ab8ff] font-medium transition-colors duration-300 hover:underline focus:outline-2 focus:outline-offset-2 focus:outline-[#FFB81C] rounded px-1"
+          aria-label={`Learn more about ${title}`}
+        >
+          Learn more →
+        </Link>
       </div>
     </div>
   )
