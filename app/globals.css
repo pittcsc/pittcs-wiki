@@ -4,9 +4,9 @@
 
 /* Light mode colors */
 :root {
-  --bg-primary: #ffffff;
-  --bg-secondary: #f5f5f5;
-  --bg-tertiary: #eeeeee;
+  --bg-primary: #fafbfc;
+  --bg-secondary: #ffffff;
+  --bg-tertiary: #f5f5f5;
   --text-primary: #000000;
   --text-secondary: #333333;
   --text-tertiary: #666666;
@@ -14,44 +14,60 @@
   --border-light: #eeeeee;
   --accent-color: #243e8b;
   --accent-hover: #1a2e66;
-  --link-color: #0066cc;
+  --link-color: #4a9eff;
   --link-hover: #0052a3;
   --code-bg: #f0f0f0;
   --code-text: #000000;
+  --gold-accent: #ffb81c;
+  --gold-accent-hover: #ffc840;
   --shadow-sm: rgba(0, 0, 0, 0.05);
   --shadow-md: rgba(0, 0, 0, 0.1);
+  --shadow-lg: rgba(0, 0, 0, 0.15);
+  --shadow-xl: rgba(0, 0, 0, 0.2);
   --success-bg: #d4edda;
   --success-text: #155724;
   --warning-bg: #fff3cd;
   --warning-text: #856404;
   --error-bg: #f8d7da;
   --error-text: #721c24;
+  --transition-fast: 200ms ease;
+  --transition-base: 300ms ease;
 }
 
-/* Dark mode colors */
+/* Dark mode colors - refined for better readability and warmth */
 html.dark {
-  --bg-primary: #1a1a1a;
-  --bg-secondary: #2d2d2d;
-  --bg-tertiary: #3a3a3a;
+  --bg-primary: #0f0f0f;
+  --bg-secondary: #1a1a1a;
+  --bg-tertiary: #2b2a29;
   --text-primary: #ffffff;
   --text-secondary: #e0e0e0;
-  --text-tertiary: #b0b0b0;
-  --border-color: #404040;
-  --border-light: #333333;
+  --text-tertiary: #a0a0a0;
+  --border-color: #333333;
+  --border-light: #252525;
   --accent-color: #5b7fd6;
   --accent-hover: #7a9ae8;
-  --link-color: #66b3ff;
-  --link-hover: #99ccff;
-  --code-bg: #2d2d2d;
-  --code-text: #e8e8e8;
-  --shadow-sm: rgba(0, 0, 0, 0.2);
+  --link-color: #fbbf24;
+  --link-hover: #fcd34d;
+  --code-bg: #1a1a1a;
+  --code-text: #e0e0e0;
+  --gold-accent: #ffb81c;
+  --gold-accent-hover: #ffc840;
+  --shadow-sm: rgba(0, 0, 0, 0.3);
   --shadow-md: rgba(0, 0, 0, 0.4);
+  --shadow-lg: rgba(0, 0, 0, 0.5);
+  --shadow-xl: rgba(0, 0, 0, 0.6);
   --success-bg: #1e3a1e;
   --success-text: #90ee90;
   --warning-bg: #3a3a1e;
   --warning-text: #ffd700;
   --error-bg: #3a1e1e;
   --error-text: #ff6b6b;
+  --transition-fast: 200ms ease;
+  --transition-base: 300ms ease;
+  --footer-bg: #1a1a1a;
+  --footer-text: #a0a0a0;
+  --footer-link: #fbbf24;
+  --footer-link-hover: #fcd34d;
 }
 
 h1 {
@@ -76,10 +92,10 @@ h1 {
     Droid Sans,
     Helvetica Neue,
     sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   text-rendering: optimizeLegibility;
   font-size: 2.25rem;
-  line-height: 1.1;
+  line-height: 1.4;
 }
 
 h2 {
@@ -104,10 +120,10 @@ h2 {
     Droid Sans,
     Helvetica Neue,
     sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   text-rendering: optimizeLegibility;
   font-size: 1.62671rem;
-  line-height: 1.1;
+  line-height: 1.4;
 }
 
 h3 {
@@ -132,10 +148,10 @@ h3 {
     Droid Sans,
     Helvetica Neue,
     sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   text-rendering: optimizeLegibility;
   font-size: 1.38316rem;
-  line-height: 1.1;
+  line-height: 1.4;
 }
 
 h4 {
@@ -160,10 +176,10 @@ h4 {
     Droid Sans,
     Helvetica Neue,
     sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   text-rendering: optimizeLegibility;
   font-size: 1rem;
-  line-height: 1.1;
+  line-height: 1.4;
 }
 
 h5 {
@@ -188,10 +204,10 @@ h5 {
     Droid Sans,
     Helvetica Neue,
     sans-serif;
-  font-weight: bold;
+  font-weight: 600;
   text-rendering: optimizeLegibility;
   font-size: 0.85028rem;
-  line-height: 1.1;
+  line-height: 1.4;
 }
 
 h6 {
@@ -216,10 +232,10 @@ h6 {
     Droid Sans,
     Helvetica Neue,
     sans-serif;
-  font-weight: bold;
+  font-weight: 600;
   text-rendering: optimizeLegibility;
   font-size: 0.78405rem;
-  line-height: 1.1;
+  line-height: 1.4;
 }
 
 hgroup {
@@ -459,21 +475,25 @@ p *:last-child {
 
 li > p {
   margin-bottom: 1px;
+  line-height: 1.6;
 }
 
 code {
   font-size: 0.85rem;
-  line-height: 1.45rem;
+  line-height: 1.6;
+  font-weight: 500;
 }
 
 kbd {
   font-size: 0.85rem;
-  line-height: 1.45rem;
+  line-height: 1.6;
+  font-weight: 500;
 }
 
 samp {
   font-size: 0.85rem;
-  line-height: 1.45rem;
+  line-height: 1.6;
+  font-weight: 400;
 }
 
 abbr {
@@ -573,6 +593,11 @@ body {
   background-color: var(--bg-primary);
   color: var(--text-primary);
   transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Ensure consistent background throughout page */
+main {
+  background-color: var(--bg-primary);
 }
 
 .content {
@@ -692,11 +717,12 @@ blockquote {
   background-color: var(--bg-secondary);
   color: var(--text-primary);
   border-color: var(--border-color);
-  transition: all 0.2s ease;
+  transition: all var(--transition-base);
+  font-weight: 500;
 
   &:focus {
-    outline: none;
-    box-shadow: none;
+    outline: 2px solid var(--gold-accent);
+    outline-offset: 2px;
   }
 
   &.w-auto {
@@ -708,15 +734,45 @@ blockquote {
     background-color: var(--accent-color);
     border-color: var(--accent-hover);
     color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px var(--shadow-md);
   }
 }
 
-/* Cannot figure out a way to do this in tailwind, will have to stay for now*/
+/* Card components with enhanced dark mode styling */
 .link-panel-item {
+  transition: all var(--transition-base);
+  position: relative;
+  overflow: hidden;
+
   &:hover {
+    transform: scale(1.02);
+
+    svg {
+      transform: scale(1.15) brightness(1.1);
+      filter: drop-shadow(0 0 8px rgba(255, 184, 28, 0.6));
+    }
+
     img {
       transform: scale(1.2);
     }
+
+    [class*="bg-"] {
+      filter: brightness(1.15);
+    }
+  }
+
+  &:focus {
+    outline: 2px solid var(--gold-accent);
+    outline-offset: 2px;
+  }
+
+  svg {
+    width: 32px;
+    height: 32px;
+    transition: transform var(--transition-base), filter var(--transition-base);
+    display: block;
+    margin: 0 auto;
   }
 }
 
@@ -735,16 +791,32 @@ blockquote {
   background-color: var(--bg-secondary);
   color: var(--text-primary);
   border-color: var(--border-color);
-  transition: all 0.2s ease;
+  transition: all var(--transition-base);
+  font-weight: 600;
+  cursor: pointer;
+  position: relative;
 
   &:hover {
     background-color: var(--bg-tertiary);
-    cursor: pointer;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px var(--shadow-md);
   }
 
-  &.btn-blue:hover {
-    background-color: var(--accent-color);
-    color: white;
+  &:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px var(--shadow-sm);
+  }
+
+  &:focus {
+    outline: 2px solid var(--gold-accent);
+    outline-offset: 2px;
+  }
+
+  &.btn-blue {
+    &:hover {
+      background-color: var(--accent-color);
+      color: white;
+    }
   }
 
   &.btn-purple {
@@ -753,6 +825,7 @@ blockquote {
     color: white;
     &:hover {
       background-color: var(--accent-hover);
+      box-shadow: 0 6px 16px rgba(91, 127, 214, 0.4);
     }
   }
 
@@ -767,25 +840,35 @@ blockquote {
 }
 
 .btn.bg-pittgold {
+  background-color: var(--gold-accent);
   color: #654500;
-}
+  border-color: var(--gold-accent-hover);
+  font-weight: 600;
 
-.btn.bg-pittgold:hover {
-  background-color: var(--pittgold);
-  color: #654500;
-  transition: opacity 0.3s ease;
-  background-size: 30px 30px;
-  background-image: linear-gradient(
-    45deg,
-    rgba(0, 0, 0, 0.04) 25%,
-    transparent 25%,
-    transparent 50%,
-    rgba(0, 0, 0, 0.04) 50%,
-    rgba(0, 0, 0, 0.04) 75%,
-    transparent 75%,
-    transparent
-  );
-  animation: stripes 1s linear 0s infinite normal none running;
+  &:hover {
+    background-color: var(--gold-accent-hover);
+    color: #654500;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(255, 184, 28, 0.3);
+    transition: all var(--transition-base);
+    background-size: 30px 30px;
+    background-image: linear-gradient(
+      45deg,
+      rgba(0, 0, 0, 0.04) 25%,
+      transparent 25%,
+      transparent 50%,
+      rgba(0, 0, 0, 0.04) 50%,
+      rgba(0, 0, 0, 0.04) 75%,
+      transparent 75%,
+      transparent
+    );
+    animation: stripes 1s linear 0s infinite normal none running;
+  }
+
+  &:focus {
+    outline: 2px solid rgba(101, 69, 0, 0.5);
+    outline-offset: 2px;
+  }
 }
 
 .landing-image {
@@ -814,11 +897,69 @@ blockquote {
 
 a {
   color: var(--link-color);
-  transition: color 0.2s ease;
+  transition: color var(--transition-base), text-shadow var(--transition-base);
+  font-weight: 500;
 }
 
 a:hover {
   color: var(--link-hover);
+  text-decoration: underline;
+}
+
+a:focus {
+  outline: 2px solid var(--gold-accent);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* General Card Component Styling */
+.card {
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 1.25rem;
+  transition: all var(--transition-base);
+  position: relative;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08), 0 1px 4px rgba(0, 0, 0, 0.04);
+
+  &:hover {
+    transform: scale(1.02);
+    border-color: var(--gold-accent);
+  }
+
+  &:focus {
+    outline: 2px solid var(--gold-accent);
+    outline-offset: 2px;
+  }
+}
+
+/* Text Hierarchy for Enhanced Readability */
+.card-title {
+  color: var(--text-primary);
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.card-description {
+  color: var(--text-secondary);
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.card-meta {
+  color: var(--text-tertiary);
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+/* Dark mode card background warmth */
+html.dark .card {
+  background-color: #2b2a29;
+  border-color: #404040;
+}
+
+html.dark .card:hover {
+  background-color: #333231;
 }
 
 /* Hero Section with gradient fade to background color */
@@ -827,4 +968,277 @@ a:hover {
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-attachment: scroll !important;
+  margin-bottom: 1.5rem;
+}
+
+/* Skeleton Loading States */
+@keyframes skeleton-loading {
+  0% {
+    background-color: var(--bg-secondary);
+  }
+  50% {
+    background-color: var(--bg-tertiary);
+  }
+  100% {
+    background-color: var(--bg-secondary);
+  }
+}
+
+.skeleton {
+  animation: skeleton-loading 1.5s infinite;
+  border-radius: 4px;
+}
+
+.skeleton-card {
+  padding: 1.25rem;
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+
+  .skeleton {
+    margin-bottom: 1rem;
+    height: 1rem;
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .link-panel-item {
+    flex: 1 1 100% !important;
+    max-width: 100% !important;
+  }
+
+  .card {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 1.75rem;
+    line-height: 1.3;
+  }
+
+  h2 {
+    font-size: 1.35rem;
+    line-height: 1.3;
+  }
+
+  h3 {
+    font-size: 1.15rem;
+    line-height: 1.3;
+  }
+
+  p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  .btn {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+  }
+
+  .course-pill {
+    width: auto;
+    margin-right: 0.5rem;
+  }
+
+  .hero-section {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem;
+    line-height: 1.25;
+    margin-bottom: 1rem;
+  }
+
+  h2 {
+    font-size: 1.15rem;
+    line-height: 1.25;
+  }
+
+  h3 {
+    font-size: 1rem;
+    line-height: 1.25;
+  }
+
+  p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+  }
+
+  .card {
+    padding: 0.75rem;
+    border-radius: 6px;
+  }
+
+  .btn {
+    width: 100%;
+    padding: 0.75rem;
+  }
+
+  .link-panel-item {
+    margin: 0.5rem 0;
+  }
+
+  .hero-section {
+    margin-bottom: 0.75rem;
+  }
+}
+
+/* Smooth Scroll Behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Focus Visible Styles for Keyboard Navigation */
+:focus-visible {
+  outline: 2px solid var(--gold-accent);
+  outline-offset: 2px;
+}
+
+button:focus-visible {
+  outline: 2px solid var(--gold-accent);
+  outline-offset: 2px;
+}
+
+a:focus-visible {
+  outline: 2px solid var(--gold-accent);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* Micro-interactions and Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInFromLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromRight {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn var(--transition-base) ease-out;
+}
+
+.animate-fadeOut {
+  animation: fadeOut var(--transition-base) ease-out;
+}
+
+.animate-slideInLeft {
+  animation: slideInFromLeft var(--transition-base) ease-out;
+}
+
+.animate-slideInRight {
+  animation: slideInFromRight var(--transition-base) ease-out;
+}
+
+.animate-scaleIn {
+  animation: scaleIn var(--transition-base) ease-out;
+}
+
+/* Welcome Popup Styling */
+.welcome-popup {
+  animation: fadeIn 300ms ease-out forwards;
+}
+
+.popup-arrow {
+  position: absolute;
+  top: -10px;
+  right: 30px;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #FFB81C;
+  z-index: 51;
+}
+
+/* Responsive Popup */
+@media (max-width: 640px) {
+  .welcome-popup {
+    top: auto;
+    right: auto;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    min-width: 280px;
+    max-width: calc(100% - 32px);
+  }
+
+  .popup-arrow {
+    display: none;
+  }
+}
+
+/* Reduced Motion Support */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  html {
+    scroll-behavior: auto;
+  }
 }
