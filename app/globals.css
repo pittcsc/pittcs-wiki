@@ -623,14 +623,12 @@ blockquote {
 }
 
 .markdown-toc {
-  width: 200px;
+  width: 100%;
   margin-top: 1rem;
-  max-height: calc(100vh - 120px);
+  margin-bottom: 2rem;
   overflow-y: auto;
   overflow-x: hidden;
   padding-right: 1rem;
-  position: sticky;
-  top: 100px;
   align-self: flex-start;
   flex-shrink: 0;
 
@@ -2012,17 +2010,12 @@ html.dark .theme-toggle-button svg {
 /* Article Layout - Wrapper for sidebar and content */
 .article-layout-wrapper {
   display: flex;
+  flex-direction: column;
   gap: 2rem;
-  max-width: 1200px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 0 24px;
   align-items: flex-start;
-}
-
-@media (max-width: 1023px) {
-  .article-layout-wrapper {
-    flex-direction: column;
-  }
 }
 
 @media (min-width: 1024px) {
