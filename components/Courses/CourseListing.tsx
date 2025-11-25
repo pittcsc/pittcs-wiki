@@ -123,10 +123,10 @@ const CourseListing = ({
           />
         </div>
         <div
-          className="md:w-1/3 hidden md:flex flex-col sticky top-0"
+          className="md:w-1/3 hidden md:flex flex-col sticky top-0 mt-12"
           style={{
             height: "auto",
-            top: "2rem",
+            top: "5rem",
             minWidth: "25rem",
             maxHeight: "35rem",
           }}
@@ -147,13 +147,12 @@ const CourseListing = ({
         </div>
       </div>
       <p className="text-sm italic">
-        This list was last updated on{" "}
-        {new Date(courseList.metadata.generated).toDateString()}. For the most
-        up to date information, look at{" "}
-        <a href="http://courses.sci.pitt.edu/courses">
-          Pitt{"'"}s official website
-        </a>
-        .
+        This page is dynamically pulled from{" "}
+        <a href="https://courses.sci.pitt.edu/courses">
+          courses.sci.pitt.edu
+        </a>{" "}
+        on a weekly frequency. In the case of a mistake or error, look at
+        Pitt{"'"}s official website and/or check PeopleSoft.
       </p>
     </div>
   )

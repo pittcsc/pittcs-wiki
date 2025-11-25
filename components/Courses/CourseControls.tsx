@@ -58,7 +58,7 @@ const CourseControls = ({ filters, setFilters }: CourseControlsProps) => {
     <div className="mb-8 flex flex-col gap-4 rounded-xl border border-gray-200 bg-white p-4 shadow-sm dark:border-gray-800 dark:bg-[#1a1a1a] lg:flex-row lg:items-center lg:justify-between">
       {/* Search Section */}
       <div className="relative w-full lg:w-72">
-        <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
+        <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3 z-10">
           <Search className="h-5 w-5 text-gray-400" aria-hidden="true" />
         </div>
         <input
@@ -66,7 +66,7 @@ const CourseControls = ({ filters, setFilters }: CourseControlsProps) => {
           placeholder="Search courses..."
           value={filters.searchTerm}
           onChange={handleSearchChange}
-          className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 pl-10 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-[rgba(255,255,255,0.2)] dark:bg-[rgba(255,255,255,0.12)] dark:text-white dark:placeholder-gray-400 dark:focus:border-[#FFB81C] dark:focus:ring-[#FFB81C] backdrop-blur-md"
+          className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 pl-10 text-sm text-gray-900 focus:border-blue-500 focus:outline-none focus:ring-0 dark:border-[rgba(255,255,255,0.2)] dark:bg-[rgba(255,255,255,0.12)] dark:text-white dark:placeholder-gray-400 dark:focus:border-[#FFB81C] backdrop-blur-md"
         />
       </div>
 
@@ -82,9 +82,9 @@ const CourseControls = ({ filters, setFilters }: CourseControlsProps) => {
               <button
                 key={value}
                 onClick={() => handleSetTermOffered(value)}
-                className={`rounded-full px-3 py-1 text-sm font-medium transition-colors ${filters.termOfferedFilter === value
-                  ? "bg-blue-100 text-blue-800 dark:bg-blue-900/30 dark:text-blue-300"
-                  : "bg-gray-100 text-gray-700 hover:bg-gray-200 dark:bg-gray-800 dark:text-gray-300 dark:hover:bg-gray-700"
+                className={`rounded-full px-3 py-1 text-sm font-medium transition-colors border ${filters.termOfferedFilter === value
+                  ? "bg-blue-100 text-blue-800 border-transparent dark:bg-blue-900/30 dark:text-blue-300 dark:border-blue-800"
+                  : "bg-gray-100 text-gray-700 border-transparent hover:bg-gray-200 dark:border-[rgba(255,255,255,0.2)] dark:bg-[rgba(255,255,255,0.12)] dark:text-gray-300 dark:hover:bg-[rgba(255,255,255,0.2)] backdrop-blur-md"
                   }`}
               >
                 {label}
@@ -92,9 +92,9 @@ const CourseControls = ({ filters, setFilters }: CourseControlsProps) => {
             ))}
             <button
               onClick={clearTermFilter}
-              className={`rounded-full px-3 py-1 text-sm font-medium transition-colors ${filters.termOfferedFilter === "OFF"
-                ? "bg-gray-800 text-white dark:bg-white dark:text-gray-900"
-                : "bg-gray-100 text-gray-700 hover:bg-gray-200 dark:bg-gray-800 dark:text-gray-300 dark:hover:bg-gray-700"
+              className={`rounded-full px-3 py-1 text-sm font-medium transition-colors border ${filters.termOfferedFilter === "OFF"
+                ? "bg-gray-800 text-white border-transparent dark:bg-white dark:text-gray-900"
+                : "bg-gray-100 text-gray-700 border-transparent hover:bg-gray-200 dark:border-[rgba(255,255,255,0.2)] dark:bg-[rgba(255,255,255,0.12)] dark:text-gray-300 dark:hover:bg-[rgba(255,255,255,0.2)] backdrop-blur-md"
                 }`}
             >
               All

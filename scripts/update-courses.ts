@@ -58,7 +58,7 @@ async function scrapeCourses() {
     });
 
     // Deduplicate links
-    const uniqueLinks = [...new Set(courseLinks)];
+    const uniqueLinks = Array.from(new Set(courseLinks));
     console.log(`Found ${uniqueLinks.length} potential courses.`);
 
     const courses: CourseData[] = [];
