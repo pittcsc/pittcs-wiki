@@ -290,6 +290,21 @@ export const CourseInfoData: CourseInfoDataType = {
       },
     },
     {
+      sci_href: "https://courses.sci.pitt.edu/courses/view/CS-1503",
+      title: "MATHEMATICAL FOUNDATIONS OF MACHINE LEARNING",
+      id: "CS1503",
+      credits: 4,
+      description:
+        "This introductory course will cover the essential foundational ideas in probability and statistics. We will then discuss the standard applications of these foundational ideas to understand and analyze data, using computational methods, that all computer scientists should know.",
+      requirements:
+        " Course Requirements: PREQ: (CS 0441 or CS 0406) and (MATH 0280 or MATH 1180 or MATH 1185); COREQ: None",
+      terms_offered: {
+        SPRING: true,
+        FALL: true,
+        SUMMER: false,
+      },
+    },
+    {
       sci_href: "http://courses.sci.pitt.edu/courses/view/CS-1510",
       title: "ALGORITHM DESIGN",
       id: "CS1510",

@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useEffect, useMemo, useState } from "react"
 import CourseControls from "./CourseControls"
 import PrereqLegend from "../Requirement/PrereqLegend"
 import Course from "./Course"
@@ -21,37 +21,77 @@ export type CourseListingState = {
   showHidden: boolean
   isPrereqFilterModeOn: boolean
   termOfferedFilter: string
+  searchTerm: string
+}
+
+const COURSE_FILTERS_KEY = "pittcs-course-filters"
+
+const getDefaultTermFilter = () => {
+  const month = new Date().getMonth()
+  if (month >= 0 && month <= 4) return "SPRING"
+  if (month >= 5 && month <= 7) return "SUMMER"
+  return "FALL"
 }
 
 const CourseListing = ({
   courseList,
   courseCategories,
 }: CourseListingProps) => {
-  const [state, setState] = useState({
+  const defaultTerm = useMemo(() => getDefaultTermFilter(), [])
+
+  const [state, setState] = useState<CourseListingState>(() => ({
     currentCourse: { id: "" },
-    showTitles: false,
+    showTitles: true,
     showHidden: false,
     isPrereqFilterModeOn: false,
-    termOfferedFilter: "OFF",
-  } as CourseListingState)
+    termOfferedFilter: defaultTerm,
+    searchTerm: "",
+  }))
 
-  const [showCourseFilters, setShowCourseFilters] = useState(false)
+  const [hasHydratedFilters, setHasHydratedFilters] = useState(false)
+
+  useEffect(() => {
+    if (typeof window === "undefined") return
+    try {
+      const stored = window.localStorage.getItem(COURSE_FILTERS_KEY)
+      if (stored) {
+        const parsed = JSON.parse(stored)
+        setState((prev) => ({
+          ...prev,
+          ...parsed,
+          termOfferedFilter: parsed.termOfferedFilter || defaultTerm,
+        }))
+      }
+    } catch (error) {
+      console.warn("Unable to load course filter preferences", error)
+    } finally {
+      setHasHydratedFilters(true)
+    }
+  }, [defaultTerm])
+
+  useEffect(() => {
+    if (!hasHydratedFilters || typeof window === "undefined") return
+    const { currentCourse, ...preferences } = state
+    try {
+      window.localStorage.setItem(
+        COURSE_FILTERS_KEY,
+        JSON.stringify(preferences)
+      )
+    } catch (error) {
+      console.warn("Unable to save course filter preferences", error)
+    }
+  }, [
+    state.searchTerm,
+    state.showTitles,
+    state.showHidden,
+    state.isPrereqFilterModeOn,
+    state.termOfferedFilter,
+    hasHydratedFilters,
+  ])
 
   return (
     <div>
-      <div className="my-4 content-center course-controls flex-none hidden md:block">
-        <button
-          className="btn filter-button"
-          onClick={() => setShowCourseFilters(!showCourseFilters)}
-        >
-          {(showCourseFilters ? "Hide" : "Show") + " Course Filter Controls"}
-        </button>
-        {showCourseFilters && (
-          <div className="mt-4 border px-2 py-3 md:flex align-center items-center">
-            <CourseControls filters={state} setFilters={setState} />
-          </div>
-        )}
-      </div>
+      <CourseControls filters={state} setFilters={setState} />
       <div
         className={
           state.isPrereqFilterModeOn ? "mb-4 px-2 py-3 border p-1" : "hidden"

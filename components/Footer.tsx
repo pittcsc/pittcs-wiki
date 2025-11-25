@@ -3,6 +3,7 @@
  *
  * @author varughese
  * @author Steven-Jarmell
+ * @author codingshreyash
  */
 
 import Link from "next/link"
@@ -33,7 +34,7 @@ const Footer = (): JSX.Element => {
           <Link href="/feedback/" className="mr-2 text-gray-600 dark:text-gray-300 hover:text-[#FFB81C] transition-colors duration-200">
             Feedback
           </Link>
-          <Link href="https://github.com/PittCSWiki/pittcswiki" target="_blank" className="text-gray-600 dark:text-gray-300 hover:text-[#FFB81C] transition-colors duration-200">
+          <Link href="https://github.com/pittcsc/pittcswiki-next" target="_blank" className="text-gray-600 dark:text-gray-300 hover:text-[#FFB81C] transition-colors duration-200">
             GitHub
           </Link>
         </p>

@@ -585,6 +585,12 @@ pre tt:after {
   }
 }
 
+html {
+  background-color: var(--bg-primary);
+  transition: background-color 0.3s ease;
+  will-change: background-color;
+}
+
 html,
 body {
   height: 100%;
@@ -592,12 +598,61 @@ body {
   flex-direction: column;
   background-color: var(--bg-primary);
   color: var(--text-primary);
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  will-change: background-color, color;
 }
 
 /* Ensure consistent background throughout page */
 main {
   background-color: var(--bg-primary);
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Synchronized transitions for theme-dependent elements */
+footer {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease !important;
+}
+
+footer * {
+  transition: color 0.3s ease !important;
+}
+
+footer a {
+  transition: color 0.3s ease !important;
+}
+
+.container {
+  padding: 0 10px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Ensure all direct children of body transition smoothly to prevent staggered loading */
+body > * {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Explicit transitions for container wrapper to sync with body background */
+.lg\:w-\[80vw\] {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Ensure all layout containers transition simultaneously */
+.mx-auto {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Ensure html element background transitions in sync with body */
+html {
+  background-color: var(--bg-primary);
+  transition: background-color 0.3s ease;
+}
+
+/* Force immediate synchronous transitions for theme changes */
+html.dark,
+html:not(.dark) {
+  background-color: var(--bg-primary);
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
 }
 
 .content {
@@ -808,41 +863,216 @@ html.dark .markdown-toc .sidebar-section-header {
   @apply font-bold mr-2;
 }
 
-.course-controls {
-  p {
-    @apply mb-2;
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: stretch;
+  padding: 16px 0 24px;
+  margin-bottom: 32px;
+  border-bottom: 1px solid var(--border-light);
+}
+
+html.dark .filter-bar {
+  border-color: #2b2b2b;
+}
+
+.filter-group {
+  flex: 1 1 240px;
+  min-width: 220px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px;
+  border-radius: 16px;
+  border: 1px solid var(--border-color);
+  background-color: var(--bg-secondary);
+  box-shadow: 0 4px 12px var(--shadow-sm);
+}
+
+html.dark .filter-group {
+  border-color: #333333;
+  background-color: #1b1b1b;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.55);
+}
+
+.filter-group.filter-toggles {
+  flex: 2 1 320px;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.filter-label {
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-secondary);
+}
+
+html.dark .filter-label {
+  color: #bfbfbf;
+}
+
+.filter-input {
+  width: 100%;
+  border: 1px solid var(--border-color);
+  border-radius: 999px;
+  padding: 0.65rem 1.1rem;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-size: 0.95rem;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.filter-input:focus {
+  outline: 2px solid var(--gold-accent);
+  outline-offset: 2px;
+  border-color: var(--gold-accent);
+  box-shadow: 0 0 0 2px rgba(255, 184, 28, 0.2);
+}
+
+.pill-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.pill-button {
+  border: 1px solid var(--border-color);
+  border-radius: 999px;
+  padding: 0.4rem 1.25rem;
+  font-weight: 600;
+  background: transparent;
+  color: var(--text-primary);
+  transition: all 0.2s ease;
+}
+
+.pill-button:hover {
+  border-color: var(--accent-color);
+  color: var(--accent-color);
+}
+
+.pill-button.active {
+  background-color: #243e8b;
+  border-color: #243e8b;
+  color: #ffffff;
+  box-shadow: 0 6px 16px rgba(36, 62, 139, 0.25);
+}
+
+html.dark .pill-button.active {
+  background-color: #5b7fd6;
+  border-color: #7a9ae8;
+}
+
+.pill-button.clear {
+  opacity: 0.9;
+}
+
+.pill-button.clear.active {
+  background-color: var(--gold-accent);
+  border-color: var(--gold-accent);
+  color: #654500;
+}
+
+.toggle-section {
+  flex: 1 1 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.toggle-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.toggle-switch {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border-radius: 999px;
+  border: 1px solid var(--border-color);
+  padding: 8px 16px;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.toggle-label {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.9rem;
+}
+
+.toggle-switch:focus-visible {
+  outline: 2px solid var(--gold-accent);
+  outline-offset: 3px;
+}
+
+.toggle-indicator {
+  width: 38px;
+  height: 20px;
+  border-radius: 999px;
+  background-color: var(--border-color);
+  position: relative;
+  transition: background-color 0.2s ease;
+}
+
+.toggle-indicator::after {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  top: 2px;
+  left: 2px;
+  transition: transform 0.2s ease;
+}
+
+.toggle-switch.active {
+  border-color: #243e8b;
+  box-shadow: 0 6px 16px rgba(36, 62, 139, 0.2);
+}
+
+.toggle-switch.active .toggle-indicator {
+  background-color: #243e8b;
+}
+
+.toggle-switch.active .toggle-indicator::after {
+  transform: translateX(18px);
+}
+
+html.dark .toggle-switch.active {
+  border-color: #fbbf24;
+}
+
+html.dark .toggle-switch.active .toggle-indicator {
+  background-color: #fbbf24;
+}
+
+html.dark .toggle-indicator::after {
+  background-color: #0f0f0f;
+}
+
+@media (max-width: 768px) {
+  .filter-bar {
+    flex-direction: column;
+    gap: 20px;
   }
 
-  input {
-    @apply mr-1;
-    background-color: var(--bg-secondary);
-    color: var(--text-primary);
-    border-color: var(--border-color);
+  .filter-group {
+    width: 100%;
+    min-width: 100%;
   }
 
-  #term_offered {
-    button {
-      @apply mr-2;
-      background-color: var(--bg-secondary);
-      color: var(--text-primary);
-      border-color: var(--border-color);
-      transition: background-color 0.2s ease;
-
-      &:hover {
-        background-color: var(--bg-tertiary);
-      }
-
-      &.active {
-        background-color: var(--accent-color);
-        color: white;
-        border-color: var(--accent-hover);
-      }
-    }
-  }
-
-  label {
-    @apply mr-2 h-full flex items-center px-2;
-    color: var(--text-primary);
+  .filter-group.filter-toggles {
+    flex-direction: column;
   }
 }
 
@@ -1020,10 +1250,6 @@ html.dark .markdown-toc .sidebar-section-header {
   top: 2px;
   height: 24rem;
   overflow: hidden;
-}
-
-.container {
-  padding: 0 10px;
 }
 
 .bg-pittblue {
@@ -1650,7 +1876,7 @@ header.header {
   display: flex;
   align-items: center; /* Vertically center all items */
   justify-content: space-between;
-  transition: all 0.3s ease;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08); /* Subtle shadow for separation */
   position: relative;
   z-index: 10;

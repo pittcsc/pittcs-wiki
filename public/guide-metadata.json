@@ -555,13 +555,19 @@
     "authorEmail": "sjj27@pitt.edu",
     "originalAuthor": "Steven Jarmell",
     "originalAuthorEmail": "sjj27@pitt.edu",
-    "updaters": [],
-    "updaterEmails": [],
+    "updaters": [
+      "braynguyen",
+      "Brayden Nguyen"
+    ],
+    "updaterEmails": [
+      "btn16@pitt.edu",
+      "112491386+braynguyen@users.noreply.github.com"
+    ],
     "lastModified": "2023-11-28T19:56:49.000Z",
     "created": "2023-11-28T19:56:49.000Z",
-    "wordCount": 1179,
-    "readingTime": 6,
-    "commits": 3
+    "wordCount": 1601,
+    "readingTime": 9,
+    "commits": 6
   },
   "guide-skills/getting-started-with-x/projects": {
     "path": "skills/getting-started-with-x/projects",

@@ -1,104 +1,108 @@
 import { Dispatch, SetStateAction } from "react"
 import { CourseListingState } from "./CourseListing"
 
+type ToggleKey = "showTitles" | "isPrereqFilterModeOn" | "showHidden"
+
 type CourseControlsProps = {
   filters: CourseListingState
   setFilters: Dispatch<SetStateAction<CourseListingState>>
 }
 
 const CourseControls = ({ filters, setFilters }: CourseControlsProps) => {
-  const handleSetTermOffered = (e: React.MouseEvent<HTMLButtonElement>) => {
-    setFilters({ ...filters, termOfferedFilter: e.currentTarget.value })
+  const termOptions = [
+    { value: "FALL", label: "Fall" },
+    { value: "SPRING", label: "Spring" },
+    { value: "SUMMER", label: "Summer" },
+  ]
+
+  const handleSetTermOffered = (value: string) => {
+    setFilters({ ...filters, termOfferedFilter: value })
   }
 
-  const turnOffTermOfferedFilter = () => {
+  const clearTermFilter = () => {
     setFilters({ ...filters, termOfferedFilter: "OFF" })
   }
 
-  const handleCheckbox = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const newFilters = { ...filters, [e.target.name]: e.target.checked }
-    if (e.target.name === "showHidden" && e.target.checked)
-      newFilters.termOfferedFilter = "OFF"
-    setFilters(newFilters)
+  const handleToggle = (name: ToggleKey) => {
+    const nextFilters = { ...filters, [name]: !filters[name] }
+    if (name === "showHidden" && !filters.showHidden) {
+      nextFilters.termOfferedFilter = "OFF"
+    }
+    setFilters(nextFilters)
   }
 
+  const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setFilters({ ...filters, searchTerm: e.target.value })
+  }
+
+  const renderToggle = (label: string, name: ToggleKey) => (
+    <button
+      type="button"
+      className={`toggle-switch ${filters[name] ? "active" : ""}`}
+      aria-pressed={filters[name]}
+      onClick={() => handleToggle(name)}
+    >
+      <span className="toggle-indicator" aria-hidden="true" />
+      <span className="toggle-label">{label}</span>
+    </button>
+  )
+
   return (
-    <div className="">
-      <div className="md:flex align-center items-center">
-        <label>
-          <input
-            type="checkbox"
-            name="showTitles"
-            checked={filters.showTitles}
-            onChange={handleCheckbox}
-          />
-          Show Course Titles
+    <div className="filter-bar" role="region" aria-label="Course filters">
+      <div className="filter-group filter-search">
+        <label htmlFor="course-search" className="filter-label">
+          Search courses
         </label>
-        <label>
-          <input
-            type="checkbox"
-            name="isPrereqFilterModeOn"
-            checked={filters.isPrereqFilterModeOn}
-            onChange={handleCheckbox}
-          />
-          Filter Based on Requirements
-        </label>
-        <label>
-          <input
-            type="checkbox"
-            name="showHidden"
-            checked={filters.showHidden}
-            onChange={handleCheckbox}
-          />
-          Show Hidden Classes
-        </label>
+        <input
+          id="course-search"
+          type="search"
+          placeholder="Search courses..."
+          value={filters.searchTerm}
+          onChange={handleSearchChange}
+          className="filter-input"
+        />
       </div>
-      <div className="mt-2">
-        <span className="ml-2 font-bold">Offered in:</span>
-        <div className="ml-2" id="term_offered">
+      <div className="filter-group filter-semester">
+        <span className="filter-label">Semester:</span>
+        <div className="pill-group" role="group" aria-label="Filter by semester">
+          {termOptions.map(({ value, label }) => (
+            <button
+              type="button"
+              key={value}
+              className={`pill-button ${
+                filters.termOfferedFilter === value ? "active" : ""
+              }`}
+              onClick={() => handleSetTermOffered(value)}
+              aria-pressed={filters.termOfferedFilter === value}
+            >
+              {label}
+            </button>
+          ))}
           <button
-            value="FALL"
-            className={
-              "btn bg-white md:w-20 small " +
-              (filters.termOfferedFilter === "FALL" && "active")
-            }
-            name="term_offered"
-            onClick={handleSetTermOffered}
+            type="button"
+            className={`pill-button clear ${
+              filters.termOfferedFilter === "OFF" ? "active" : ""
+            }`}
+            onClick={clearTermFilter}
+            aria-pressed={filters.termOfferedFilter === "OFF"}
           >
-            Fall
+            All
           </button>
-          <button
-            className={
-              "btn bg-white md:w-20 small " +
-              (filters.termOfferedFilter === "SPRING" && "active")
-            }
-            value="SPRING"
-            name="term_offered"
-            onClick={handleSetTermOffered}
-          >
-            Spring
-          </button>
-          <button
-            className={
-              "btn bg-white md:w-20 small " +
-              (filters.termOfferedFilter === "SUMMER" && "active")
-            }
-            value="SUMMER"
-            name="term_offered"
-            onClick={handleSetTermOffered}
-          >
-            Summer
-          </button>
-          <button
-            className={
-              filters.termOfferedFilter === "OFF"
-                ? "hidden"
-                : "ml-1 small bg-red-100 btn"
-            }
-            onClick={turnOffTermOfferedFilter}
-          >
-            Clear Term Offered Filter
-          </button>
+        </div>
+      </div>
+      <div className="filter-group filter-toggles">
+        <div className="toggle-section">
+          <span className="filter-label">Display:</span>
+          <div className="toggle-stack">
+            {renderToggle("Course titles", "showTitles")}
+          </div>
+        </div>
+        <div className="toggle-section">
+          <span className="filter-label">Options:</span>
+          <div className="toggle-stack">
+            {renderToggle("Requirements filter", "isPrereqFilterModeOn")}
+            {renderToggle("Hidden classes", "showHidden")}
+          </div>
         </div>
       </div>
     </div>
