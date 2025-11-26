@@ -12,7 +12,7 @@ Studying abroad is one of the most exciting and unique things you can do during 
 
 **In order to study abroad, you must have completed 24 credits specifically on campus, hold a good disciplinary record, and have at least a 2.75 cumulative GPA (some programs have higher requirements, such as a 3.0 or 3.25).** [geo.pitt.edu/applicationrequirements](https://geo.pitt.edu/applicationrequirements "Application Requirements")
 
-The most important thing to know is to **talk to your SCI advisor ASAP**. Also, look to speak with PittGEO, located in the William Pitt Union, room 802. You should start planning to study abroad one academic year in advance, but it is still possible with less time to plan.
+The most important thing to know is to **talk to your SCI advisor ASAP**. Also, look to speak with PittGEO, located in room 802 of the William Pitt Union. You should start planning to study abroad at least one academic year in advance, but it's still possible with less time to plan!
 
 ## Why Study Abroad?
 
