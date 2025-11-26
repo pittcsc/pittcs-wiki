@@ -28,7 +28,7 @@ The most important thing to know is to **talk to your SCI advisor ASAP**. Also, 
 
 The first thing to know is that there are multiple types of study abroad programs at Pitt. Each one is slightly different than the other in how the program is run, how credits come back to Pitt, where you can go, how scholarships and tuition benefits affect it, and more.
 
-Note that the same University can offer different types of programs. For example, the "Seoul National University Summer Program" listing is a Pitt-Recognized Program over the summer, but the "Seoul National University" listing is an Exchange Program over a fall or spring semester.
+Note that one provider can offer multiple types of programs. For example, the "Seoul National University Summer Program" listing is a Pitt-Recognized Program over the summer, but the "Seoul National University" listing is an Exchange Program over a fall or spring semester.
 
 ### Panther Programs
   - These programs are the closest you can get to still taking Pitt classes while being abroad.
