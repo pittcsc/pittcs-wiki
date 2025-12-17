@@ -49,6 +49,7 @@ export const GetFolderInformation = async (curPath: string) => {
     fileTitles.push({
       title: fileFrontMatter.title,
       href: "/guides/" + curPath + "/" + fileName,
+      order: fileFrontMatter.order,
     })
   }
 
@@ -68,6 +69,7 @@ export const GetFolderInformation = async (curPath: string) => {
     fileTitles.push({
       title: folderFileFrontMatter.title,
       href: `/guides/${curPath}/${folderName}`,
+      order: folderFileFrontMatter.order,
     })
   }
 
