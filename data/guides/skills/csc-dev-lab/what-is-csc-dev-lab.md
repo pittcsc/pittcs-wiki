@@ -24,10 +24,10 @@ CSC has historically excelled at the career game - our ["Zero to Offer"](/guides
 
 CSC Dev Lab brings the "engineering" back to the club. We are fostering a community of:
 
--   **Software Engineers** building robust, scalable systems.
--   **UI/UX Designers** creating intuitive user experiences.
--   **Product Managers** driving features from idea to launch.
--   **DevOps Engineers** automating deployment and infrastructure.
+- **Software Engineers** building robust, scalable systems.
+- **UI/UX Designers** creating intuitive user experiences.
+- **Product Managers** driving features from idea to launch.
+- **DevOps Engineers** automating deployment and infrastructure.
 
 ## What is Dev Lab?
 
