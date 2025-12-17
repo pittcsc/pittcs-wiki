@@ -111,6 +111,21 @@ const SiteMapList = ({ type }: any) => {
         if (file.name.match(/\[.+\]/) || file.name.includes("sitemap")) {
           return
         }
+        /* Skip redirect folders and guides directory when processing app directory,
+           since the actual content is added from data/guides */
+        const redirectFolders = [
+          "guides",
+          "academics",
+          "career",
+          "skills",
+          "zero-to-offer",
+        ]
+        if (
+          baseDirectory.includes("app") &&
+          redirectFolders.includes(file.name)
+        ) {
+          return
+        }
         if (stats.isDirectory()) {
           let newNode: SiteMapTree = {
             title:
