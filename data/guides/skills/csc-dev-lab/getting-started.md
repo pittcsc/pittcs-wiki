@@ -8,7 +8,8 @@ One of the nonobvious gaps between coursework and real-world software engineerin
 
 In class, you are usually given starter code, a predefined environment, clear instructions, and maybe even a few test cases. In industry-like environments, you are expected to take an existing codebase, understand how it works, and set it up yourself.
 
-This guide walks through *a general workflow* that you will use in (hopefully) many more software projects:
+This guide walks through _a general workflow_ that you will use in (hopefully) many more software projects:
+
 - Forking a repository
 - Cloning code locally
 - Preparing the project for development
@@ -24,12 +25,13 @@ Instead, you start by **forking** the project.
 
 ### What Is a Fork?
 
-A fork is your personal copy of a repository under *your* GitHub account. It allows you to:
+A fork is your personal copy of a repository under _your_ GitHub account. It allows you to:
+
 - Experiment and make changes freely without breaking the main project
 - Work at your own pace
 - Submit your changes for review via a **Pull Request (PR)**
 
-> *Don't worry,* We'll dive deeper into how GitHub works in the next section!
+> _Don't worry,_ We'll dive deeper into how GitHub works in the next section!
 
 ### How to Fork
 
@@ -45,11 +47,12 @@ You now have your own version of the project that you own and fully control.
 
 ## 2. Getting the Code: Cloning Your Fork
 
-Once you’ve forked the repository, you need to actually get the code on your local machine. I mean, how else are you going to write code? (*Please* don't use the built-in GitHub editor.)
+Once you’ve forked the repository, you need to actually get the code on your local machine. I mean, how else are you going to write code? (_Please_ don't use the built-in GitHub editor.)
 
 ### What Is Cloning?
 
 Cloning downloads the repository to your computer and connects it to Git so you can:
+
 - Edit files locally
 - Track changes
 - Push commits back to your fork on GitHub
@@ -60,7 +63,7 @@ From your fork’s GitHub page:
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/project-name.git
-````
+```
 
 Or, if you have SSH set up:
 
@@ -90,9 +93,9 @@ project-name/
 
 Key files to read first:
 
-* **README.md** – What the project does and how to run it
-* **CONTRIBUTING.md** – Rules for contributing (required reading)
-* **Config files** – Tell you how the project is built and run
+- **README.md** – What the project does and how to run it
+- **CONTRIBUTING.md** – Rules for contributing (required reading)
+- **Config files** – Tell you how the project is built and run
 
 ---
 
@@ -102,9 +105,9 @@ Once cloned, almost every project will require some setup before it can be run.
 
 This usually includes:
 
-* Installing dependencies
-* Setting up environment variables
-* Running database migrations or setup scripts
+- Installing dependencies
+- Setting up environment variables
+- Running database migrations or setup scripts
 
 Below are two common environments you’ll encounter in Dev Lab:
 
@@ -124,7 +127,8 @@ Node projects typically include a `package.json` file.
    node --version
    npm --version
    ```
-    If this doesn't work, [install it here](https://nodejs.org/en/download). 
+
+   If this doesn't work, [install it here](https://nodejs.org/en/download).
 
 2. Install project dependencies:
 
@@ -155,11 +159,12 @@ Python projects usually rely on **virtual environments** to isolate dependencies
 #### Setup Steps
 
 1. Ensure Python is installed:
+
    ```bash
    python3 --version
    ```
 
-    If this doesn't work, [install it here](https://www.python.org/downloads/).
+   If this doesn't work, [install it here](https://www.python.org/downloads/).
 
 2. Create a virtual environment:
 
@@ -193,21 +198,21 @@ Read more about Python virtual enviroments [here](https://docs.python.org/3/libr
 
 ---
 
-## 6. Contributing.md: The Rules of Contributing 
+## 6. Contributing.md: The Rules of Contributing
 
 Most collaborative projects on GitHub have a `CONTRIBUTING.md` file. This document defines:
 
-* Branch naming conventions
-* Commit message format
-* Code style rules
-* How to submit a Pull Request
-* How reviews are handled
+- Branch naming conventions
+- Commit message format
+- Code style rules
+- How to submit a Pull Request
+- How reviews are handled
 
 Before writing **any** code, read this file.
 
 Ignoring contributing guidelines is one of the fastest ways to get a PR rejected.
 
-Many Contributing.md files also have helpful tips on setting your project up. 
+Many Contributing.md files also have helpful tips on setting your project up.
 
 ---
 
@@ -231,4 +236,3 @@ Putting it all together, your workflow should look like this:
 Setting up a project can often seem daunting, but that’s normal.
 
 The goal of Dev Lab is not just to improve your programming skills, but to teach you how to **operate inside a real codebase**. Once you are comfortable with this workflow, you will feel much more confident going into internships, research projects, or open-source communities.
-
