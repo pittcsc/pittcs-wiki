@@ -2,7 +2,17 @@
 title: "[DevLab] 4. Agile & Project Management"
 author: "Claude Sonnet 4.5"
 date: "2025-01-14"
-search_tags: ["agile", "scrum", "sprint", "kanban", "project management", "software development", "team", "devlab"]
+search_tags:
+  [
+    "agile",
+    "scrum",
+    "sprint",
+    "kanban",
+    "project management",
+    "software development",
+    "team",
+    "devlab",
+  ]
 ---
 
 You've probably heard the word "sprint" thrown around in software contexts, or maybe you've seen a project board with cards moving from "To Do" to "Done." These are parts of **Agile**, a popular approach to managing software projects that you'll use in CSC Dev Lab projects and encounter at your internships.
@@ -14,6 +24,7 @@ Agile is less about following rigid rules and more about embracing a set of prin
 ### What is Agile?
 
 **Agile** is a philosophy for software development that values:
+
 - **Individuals and interactions** over processes and tools
 - **Working software** over comprehensive documentation
 - **Customer collaboration** over contract negotiation
@@ -36,6 +47,7 @@ Agile acknowledges that change is inevitable and actually _embraces_ it. Instead
 **Scrum** is the most popular Agile framework, especially for CSC Dev Lab projects. It organizes work into **sprints**—fixed time periods (usually 1-2 weeks for Dev Lab) where you complete a set of work and then review what you've done.
 
 **Key Roles in Scrum:**
+
 - **Product Owner:** Represents the user/customer and decides what features to build
 - **Scrum Master:** Facilitates the process and removes blockers
 - **Development Team:** The people actually building the software
@@ -63,6 +75,7 @@ The main principle is to **limit work in progress (WIP)**—don't start too many
 **What it is:** The team decides what work to complete during the upcoming sprint.
 
 **How it works:**
+
 1. Review the product backlog (list of all potential work)
 2. Discuss each item: What does it involve? How long will it take?
 3. Team commits to a realistic amount of work for the sprint
@@ -74,6 +87,7 @@ The main principle is to **limit work in progress (WIP)**—don't start too many
 **What it is:** A quick daily or regular sync where everyone shares what they're working on.
 
 **The classic format:**
+
 1. What did I do yesterday?
 2. What will I do today?
 3. Do I have any blockers?
@@ -87,6 +101,7 @@ The main principle is to **limit work in progress (WIP)**—don't start too many
 **What it is:** Show what you built during the sprint.
 
 **How it works:**
+
 - Team demonstrates completed work
 - Stakeholders (project mentor, users) give feedback
 - NOT a status meeting—you should actually demo working software
@@ -98,11 +113,13 @@ The main principle is to **limit work in progress (WIP)**—don't start too many
 **What it is:** The team reflects on how the sprint went and identifies improvements.
 
 **The classic questions:**
+
 1. What went well?
 2. What didn't go well?
 3. What should we change?
 
 **Example outcomes:**
+
 - "We spent too much time in meetings—let's combine sprint planning and backlog grooming."
 - "The build kept breaking because we weren't running tests locally first—let's set up pre-commit hooks."
 - "Great job unblocking each other quickly on Slack—keep it up!"
@@ -134,12 +151,14 @@ Think of it as: Product backlog = "everything we could do someday," Sprint backl
 **Format:** "As a [type of user], I want [goal] so that [reason]."
 
 **Examples:**
+
 - "As a student, I want to search for courses by department so that I can plan my schedule."
 - "As an admin, I want to export usage data to CSV so that I can analyze it in Excel."
 
 User stories include **acceptance criteria**—how do we know it's done?
 
 Example:
+
 ```
 Story: As a user, I want to reset my password if I forget it.
 
@@ -154,6 +173,7 @@ Acceptance Criteria:
 ## Using Agile in Dev Lab Projects
 
 **What works for Dev Lab:**
+
 - Short sprints (1-2 weeks) with clear goals
 - Regular check-ins (even async)
 - Demo your progress periodically
@@ -161,6 +181,7 @@ Acceptance Criteria:
 - Use GitHub Issues and Projects for tracking
 
 **Don't over-engineer:**
+
 - Skip formal roles if your team is small
 - Don't stress about story pointing if it feels like overhead
 

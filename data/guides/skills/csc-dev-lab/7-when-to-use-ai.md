@@ -2,7 +2,17 @@
 title: "[DevLab] 7. When to Use AI"
 author: "Shreyash Ranjan"
 date: "2025-12-17"
-search_tags: ["ai", "copilot", "cursor", "ai-assisted engineering", "vibe coding", "chatgpt", "code generation", "devlab"]
+search_tags:
+  [
+    "ai",
+    "copilot",
+    "cursor",
+    "ai-assisted engineering",
+    "vibe coding",
+    "chatgpt",
+    "code generation",
+    "devlab",
+  ]
 ---
 
 You've probably used (or at least heard about) GitHub Copilot, Cursor, or ChatGPT for coding. These tools are becoming standard in the industry - many companies expect you to use them at your internship. They can help experienced developers ship code faster, catch bugs, and handle tedious boilerplate.
@@ -60,13 +70,13 @@ If you use AI to write code you don't understand, here's what you're missing:
 Once you've built the foundation in Dev Lab—once you understand how web applications work, how to structure code, how to debug, how to review PRs—_then_ AI becomes incredibly powerful.
 
 At your internship or first job, with fundamentals solidly in place, you'll be able to:
+
 - Use AI to handle boilerplate while you focus on architecture
 - Quickly prototype ideas because you know what good output looks like
 - Debug AI-generated code because you understand what's happening under the hood
 - Evaluate trade-offs because you've made those decisions manually before
 
 **The key difference:** You'll be using AI from a position of knowledge, not ignorance.
-
 
 ## Vibe Coding: What We're Trying to Avoid
 
@@ -103,6 +113,7 @@ We strongly discourage using AI tools to write your Dev Lab code. But if you do 
 **You must be able to explain every single line of AI-generated code to your project mentor in a code review.**
 
 If you can't explain:
+
 - What the code does
 - _Why_ it does it that way
 - What would break if requirements changed
@@ -129,6 +140,7 @@ If you're just hitting "Accept" and moving on, you're not ready for that code to
 The _only_ truly acceptable use of AI in Dev Lab is as a learning tool:
 
 **Good uses:**
+
 - "Explain how React's useEffect hook works and show me an example"
 - "I'm getting this TypeScript error: [paste error]. What does it mean and how do I fix it?"
 - "What's the difference between `map()` and `forEach()` in JavaScript?"
@@ -137,6 +149,7 @@ The _only_ truly acceptable use of AI in Dev Lab is as a learning tool:
 **After the AI explains it:** Go write the code yourself. Use the AI to understand concepts, not to skip implementation.
 
 **Bad uses:**
+
 - "Write a user authentication system for my app"
 - "Create a dashboard component with these features"
 - "Implement this API endpoint"
@@ -187,14 +200,13 @@ If you're not sure whether using AI for a specific task is appropriate, ask your
 
 ## Next Steps
 
-
 - Check out [DevLab 3: Writing Clean Code](/guides/skills/csc-dev-lab/3-clean-code): learn what good code looks like so you can evaluate AI output later
 - Read [DevLab 4: Agile & Project Management](/guides/skills/csc-dev-lab/4-agile): understand how to break down problems so you can solve them yourself
 - Review [DevLab 5: Code Review Best Practices](/guides/skills/csc-dev-lab/5-code-review): practice explaining code in reviews to build the skills you need
 
 ---
 
-*Attribution & Acknowledgements: We stand on the shoulders of giants. Thanks to the open source communities and insights from Claire Longo, Philip Mutua, and Aalap Davjekar that helped shape these practices.*
+_Attribution & Acknowledgements: We stand on the shoulders of giants. Thanks to the open source communities and insights from Claire Longo, Philip Mutua, and Aalap Davjekar that helped shape these practices._
 
 **References:**
 

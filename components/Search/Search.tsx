@@ -51,8 +51,9 @@ const Search = () => {
   return (
     <div
       ref={containerRef}
-      className={`relative search-container transition-all duration-300 ease-in-out ${isOpen ? "w-full md:w-[500px]" : "w-full md:w-80"
-        }`}
+      className={`relative search-container transition-all duration-300 ease-in-out ${
+        isOpen ? "w-full md:w-[500px]" : "w-full md:w-80"
+      }`}
       role="search"
       aria-label="Site search"
     >

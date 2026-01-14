@@ -52,25 +52,20 @@ You do not need to be a finance major to get into a quantitative trading firm - 
 ## Definitions:
 
 - **Quantitative '**\_\_\_**'**
-
   - This is simply the process of using quantitative models to assess various aspects of investments such as associated risk. This can be used for _anything_, everyone in the financial industry uses some sort of quantitative method (including groups such as Goldman Sachs that aren't considered "trading" companies).
 
 - **Trading**
-
   - This is the process of being at the forefront of decisions for handling financial instruments such as options, commodities, and futures.
 
 - **Prop/Proprietary Trading Firm**
-
   - This is a term given to companies who trade using their own capital. Firms like Citadel or Two Sigma are given money by a set of investors (sometimes public, mostly private), and their purpose as a company is to provide them with consistent returns on the money they are given, while taking a portion of the profits.
   - Proprietary trading companies, such as Jane Street, SIG, and Optiver handle their own funds, meaning that they don't provide a service to anyone. Their existence is to utilize their trading prowess to earn more money. This generally results in a slightly higher hiring bar for positions that manage those funds.
 
 - **"Algorithmic/Strategic/Quantitative/Automated **\_\_** Engineer"**
-
   - Generally, this is used for a position that applies algorithmic knowledge in the writing and development of trading 'strategies', which is a term used for _anything that acts upon an input and produces an output that can be boiled down to a basic decision_. Not all strategies will trade directly (meaning that your code may not interact directly with an exchange, but is still important overall). There are many strategies, for both market making, market taking, and .
   - An app that takes in financial data and sounds an alarm whenever there is a good deal is an example of a strategy that doesn't rely on market execution.
 
 - **Market Making and Market Taking**
-
   - Many trading firms have an obligation set by the SEC to be what's known as _market makers_. This means that the firm is required to give quotes for a buy and a sell price for a certain security (such as a stock, option, or future). The reason they're required to is because the SEC wants markets to be _liquid_, essentially meaning that they want an easy way to go from money to a security. There is a lot of mathematics that is used for producing quotes for the market, as firms need to set prices that others will use but will also remain profitable.
   - Market taking is the process of participating in the market, meaning that you see a good deal, you want to fulfill that trade.
   - The CME Group has a great explanation and education section for terms like this [here.](https://www.cmegroup.com/education/courses/trading-and-analysis/market-makers-vs-market-takers.html#:~:text=Market%20makers%20generally%20try%20to,in%20the%20current%20last%20price.&text=Market%20takers%20are%20less%20concerned,the%20best%20bid%20or%20offer)

@@ -125,8 +125,9 @@ export default async function GuidePage({
     <>
       <Breadcrumb slug={`guides/${curPath}`} />
       <div
-        className={`blog-post-container ${curPath === "career" ? "career-page" : ""
-          }`}
+        className={`blog-post-container ${
+          curPath === "career" ? "career-page" : ""
+        }`}
       >
         <div className="blog-post mb-8">
           <div className="frontmatter">
