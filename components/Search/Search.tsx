@@ -51,7 +51,8 @@ const Search = () => {
   return (
     <div
       ref={containerRef}
-      className="relative flex-1 max-w-xs search-container"
+      className={`relative search-container transition-all duration-300 ease-in-out ${isOpen ? "w-full md:w-[500px]" : "w-full md:w-80"
+        }`}
       role="search"
       aria-label="Site search"
     >

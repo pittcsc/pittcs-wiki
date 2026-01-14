@@ -1,3 +1,4 @@
 ---
-title: "[DevLab] Requests for Projects"
+title: "[DL] Requests for Projects"
+order: 2
 ---

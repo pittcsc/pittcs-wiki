@@ -2,6 +2,7 @@
 title: "[DevLab] 0. What is CSC Dev Lab"
 author: "Shreyash Ranjan"
 date: "2025-12-17"
+order: 1
 ---
 
 Getting an internship requires two things: passing the interview and having a resume that gets you the interview.

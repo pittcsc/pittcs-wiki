@@ -14,6 +14,7 @@ import { loadGuideMetadataServer, GuideMetadata } from "@/utils/guide-metadata"
 export type FileTitlesType = {
   title: string
   href: string
+  order?: number
 }
 
 export default async function GuidePage({
@@ -124,9 +125,8 @@ export default async function GuidePage({
     <>
       <Breadcrumb slug={`guides/${curPath}`} />
       <div
-        className={`blog-post-container ${
-          curPath === "career" ? "career-page" : ""
-        }`}
+        className={`blog-post-container ${curPath === "career" ? "career-page" : ""
+          }`}
       >
         <div className="blog-post mb-8">
           <div className="frontmatter">
