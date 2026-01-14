@@ -9,7 +9,7 @@
 export const newGuides = [
   "career/running-for-officer", // Running for PittCSC Officer - NEW
   "career/working-at-startup", // Working at a Startup - NEW
-  "csc-dev-lab/requests-for-projects", // Requests for Projects - NEW
+  "skills/csc-dev-lab/0-what-is-csc-dev-lab", // What is CSC Dev Lab - NEW
 ]
 
 export const updatedGuides = [

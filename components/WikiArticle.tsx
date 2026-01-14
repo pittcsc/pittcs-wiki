@@ -11,6 +11,7 @@ import { GuideMetadata, formatDate } from "@/utils/guide-metadata"
 import Markdown from "react-markdown"
 import remarkGfm from "remark-gfm"
 import rehypeSlug from "rehype-slug"
+import rehypeRaw from "rehype-raw"
 
 type WikiArticleProps = {
   file: string
@@ -104,7 +105,7 @@ const WikiArticle = ({
             <div className="blog-post-content">
               <Markdown
                 remarkPlugins={[remarkGfm]}
-                rehypePlugins={[rehypeSlug]}
+                rehypePlugins={[rehypeRaw, rehypeSlug]}
               >
                 {relevantContent}
               </Markdown>

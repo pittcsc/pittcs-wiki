@@ -1,5 +1,5 @@
 ---
-title: "[DL] What is CSC Dev Lab"
+title: "[DevLab] 0. What is CSC Dev Lab"
 author: "Shreyash Ranjan"
 date: "2025-12-17"
 order: 1
