@@ -20,7 +20,6 @@ Thank you for your interest in contributing to the Pitt CS Wiki! We welcome cont
 ### Adding or Editing Guides
 
 1. Navigate to the appropriate directory in `data/guides/`:
-
    - `data/guides/academics/` - Academic planning guides
    - `data/guides/career/` - Career development resources
    - `data/guides/skills/` - Technical skill guides

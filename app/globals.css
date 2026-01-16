@@ -545,7 +545,8 @@ code {
   background-color: var(--code-bg);
   color: var(--code-text);
   border-radius: 3px;
-  font-family: "SFMono-Regular", Consolas, "Roboto Mono", "Droid Sans Mono",
+  font-family:
+    "SFMono-Regular", Consolas, "Roboto Mono", "Droid Sans Mono",
     "Liberation Mono", Menlo, Courier, monospace;
   padding: 0;
   padding-top: 0.2em;

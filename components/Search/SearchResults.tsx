@@ -20,7 +20,7 @@ export default function SearchResults({
   if (!query.trim()) return null
 
   return (
-    <div className="absolute top-full left-0 right-0 mt-2 bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-lg shadow-lg z-50 max-w-md">
+    <div className="absolute top-full left-0 right-0 mt-2 bg-white dark:bg-[#2b2b2b] border border-gray-200 dark:border-gray-600 rounded-lg shadow-xl z-50 overflow-hidden backdrop-blur-md">
       {isLoading && (
         <div className="p-4 text-center text-gray-500 dark:text-gray-400 text-sm">
           Searching...
@@ -43,8 +43,8 @@ export default function SearchResults({
           {/* Group results by type */}
           {results.some((r) => r.type === "course") && (
             <div>
-              <div className="px-4 py-2 bg-gray-50 dark:bg-[#0f0f0f] border-b border-gray-200 dark:border-gray-700">
-                <h3 className="text-xs font-semibold text-gray-700 dark:text-gray-300 uppercase tracking-wide">
+              <div className="px-4 py-2 bg-gray-50 dark:bg-[#202020] border-b border-gray-200 dark:border-gray-600">
+                <h3 className="text-sm font-semibold text-gray-700 dark:text-gray-300 uppercase tracking-wide">
                   Courses
                 </h3>
               </div>
@@ -62,8 +62,8 @@ export default function SearchResults({
 
           {results.some((r) => r.type === "guide") && (
             <div>
-              <div className="px-4 py-2 bg-gray-50 dark:bg-[#0f0f0f] border-b border-gray-200 dark:border-gray-700">
-                <h3 className="text-xs font-semibold text-gray-700 dark:text-gray-300 uppercase tracking-wide">
+              <div className="px-4 py-2 bg-gray-50 dark:bg-[#202020] border-b border-gray-200 dark:border-gray-600">
+                <h3 className="text-sm font-semibold text-gray-700 dark:text-gray-300 uppercase tracking-wide">
                   Guides
                 </h3>
               </div>
@@ -97,17 +97,17 @@ function SearchResultItem({
     <Link href={result.href}>
       <div
         onClick={onClick}
-        className="px-4 py-3 border-b border-gray-100 dark:border-gray-800 hover:bg-gray-50 dark:hover:bg-[#2a2a2a] transition-colors duration-150 cursor-pointer group"
+        className="px-4 py-3 border-b border-gray-100 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-[#343434] transition-colors duration-150 cursor-pointer group"
       >
         <div className="flex gap-3 items-start">
           <div className="flex-shrink-0 mt-0.5 text-gray-400 dark:text-gray-500 group-hover:text-[#fbbf24] transition-colors duration-150">
             <Icon size={18} />
           </div>
           <div className="flex-1 min-w-0">
-            <h4 className="text-sm font-semibold text-black dark:text-white group-hover:text-[#fbbf24] transition-colors duration-150 truncate">
+            <h4 className="text-base font-semibold text-black dark:text-white group-hover:text-[#fbbf24] transition-colors duration-150 truncate">
               {result.title}
             </h4>
-            <p className="text-xs text-gray-600 dark:text-[#a0a0a0] mt-1 line-clamp-2">
+            <p className="text-sm text-gray-600 dark:text-[#a0a0a0] mt-1 line-clamp-2">
               {result.description}
             </p>
           </div>

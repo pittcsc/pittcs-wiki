@@ -14,6 +14,7 @@ import { loadGuideMetadataServer, GuideMetadata } from "@/utils/guide-metadata"
 export type FileTitlesType = {
   title: string
   href: string
+  order?: number
 }
 
 export default async function GuidePage({

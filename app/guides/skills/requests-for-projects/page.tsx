@@ -82,7 +82,7 @@ export default function RequestsForProjectsPage() {
     {
       title: "Pitt2Pit Travel Share",
       description:
-        "Rides to the airport (PIT) can be expensive. Pitt2Pit helps students coordinate travel pooling during peak times (Thanksgiving, Winter, Spring breaks) by grouping users into optimal 'pods' to split Uber/Lyft costs or organize carpools. We understand the 28X Flyer serves this purpose, but sometimes you'd rather travel in comfort and spend less time on an already long commute. This is just the beginning - the platform could expand to other car-dependent trips like Costco runs, allowing students to pair with drivers and share costs.",
+        "Rides to the airport (PIT) are expensive for students. Pitt2Pit helps students coordinate travel pooling during peak times like Thanksgiving, Winter, and Spring breaks. Users input their flight times, and the algorithm groups them into optimal 'pods' to split Uber/Lyft costs or organize carpools. It solves the fragmented coordination that currently happens in random group chats.",
       tags: ["Matching Algorithm", "Social Graph", "Cost Sharing"],
       formLink: "https://forms.google.com/your-form-url",
     },
@@ -90,7 +90,7 @@ export default function RequestsForProjectsPage() {
 
   return (
     <div className="article-container max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-      <Breadcrumb slug="guides/skills/csc-dev-lab/requests-for-projects" />
+      <Breadcrumb slug="guides/skills/requests-for-projects" />
 
       <main className="mt-8">
         {/* Header */}
@@ -187,7 +187,7 @@ export default function RequestsForProjectsPage() {
             it to our list.
           </p>
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSeYIVjPUYl6OIhzeC_8MjNcnBbpixLxrmK_n_7S99z0sAQeog/viewform?usp=publish-editor"
+            href="https://forms.google.com/your-submission-form-url" // TODO: Replace with actual submission form
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-[#ffb81c] text-[#243e8b] dark:text-[#243e8b] font-bold text-lg px-8 py-3 rounded-full hover:bg-[#ffc840] transition-transform transform hover:-translate-y-1 hover:shadow-lg"

@@ -22,24 +22,20 @@ Our advice - study what you think you'll enjoy or study what you'll enjoy at lea
 A massive thing to consider when choosing a college/university is how much debt you'll incur from tuition and room/board. In general, there is a very fine line between a school being "worth it" and a school being a waste of money. Here's some pointers to determining if a school is worth it or not. In our opinion, if you work hard and join our active CS community, then going to Pitt is certainly worth it.
 
 - **Is the school's ranking good? Is the school's CS ranking good?**
-
   - This is less important, but it's still a factor to consider. If your school has _some_ name brand recognition, this is all you need, in all honesty.
   - Pitt's name recognition is improving rapidly within the industry, although it still has lots of room to grow, and the School of Computing & Information (SCI) is still young.
 
 - **Who's recruiting from the school?**
-
   - If you know what kind of companies you want to work at or have an idea of a field you want to break into, see who's showing up to career fairs, who's sponsoring events, and who's working with student organizations. See which industries are big near your school - these tend to be companies that will recruit from your school.
   - Pittsburgh, for example, is an Autonomous Vehicle (AV) company paradise. Uber ATG recruits heavily from Pitt and CMU, and Argo AI _(unfortunately now defunct)_ was even founded by a Pitt alumni! Other AV companies in the Pittsburgh area include: Waymo, Aurora, and Motional.
   - The Pitt CSC has worked with several tech companies + the school is sponsored by several large Finance/Trading/Tech companies.
 
 - **How's the social life there?**
-
   - As a CS major, this should be less of a priority _jk_.
   - This is a very underrated aspect of attending a school. Whether you're interested in a cultural club or have any special interests, it's important to see if your school has other people interested in what you're doing.
   - Pitt has lots of clubs, cultural associations, fraternities, and more, and it's relatively easy to form one if you're not satisfied.
 
 - **How's the CS community?**
-
   - Toxicity is a massive issue plaguing CS programs nationwide. Making sure that the CS community at your school is open and friendly is a good way to ensure you'll enjoy working and hanging out with fellow classmates/student org members. Keep in mind, you're there to develop your skills. If you're surrounded by those who continue to push you and work with you in a non-toxic way, you'll improve a ton and learn a lot.
   - Pitt CS is experiencing a golden age of students coming in and helping strengthen the CS community. This wiki is a good example of current students giving back and improving the next generations of Pitt CS.
 
@@ -50,11 +46,9 @@ A massive thing to consider when choosing a college/university is how much debt 
 ## Assorted Questions/Tips for Pitt CS
 
 - **Can I graduate in 3 years?**
-
   - You certainly can - there's lots of ways you can graduate in 3 years, but the quickest way to knock off credits is to take lots of AP/IB classes/tests in high school, OR do a community-college/high school mixed program so you can get general education requirements waived. While graduating in under 3 years is definitely possible, we'd suggest not going under 3 years, as you're missing a lot of your college experience while also putting way too much unnecessary stress on yourself by taking lots of hard classes at once.
 
 - **What's a good place to meet upperclassmen and get into the Pitt CS community?**
-
   - Joining student orgs, TA'ing, and being friends with your classmates is the quickest way to get ingrained into Pitt CS. You'll find a tight-knit core of students who are eager to help new students and make an enjoyable Pitt CS experience.
 
 - **Why Pitt over Penn State?**

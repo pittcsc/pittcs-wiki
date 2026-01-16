@@ -18,7 +18,6 @@ Before I start giving advice on things it's best I share about the path I took t
 
 - **At CCAC** the degree requirements were very clear cut and easy to understand, I was able to enroll in classes on my own without speaking to an advisor and was confident I was taking the most efficient path to my goals.
 - **At Pitt** the degree requirements are more complex. Before I was actually enrolled in the CS program, it was impossible to know what my requirements were actually going to be. This is because of a few things:
-
   - The CS requirements change yearly, the requirements you actually need to fill are the ones active when you are accepted into the CS program.
   - I transferred during a particularly bad time when the CS program was changing from the [Dietrich School of Art's and Sciences](https://www.asundergrad.pitt.edu/) to a new [School of Computing and Information](http://sci.pitt.edu/). There was a lot of more in flux than there usually is.
   - Since I was not yet at Pitt it was hard for me to get time with CS advisors who knew best what the program would actually look like when I enroll. Often these conversations simply went: "here are the current requirements, but we have no clue what they will be when you actually enroll".
