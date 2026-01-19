@@ -17,6 +17,7 @@
     "@dagrejs/dagre": "^2.0.0",
     "@dagrejs/graphlib": "^2.2.4",
     "@xyflow/react": "^12.9.3",
+    "force": "^0.0.3",
     "html2pdf.js": "^0.12.1",
     "lucide-react": "^0.554.0",
     "next": "14.0.1",

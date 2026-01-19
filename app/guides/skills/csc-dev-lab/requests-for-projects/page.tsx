@@ -73,13 +73,6 @@ export default function RequestsForProjectsPage() {
       formLink: "https://forms.google.com/your-form-url",
     },
     {
-      title: "Campus Dine Optimizer",
-      description:
-        "Meal plans are expensive, and maximizing them is an art. Build a tool that scrapes or uses the DineOnCampus API to show what's serving where, but with a twist: optimize for nutritional value or specific dietary restrictions. It could also track current meal swipe usage and predict if a student will run out or have too many swipes left by the end of the semester.",
-      tags: ["Web Scraping", "Data Analytics", "Nutrition"],
-      formLink: "https://forms.google.com/your-form-url",
-    },
-    {
       title: "Pitt2Pit Travel Share",
       description:
         "Rides to the airport (PIT) can be expensive. Pitt2Pit helps students coordinate travel pooling during peak times (Thanksgiving, Winter, Spring breaks) by grouping users into optimal 'pods' to split Uber/Lyft costs or organize carpools. We understand the 28X Flyer serves this purpose, but sometimes you'd rather travel in comfort and spend less time on an already long commute. This is just the beginning - the platform could expand to other car-dependent trips like Costco runs, allowing students to pair with drivers and share costs.",
