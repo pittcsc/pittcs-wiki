@@ -1,6 +1,6 @@
 ---
 title: "[DevLab] 7. Writing Design Docs"
-author: "Claude Sonnet 4.5"
+author: "Shreyash Ranjan"
 date: "2025-01-14"
 search_tags:
   [
