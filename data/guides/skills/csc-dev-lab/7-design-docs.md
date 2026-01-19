@@ -385,7 +385,7 @@ A brief TL;DR of what arw we solving? Why now?
 ## Templates and Examples
 
 **Google Doc Template:**
-Make a copy of this [Design Doc Template](https://docs.google.com) (I'll create this in a little)
+Make a copy of this [Design Doc Template](https://docs.google.com/document/d/1TgvzYNchC6uvdFVLcOuW5SNFhp3cbIDTlXujYzg2n-k/edit?usp=sharing) 
 
 **Real-world examples:**
 
