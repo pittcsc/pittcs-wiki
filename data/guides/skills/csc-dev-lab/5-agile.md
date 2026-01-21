@@ -1,5 +1,5 @@
 ---
-title: "[DevLab] 4. Agile & Project Management"
+title: "[DevLab] 5. Agile & Project Management"
 author: "Shreyash Ranjan"
 date: "2025-01-14"
 search_tags:
