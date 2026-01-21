@@ -24,9 +24,9 @@ Whereas a UTA is more specialized in a particular class, and closer in communica
 
 ## What do I need to apply as a UTA?
 
-First, you’ll need to apply on Pittsource. This is the website where you will attach a Resume, and a Cover Letter, in which you will detail your intent in applying to become a UTA! You will also need to send Emily Morris a recommendation from a current CS faculty member. I would recommend getting close to some of your CS professors, it will also benefit you in the long-run if you need to apply for Graduate School and future internships! Oftentimes, professors with tenure are the ones who are also faculty members. (Petrucci, Hoffman, Tan, Garrison, Ramirez, etc...)
-First, you’ll need to apply on the Talent Center. This is the website where you will attach a Resume and answer a few short questions in which you will detail your intent in applying to become a UTA! You will also need to submit a recommendation from a current CS faculty member through this [form](https://forms.office.com/pages/responsepage.aspx?id=ifT5nqDg606HzDpSYRL9DXivOtTS28tOrsCEjvESYOlUNk9CWTZRNU1GOFZLRzc4TTJIUjI1UDFHSS4u).
-I would recommend getting close to some of your CS professors, it will also benefit you in the long-run if you need to apply for Graduate School and future internships!
+First, you'll need to apply on the Talent Center. This is the website where you will attach a Resume and answer a few short questions in which you will detail your intent in applying to become a UTA! You will also need to submit a recommendation from a current CS faculty member. Once you apply to the position, you'll receive a recommendation form link. We recommend getting close to some of your CS professors, it will also benefit you in the long-run if you need to apply for Graduate School and future internships!
+
+Faculty can email AskSCISuccess@pitt.edu recommendations.
 
 ## Okay, I got the job. Now what?
 
