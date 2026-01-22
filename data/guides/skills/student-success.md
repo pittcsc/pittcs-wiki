@@ -51,17 +51,19 @@ Midterms got you stressed? Student Success hosts Boba Bonanza around midterm sea
 
 ### Breakfast for Dinner
 
-The Friday before finals week, they do Breakfast for Dinner. Pancakes, bacon, the works. It's basically a pre-finals hangout where you can grab food and, if you want, you can meet with TAs and professors to get ahead on studying. 
+The Friday before finals week, they do Breakfast for Dinner. Pancakes, bacon, the works. It's basically a pre-finals hangout where you can grab food and, if you want, you can meet with TAs and professors to get ahead on studying.
 
 ## How to Reach Out
 
 Everything is virtual, so you don't need to go anywhere.
 
 **The Team:**
+
 - **[Lynnsey Doane](https://www.sci.pitt.edu/people/lynnsey-doane)** - Director of Student Success
 - **[Kailyn Lukaszewski](https://www.sci.pitt.edu/people/kailyn-lukaszewski)** - Student Success Coordinator
 
 **Contact:**
+
 - Email: [askscisuccess@pitt.edu](mailto:askscisuccess@pitt.edu)
 - Schedule through [Navigate Student](https://pitt.navigate.eab.com/)
 
