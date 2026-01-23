@@ -27,8 +27,7 @@ The School of Computing and Information (SCI) has a dedicated Student Success te
 They can help with:
 
 - **Academic stuff**
-  - Course planning and scheduling
-  - Figuring out degree requirements
+  - Breaking down assignments into smaller sections
   - What to do when you're struggling in a class
 - **Personal stuff**
   - Stress management
