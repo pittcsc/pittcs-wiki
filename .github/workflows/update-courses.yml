@@ -38,4 +38,4 @@ jobs:
           # Only commit if there are changes
           git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update course data" && git push -u origin course-update)
           gh pr create --fill --base main
-          gh pr merge --auto -d
+          gh pr merge --squash --auto -d
