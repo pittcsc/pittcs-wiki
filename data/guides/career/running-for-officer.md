@@ -34,7 +34,7 @@ Being a CSC officer is a volunteer position. Think honestly about whether you ca
 
 ## Why It's Worth It
 
-You will be working alongside the best of what PittSCI has to offer, whether that is your fellow board members, the boards of partner clubs, or the members themselves -- who are the future of PittSCI.
+You will be working alongside the best of what SCI has to offer, whether that is your fellow board members, the boards of partner clubs, or the members themselves -- who are the future of SCI.
 
 Here is some of what past board members have walked away with:
 
