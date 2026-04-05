@@ -34,7 +34,7 @@ Being a CSC officer is a volunteer position. Think honestly about whether you ca
 
 ## Why It's Worth It
 
-Being on the CSC board is a privilege, not a right. It is also a genuine honor. You will be working alongside the best of what PittSCI has to offer, whether that is your fellow board members, the boards of partner clubs, or the members themselves -- who are the future of PittSCI.
+Being on the CSC board is a genuine honor — a privilege, not a right. You will be working alongside the best of what PittSCI has to offer, whether that is your fellow board members, the boards of partner clubs, or the members themselves -- who are the future of PittSCI.
 
 Here is some of what past board members have walked away with:
 
