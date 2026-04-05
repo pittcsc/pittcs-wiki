@@ -1,6 +1,6 @@
 ---
 title: "Running for PittCSC Officer"
-guides_blurb: "Interested in leading the Pitt Computer Science Club? Here's everything you need to know about running for an officer position."
+guides_blurb: "Interested in leading the Pitt Computer Science Club? Here's what it actually looks like to be on the board and how elections work."
 search_tags:
   [
     "officer",
@@ -13,147 +13,100 @@ search_tags:
   ]
 ---
 
-> Think you'd make a great CSC officer? This guide will walk you through the process of running for a leadership position in the Pitt Computer Science Club!
+> Serving as a CSC officer will be the most work you do for any club by miles. It will also be the most rewarding.
 
-## Why Run for an Officer Position?
+## What Officers Do
 
-Running for a PittCSC officer position is a fantastic opportunity to:
+Officers share responsibility for the success of CSC for the year they are elected. The role is dynamic and your primary purpose is to serve the members.
 
-- **Lead and inspire** fellow computer science students
-- **Build meaningful connections** with peers who share your passion
-- **Develop leadership skills** that will benefit your career
-- **Make an impact** on the CS community at Pitt
-- **Shape the future** of student-led initiatives and events
-- **Network** with faculty, industry professionals, and fellow students
+In terms of time, here is roughly how a typical week breaks down:
+
+- **Regular meetings**: Monday and Thursday, 8-9pm (attend as many as you can)
+- **Special events**: SteelHacks, mentorship meetings, cross-collaboration events, and additional events throughout the year
+- **Officer meeting**: One hour per week
+- **Your actual work**: Ensuring events are ready, creating content, making graphics, whatever your specific role demands
+
+The average board member puts in under 5 hours a week. More demanding roles or high-stakes periods -- like CSC/SCI Week -- can push that to 10-15 hours. No task is too big or too small.
 
 <div class="warning-box">
-Being a CSC officer is a volunteer position and requires significant time commitment. Make sure you're prepared to balance this responsibility with your coursework!
+Being a CSC officer is a volunteer position. Think honestly about whether you can balance this with your coursework before running.
 </div>
 
-## Available Officer Positions
+## Why It's Worth It
 
-The CSC typically has the following positions available:
+Being on the CSC board is a privilege, not a right. It is also a genuine honor. You will be working alongside the best of what PittSCI has to offer, whether that is your fellow board members, the boards of partner clubs, or the members themselves -- who are the future of PittSCI.
+
+Here is some of what past board members have walked away with:
+
+- **Career impact**: Previous officers have landed internships and full-time roles directly because of their time on the board
+- **Unique perks**: A 3-day retreat, dinners with the dean, and real influence over the Pitt CS community
+- **Soft skills**: Working with a team, operating in ambiguity, public speaking, managing complex environments
+- **People**: Lifelong friends, memories, and a network of peers who push you to be better
+
+## Officer Positions
+
+CSC has 9 officer positions. The roles are intentionally loose -- they define what you are responsible for at minimum and what you are best suited for, but the board is extremely flat. If you are the Director of Technology and want to help plan an event, nothing is stopping you. Roles define your floor, not your ceiling.
+
+CSC is also extremely high ownership. The lists below are not exhaustive. It is up to you to make things happen.
 
 ### President
 
-Responsible for overall club vision, strategy, and representing CSC to the university.
+The most public-facing role on the board. You coordinate with SCI and the university (the Registrar, the Career Center, SORC), think through and execute major events, lead officer meetings, work with other student organizations, and serve as the main point of contact for all things CSC. You may also speak at orientation. You need to be energetic, organized, and have a strong outward presence.
 
 ### Vice President
 
-Assists the president and oversees day-to-day operations and logistics.
+The right hand to the President. You oversee the full operation of CSC and step in wherever other board members need support. Ideally, you also lead a brand new or flagship event that CSC runs. The VP role is more inward-facing -- you keep the day-to-day running smoothly while the President handles the external.
 
-### Treasurer
+### Business Manager
 
-Manages club budget, funding, and financial records.
+You own the budget. This means tracking invoices from the Partnerships Coordinator, controlling the flow of money, submitting reimbursements, and creating purchasing appointments. You handle everything business-related for the organization.
 
-### Secretary
+### Events Coordinator
 
-Handles communications, meeting notes, and administrative tasks.
+You own the events calendar. Ideally, at least 75% of the semester's events are locked in before the semester even begins. You order food for all meetings, handle room bookings for regular meetings, officer meetings, and special events like fireside chats or [Zero to Offer](/guides/zero-to-offer), and work with other organizations to create events together.
 
-### Event Coordinators
+### Partnerships Coordinator
 
-Organize workshops, panels, hackathons, and social events.
+You find and maintain the companies and sponsors that support CSC. This means sourcing new partners, organizing site visits, and finding meaningful ways for companies to engage with our members. You also help oversee SteelHacks sponsorship.
 
-### Technical Lead
+### Director of Technology
 
-Maintains website, technical infrastructure, and code repositories.
+You should be a builder at heart and extremely technical. You lead the technology behind everything CSC touches -- [pittcsc.org](https://pittcsc.org/), [pittcs.wiki](https://pittcs.wiki/), [steelhacks.org](https://steelhacks.org/), and any other initiative the board wants to execute on. This includes things like an alumni database, leading [CSC Dev Lab](/guides/skills/csc-dev-lab), or organizing the technical content for Launchpad. If CSC is building something, this is your responsibility.
 
-<div class="info-box">
-Each position comes with unique responsibilities. Think about which role aligns best with your strengths and interests!
-</div>
+### Director of Outreach
 
-## Qualifications
+You are the bridge between the membership and the board. You organize events with the broader community, coordinate volunteer opportunities, build relationships with [other clubs](/guides/skills/clubs) and parts of the university, and lead the Bit/Byte mentorship program. You should be close to the community and care deeply about it.
 
-While qualifications may vary, generally strong candidates have:
+### Director of Design
 
-- **Passion** for computer science and the PittCSC community
-- **Leadership experience** (doesn't have to be formal)
-- **Communication skills** and ability to work with diverse groups
-- **Reliability** and commitment to follow through on projects
-- **Ideas** for how to improve or grow CSC
-- **Time management** abilities to balance coursework and club duties
+You design everything visual. That means all merch -- member merch, officer merch, event swag -- as well as every social media post and graphic for the Instagram. You own the content calendar from a design perspective and set the visual identity of CSC.
 
-You don't need to have all of these—just be genuine about your interest!
+### Director of Media
 
-## The Application and Election Process
+You create content for CSC's 15K+ [Instagram](https://www.instagram.com/csc.at.pitt/) and TikTok following, primarily in reel format. You organize meeting times for skits, handle editing, and are responsible for consistent posting. You need to be funny, creative, and reliable. Memes are a serious part of this job.
 
-### 1. Application Phase
+## How Elections Work
 
-- Elections typically happen in the spring semester
-- Submit an application form (available on CSC channels)
-- Write a brief statement about why you want to run
-- Attend any mandatory information sessions
+Board positions run from mid-April to mid-April of the following year.
 
-### 2. Campaigning (Optional)
+Elections are decided by a weighted vote: **25% board vote** and **75% general membership vote**. The exception is when a previous board member is running for a position they have held before.
 
-- Create a short video or speech about your platform
-- Share your vision for the club
-- Talk to club members about your ideas
-- Answer questions about your leadership approach
+If someone has to leave mid-term, the board may hold a special election. A majority vote is required to fill the vacant seat.
 
-### 3. Voting
+## General Board and the Development Program
 
-- Active CSC members vote for candidates
-- Voting typically happens online or at a club meeting
-- Some positions may be uncontested
+In the fall, the board may also bring on a few **general board members** (g-board). These are not year-long commitments -- they typically span one semester and are either appointed or selected through a short application. G-board members report to a specific officer and have contributed in a variety of ways: helping with sponsorship, conducting mock interviews, organizing coffee chats, leading DEI initiatives, and more.
 
-### 4. Transition
+Only executive board members can make formal votes. G-board members are always welcome to share their thoughts.
 
-- Newly elected officers are announced
-- Meet with outgoing officers for handoff
-- Begin planning for the upcoming year
+In late fall and early spring, the board elects the **development program** -- a 3-4 person team of first and second years. The goal is to give underclassmen real experience on a successful board. In the rare case of a full board turnover, the development program ensures continuity. This is how CSC stays stable and sustainable over time.
 
-## Tips for a Successful Campaign
+## A Note on How the Board Works
 
-**Before You Apply:**
+The team should have a huge bias for action. Being a visionary is cool; execution is what actually determines whether the year was a success.
 
-- Attend multiple CSC meetings to understand the club culture
-- Talk to current officers about their experience
-- Identify specific goals or improvements you'd like to make
-- Be honest about your availability and commitment
-
-**In Your Application:**
-
-- Be specific about your vision for the club
-- Highlight relevant experiences or skills
-- Show genuine enthusiasm (not just resume-building)
-- Explain how you'll support the community, not just lead it
-
-**During the Process:**
-
-- Listen to feedback from club members
-- Collaborate with other candidates
-- Focus on what benefits CSC, not just personal ambitions
-- Ask questions if you're unsure about the role
-
-<div class="warning-box">
-Remember: officers serve the club and its members. Leadership is about supporting others' growth, not just directing them!
-</div>
-
-## Common Questions
-
-**Q: Do I need previous officer experience?**
-A: No! Many great officers are running for their first leadership role. Enthusiasm and willingness to learn matter more.
-
-**Q: How much time does it take?**
-A: It depends on the position, but expect 5-15 hours per week during the academic year.
-
-**Q: Can I balance an officer role with internships/jobs?**
-A: Yes, but plan accordingly. Many officers manage multiple responsibilities—communication and time management are key.
-
-**Q: What if I lose the election?**
-A: You can still be involved as a regular member, volunteer for committees, or try again next year. Many great leaders don't win on their first attempt!
-
-**Q: What happens after my term ends?**
-A: You'll help transition to the new leadership team and can stay involved in mentorship or special projects.
-
-## Resources
-
-- **CSC Website**: Visit the main CSC page for current information
-- **Talk to current officers**: They're great sources of advice!
-- **CSC Discord/Slack**: Ask questions in the community channels
-- **Past meeting notes**: Review what the club has been working on
+Previous boards have found that keeping things lean is the right call. CSC used to run on just 7 board members. It expanded to 9 as the club grew, but the philosophy stays the same -- a smaller, aligned team makes decisions faster and moves together more easily.
 
 ---
 
-**Ready to run?** Keep an eye on CSC communications for election announcements, or reach out to current officers with questions. Good luck! 🚀
+For more context on CSC's governance and structure, see the [CSC Constitution](https://github.com/pittcsc/Documents/blob/master/Constitution.md).
