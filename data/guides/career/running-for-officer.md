@@ -34,7 +34,7 @@ Being a CSC officer is a volunteer position. Think honestly about whether you ca
 
 ## Why It's Worth It
 
-Being on the CSC board is a genuine honor — a privilege, not a right. You will be working alongside the best of what PittSCI has to offer, whether that is your fellow board members, the boards of partner clubs, or the members themselves -- who are the future of PittSCI.
+You will be working alongside the best of what PittSCI has to offer, whether that is your fellow board members, the boards of partner clubs, or the members themselves -- who are the future of PittSCI.
 
 Here is some of what past board members have walked away with:
 
@@ -45,7 +45,7 @@ Here is some of what past board members have walked away with:
 
 ## Officer Positions
 
-CSC has 9 officer positions. The roles are intentionally loose -- they define what you are responsible for at minimum and what you are best suited for, but the board is extremely flat. If you are the Director of Technology and want to help plan an event, nothing is stopping you. Roles define your floor, not your ceiling.
+CSC has 9 officer positions. The roles are looser than defined -- they define what you are responsible for at minimum and what you are best suited for, but the board is extremely flat. If you are the Director of Technology and want to help plan an event, nothing is stopping you. Roles define your floor, not your ceiling.
 
 CSC is also extremely high ownership. The lists below are not exhaustive. It is up to you to make things happen.
 
