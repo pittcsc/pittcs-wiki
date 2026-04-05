@@ -10,13 +10,20 @@ search_tags:
     "info sec",
     "info sci",
     "IS",
-    "robotics",
+    "ktp",
+    "mac",
+    "oasis",
+    "uxd",
+    "design",
+    "wicys",
+    "cybersecurity",
+    "t4g",
   ]
 ---
 
-Being a part of student organizations is an integral part of one's college experience. As a CS student at Pitt you'll have a large amount of clubs to choose from. In this guide we'll be introducing the clubs directly related to the Computer Science major.
+SCI hosts a number of organizations for students that provide opportunities to network, get to know your fellow students, and boost your leadership and professional skills.
 
-However, that doesn't mean you shouldn't join other non-CS related organizations! In fact we recommend joining both CS related and non-CS related student organizations. There are a lot of really cool people to meet at Pitt and doing so will allow you to meet a breadth of people.
+Being a part of student organizations is an integral part of one's college experience. We recommend joining both CS-related and non-CS-related organizations -- there are a lot of really cool people to meet at Pitt.
 
 **Note:** If you run a CS-related organization and would like to add or edit the profile of your org here, please email us at pittcsc@gmail.com!
 
@@ -50,38 +57,34 @@ CSC's programs include:
 
 Interested? Check out Pitt CSC's website [here](https://pittcsc.org/) for more information!
 
+## Design Club
+
+The Design Club at Pitt is a student organization dedicated to promoting user experience (UX) and user interface (UI) design. It's the first of its kind at Pitt, focusing on creating a community for students interested in the human-centered aspects of technology. The club provides a space for students to learn about and explore UX/UI design, product thinking, front-end development, and human-computer interaction.
+
+## Kappa Theta Pi (KTP)
+
+The world's first co-educational professional technology fraternity works to build an active community of students with a shared interest in technology. KTP sponsors events aimed to provide intellectual, social, and professional resources to members, and seeks to foster relationships within the local community and with corporations -- ultimately providing service and philanthropy to the local community.
+
+## Minority Association in Computing (MAC)
+
+MAC is focused on creating an inclusive environment that highlights different minority groups that are underrepresented in the field of technology. This includes both ethnicity and genders that are underrepresented. The club's main goals are community building, professional development, and mentorship. Learn more on the [MAC website](https://www.pittmac.org/).
+
+## Official Association for Students of Information Science (OASIS)
+
+OASIS is open to all undergraduate students who are majoring in information science, a related area, or just have an interest in learning more about information science. OASIS connects students and alumni to create a social and professional network that will set them up for success. Learn more on the [OASIS website](https://www.sci.pitt.edu/student-life/student-organizations/oasis).
+
+## SCI Graduate Student Organization (SCIGSO)
+
+All SCI graduate students are automatically members, though participation is optional. SCIGSO represents SCI graduate students in the University community, furthers the career and social interests of members, and provides a formal channel of communication between all members of the SCI community.
+
+## Technology for Good (T4G)
+
+Technology for Good is dedicated to growing the responsible technology community through learning, career growth, and research enrichment. The organization hosts events centered on hands-on development, understanding the responsible technology landscape, and bettering understanding of research and graduate school opportunities.
+
 ## Women in Computer Science (WiCS)
 
-WiCS is a student organization at Pitt dedicated to fostering a diversity friendly environment for those in the field of Computer Science and technology. Towards this endeavor, they host a wide variety of events and workshops all with diversity in mind.
+The goal of WiCS is to foster diversity in the field of computing. WiCS currently includes undergraduate, graduate, postgraduate, and faculty women in SCI. WiCS organizes industry experience, networking, and social events for its members as well as outreach and advocacy events.
 
-WiCS programs include:
+## Women in Cybersecurity (WiCyS)
 
-- WiCStart
-  - WiCStart is a week long freshman orientation for women in computer science!
-  - It takes place before fall classes begin and is designed to introduce undeclared women to computer science in a no-pressure, no-grades environment.
-  - There are no costs for attending WiCStart!
-- SheInnovates
-  - SheInnovates is a hackathon dedicated to promoting diversity of women in Computer Science.
-  - You can learn more about it [here](http://sheinnovates.us/)!
-- Events
-  - WiCS hosts events on a wide variety of topics.
-  - Past topics have included:
-    - Hangout Sessions
-    - Corporate Networking
-    - Diversity Workshops
-    - Programming Workshops
-
-Interested? Check out WiCS's website [here](http://www.wics.cs.pitt.edu/) for more information!
-
-## Robotics and Automation Society
-
-RAS was founded by a group a students with a strong desire to build robots and compete in robotics competitions around the world. Their mission is to provide hands-on experience in robotics, provide an avenue for students to recieve support from Pitt to compete in various competitions, and have fun! Competitions also come with opportunities to network with sponsors, other universities in the competition, and RAS alumni.
-
-In the past RAS has participated in a plethora of [robotics competitions and projects](https://www.raspitt.org/projects), including the following:
-
-- [Indy Autonomous Challenge](https://www.raspitt.org/mprw)- an autonomous Indy Race car!
-- [IARC Mission 7](https://www.raspitt.org/projects/iarc)- autonomous drone navigation and task completion!
-
-RAS encourages students to explore and have fun, it's a good place to see how software systems can interact with the real world and work with hardware.
-
-Interested? Check out RAS's website [here](https://www.raspitt.org/)!
+WiCyS wants to create a strong, inclusive community that encourages women and allies through education, mentorship, and professional development in cybersecurity. The organization strives to reduce the gender gap in the field by supporting students with their growth, leadership, skills, and connections to academic and industry opportunities.
