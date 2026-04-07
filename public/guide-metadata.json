@@ -51,13 +51,17 @@
     "authorEmail": "sjj27@pitt.edu",
     "originalAuthor": "Aarash Zakeri",
     "originalAuthorEmail": "sjj27@pitt.edu",
-    "updaters": [],
-    "updaterEmails": [],
+    "updaters": [
+      "Aarash Zakeri"
+    ],
+    "updaterEmails": [
+      "izear21@gmail.com"
+    ],
     "lastModified": "2023-11-28T19:56:49.000Z",
     "created": "2023-11-28T19:56:49.000Z",
-    "wordCount": 4300,
+    "wordCount": 4376,
     "readingTime": 22,
-    "commits": 3
+    "commits": 5
   },
   "guide-academics/majors/dnid": {
     "path": "academics/majors/dnid",
