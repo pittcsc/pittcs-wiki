@@ -47,9 +47,9 @@ I’d also encourage doing some general education courses at an asynchronous com
 
 ### Am I cooked because I’m not at a t20?
 
-Definitely not, but there’s no denying that you’re going to need to work harder than someone coasting through at a higher ranked school. You can definitely make your own opportunities. More importantly though, learning to be happy is the most valuable thing I’ve picked up at college, and comparison can ruin you, lock in and make yourself into who you want to be at a reasonable pace. It’s much more important to play the long game, and you’ll definitely regret trying to do too much at once. 
+Definitely not, but there’s no denying that you’re going to need to work harder than someone coasting through at a higher ranked school. You can definitely make your own opportunities. More importantly though, learning to be happy is the most valuable thing I’ve picked up at college, and comparison can ruin you, lock in and make yourself into who you want to be at a reasonable pace. It’s much more important to play the long game, and you’ll definitely regret trying to do too much at once.
 
-You won't do everything perfectly, and you're going to look back and wish you did at least one thing differently. However, if you're not making mistakes, you're not learning. Furthmore, if you're not happy with what you have now, you'll constantly be trying to fill a void that'll just swallow you up whole. 
+You won't do everything perfectly, and you're going to look back and wish you did at least one thing differently. However, if you're not making mistakes, you're not learning. Furthmore, if you're not happy with what you have now, you'll constantly be trying to fill a void that'll just swallow you up whole.
 
 ### What am I supposed to do after undergrad?
 
@@ -65,9 +65,9 @@ As the world is transforming and the current pinnacles of technology are becomin
 
 ### A fundamental problem with the technical comp bio courses
 
-You will be required to take multiple courses in computational biology. Specifically, you’ll need to take the introduction to computational biology course (BIOSC1540), one of computational genomics (BIOSC1542) or simulation and modeling (BIOSC1544), and a capstone course which is hands-on, unsupervised research or software development (BIOSC1640, CS1640). BIOSC1540 was one of the most conceptually challenging courses I ever took, and I had to fight tooth and nail for that A-. Professor Maldonado will push you hard, and he’ll provide you with the same rigor a PhD student could expect. It was a very rewarding course. However, its successors have weak prerequisites, which leads to classes that simply can’t be as intensive or foundational. Computational genomics / simulation and modeling only need you to know python syntax(not even object oriented programming), so naturally, the ceiling for how intense the courses are might not be very high depending on when you take them. In Computational genomics, there’s no programming outside basic R scripting and UNIX terminal commands, so the course is theoretical and follows wet-lab techniques. This feels even worse in the capstone course, which only requires you to know data structures (CS0445), and up to bio and gen chem 2 (BIOSC0160, CHEM0120). 
+You will be required to take multiple courses in computational biology. Specifically, you’ll need to take the introduction to computational biology course (BIOSC1540), one of computational genomics (BIOSC1542) or simulation and modeling (BIOSC1544), and a capstone course which is hands-on, unsupervised research or software development (BIOSC1640, CS1640). BIOSC1540 was one of the most conceptually challenging courses I ever took, and I had to fight tooth and nail for that A-. Professor Maldonado will push you hard, and he’ll provide you with the same rigor a PhD student could expect. It was a very rewarding course. However, its successors have weak prerequisites, which leads to classes that simply can’t be as intensive or foundational. Computational genomics / simulation and modeling only need you to know python syntax(not even object oriented programming), so naturally, the ceiling for how intense the courses are might not be very high depending on when you take them. In Computational genomics, there’s no programming outside basic R scripting and UNIX terminal commands, so the course is theoretical and follows wet-lab techniques. This feels even worse in the capstone course, which only requires you to know data structures (CS0445), and up to bio and gen chem 2 (BIOSC0160, CHEM0120).
 
-My capstone project had to do with machine learning and biochemistry, so not having a background in either could really take you for a turn. 
+My capstone project had to do with machine learning and biochemistry, so not having a background in either could really take you for a turn.
 
 There’s obviously nothing you can do about that, but it’s worth noting.
 
@@ -91,7 +91,7 @@ This course covers biology topics such as evolution, ecology, reproduction, and 
 
 **General Chemistry 1 (CHEM0110)**
 
-This covers the first half of chemistry topics from atomic theory to thermochemistry. An honors course is available. A lab is included in the course (4 hours once a week) unless it's a retake. 
+This covers the first half of chemistry topics from atomic theory to thermochemistry. An honors course is available. A lab is included in the course (4 hours once a week) unless it's a retake.
 
 **General Chemistry 2 (CHEM0120)**
 
@@ -153,7 +153,7 @@ BIOSC1540 is probably the most conceptually challenging class I’ve ever taken.
 
 **Computational Genomics (BIOSC1542) / Simulation and Modeling (BIOSC1544)**
 
-Computational genomics is offered every even year spring semester, and simulation and modeling is offered every odd year spring semester. I would try to take both courses, and view each as an opportunity to learn about a specific part of a larger field to see what you might like more. The prerequisites for the courses only expect you to be familiar with Python syntax at most, and I can personally attest that computational genomics requires virtually no previous programming experience, except for a couple homework assignments where you need to use R. 
+Computational genomics is offered every even year spring semester, and simulation and modeling is offered every odd year spring semester. I would try to take both courses, and view each as an opportunity to learn about a specific part of a larger field to see what you might like more. The prerequisites for the courses only expect you to be familiar with Python syntax at most, and I can personally attest that computational genomics requires virtually no previous programming experience, except for a couple homework assignments where you need to use R.
 
 I think the value of taking these courses is that you’ll undoubtedly get exposure to simulation pipelines, and get to see what goes on inside the mind of someone who would be using computational genomics tools to find an answer to a question that can only be revealed from mass amounts of data you can transform. It would certainly be a give you a leg up on other students who haven’t or can’t take the course, and you can really amplify your statement of purpose by already having experience and expectations.
 
@@ -191,9 +191,9 @@ Includes (W) writing requirement for the major. This course focuses on reading a
 
 ### You know yourself better than anyone
 
-Aside from foundational courses such as physics, math, statistics, and certain computer science courses. I don’t think it’s my place to recommend that you should double major in computer science / data science, or tell you to get a math / stats minor. I've observed the degree to have certain flaws in the specific preparation of some higher level courses, and that it sometimes fails to specifically require certain higher level courses. 
+Aside from foundational courses such as physics, math, statistics, and certain computer science courses. I don’t think it’s my place to recommend that you should double major in computer science / data science, or tell you to get a math / stats minor. I've observed the degree to have certain flaws in the specific preparation of some higher level courses, and that it sometimes fails to specifically require certain higher level courses.
 
-I am only going to list courses that I would specifically add to the degree, just because I don't list a course here doesn't mean that you shouldn't take it! If you want to take diffeq (MATH0290), take it. If you want to take stochastic processes (STAT1731), take it. You're the one doing the degree after all. 
+I am only going to list courses that I would specifically add to the degree, just because I don't list a course here doesn't mean that you shouldn't take it! If you want to take diffeq (MATH0290), take it. If you want to take stochastic processes (STAT1731), take it. You're the one doing the degree after all.
 
 I personally really wanted to take courses about operating systems, computer networking, compilers, and cloud computing, so because of that, I just happened to double major in computer science. I also just had more expectations out of classes like computational genomics to be a course with programming assignments. It definitely doesn’t mean my word is law. So in these recommendations, I will only ever list out some continuations to the cores in the degree that already exist, and some parts of the cores that I wish existed. Spend time learning and doing what you think you might like, and then spend the rest of your college career learning about the stuff you’ve discovered you enjoy. Remember, learning to be happy is more important than anything else.
 
@@ -201,7 +201,7 @@ I personally really wanted to take courses about operating systems, computer net
 
 #### Computer Science
 
-I’d recommend taking Computer Organization (CS0447), Systems Software (CS0449), Introduction to Machine Learning (CS1675), Algorithm Design (CS1510), and the other courses about natural language processing, computer vision, and deep learning depending on your interests. 
+I’d recommend taking Computer Organization (CS0447), Systems Software (CS0449), Introduction to Machine Learning (CS1675), Algorithm Design (CS1510), and the other courses about natural language processing, computer vision, and deep learning depending on your interests.
 
 Courses I’d say should 100% be on your radar are specifically 447, 449, 1510, and 1675.
 
@@ -209,13 +209,13 @@ Courses I’d say should 100% be on your radar are specifically 447, 449, 1510, 
 
 Every computational biologist should be familiar with low level programming languages, even if you’d use them way less compared to other languages like Python. A lot of Python libraries are written in C, and you’ll definitely be expected to know about the libraries you’re using when working on something. 447 and 449 are the appropriate prerequisites for learning about lower level languages as they teach you a bit about how computers work under the hood, and then have assignments based around using C and its debugger.
 
-To further reinforce my point, I'd encourage you to browse around some job postings at comp bio firms such as [Recursion](https://www.recursion.com), [DESRES](https://www.deshawresearch.com), [Schrödinger](https://www.schrodinger.com), and others to see what they expect their engineers to contribute to, and how. C++ is probably the most employable language right now in all applications of technology and across a variety of companies, so the best thing you can do for yourself is reinforce yourself with coursework using the language and its conventions. 
+To further reinforce my point, I'd encourage you to browse around some job postings at comp bio firms such as [Recursion](https://www.recursion.com), [DESRES](https://www.deshawresearch.com), [Schrödinger](https://www.schrodinger.com), and others to see what they expect their engineers to contribute to, and how. C++ is probably the most employable language right now in all applications of technology and across a variety of companies, so the best thing you can do for yourself is reinforce yourself with coursework using the language and its conventions.
 
 **1510**
 
 This course is hard, but I think I’d be doing you a disservice to not recommend it. Thinking is a very big part of any job, and this class will definitely help you learn to think. Dynamic programming, greedy algorithms, and parallel algorithms also have many applications in computational biology, and knowing about these algorithms will make you a much, much better scientist.
 
-Note that this means you'll also need to enroll in CS1502, so it's definitely a commitment, although a worthwhile one if you decide to go through. 
+Note that this means you'll also need to enroll in CS1502, so it's definitely a commitment, although a worthwhile one if you decide to go through.
 
 **1675**
 
@@ -233,21 +233,21 @@ Don’t discount math and statistics, remember, this is a degree that requires y
 
 **Math**
 
-I would definitely take the entire calculus series up until calc 3. Calc 2 is needed to understand some concepts in probability theory, but more importantly, calc 3 has concepts that are required to even understand what’s going on in machine learning. Machine learning and math go together like PB&J. Calc 2 was also my favorite class ever, but apparently that’s a hot take. Calc 3 is a super important class, so take it! 
+I would definitely take the entire calculus series up until calc 3. Calc 2 is needed to understand some concepts in probability theory, but more importantly, calc 3 has concepts that are required to even understand what’s going on in machine learning. Machine learning and math go together like PB&J. Calc 2 was also my favorite class ever, but apparently that’s a hot take. Calc 3 is a super important class, so take it!
 
 The course codes for calculus are MATH0220, 0230, and 0240.
 
-A good portion of computational biology is about simulations which are basically just a ton of calculations, so you’re going to want to get the processes of doing calculations to become second nature. 
+A good portion of computational biology is about simulations which are basically just a ton of calculations, so you’re going to want to get the processes of doing calculations to become second nature.
 
 **Statistics**
 
-Statistics and probability is likely even more foundational to being knowledge about many biological systems, and (once again) machine learning! Probability theory (STAT1151) and mathematical statistics (STAT1152) are going to teach you topics you’d carry for your entire career. 
+Statistics and probability is likely even more foundational to being knowledge about many biological systems, and (once again) machine learning! Probability theory (STAT1151) and mathematical statistics (STAT1152) are going to teach you topics you’d carry for your entire career.
 
-Probability theory has become indispensable in computer science, it's at the core of AI and ML which require decision making under uncertainty, it's integral to cs theory where randomization and probabilistic analysis is the basis of many algorithms, and it's needed to model the performance of systems and networks. 
+Probability theory has become indispensable in computer science, it's at the core of AI and ML which require decision making under uncertainty, it's integral to cs theory where randomization and probabilistic analysis is the basis of many algorithms, and it's needed to model the performance of systems and networks.
 
-Probability is also just as essential to biology, since you'll be finding yourself predicting random events, managing complex systems, and understanding molecular behavior. Genetics is literally just introductory probability theory. 
+Probability is also just as essential to biology, since you'll be finding yourself predicting random events, managing complex systems, and understanding molecular behavior. Genetics is literally just introductory probability theory.
 
-This also extends to quantum states, reaction liklihood, and molecular motion in chemistry and physics. 
+This also extends to quantum states, reaction liklihood, and molecular motion in chemistry and physics.
 
 #### Miscellaneous
 
