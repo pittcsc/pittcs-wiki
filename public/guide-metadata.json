@@ -33,26 +33,30 @@
     "authorEmail": "sjj27@pitt.edu",
     "originalAuthor": "Steven Jarmell",
     "originalAuthorEmail": "sjj27@pitt.edu",
-    "updaters": [],
-    "updaterEmails": [],
+    "updaters": [
+      "Jayden Kelly"
+    ],
+    "updaterEmails": [
+      "jaykelly924@gmail.com"
+    ],
     "lastModified": "2023-11-28T19:56:49.000Z",
     "created": "2023-11-28T19:56:49.000Z",
-    "wordCount": 67,
-    "readingTime": 1,
-    "commits": 3
+    "wordCount": 1232,
+    "readingTime": 7,
+    "commits": 4
   },
   "guide-academics/majors/comp-bio": {
     "path": "academics/majors/comp-bio",
-    "author": "Tao Sheng",
+    "author": "Aarash Zakeri",
     "authorEmail": "sjj27@pitt.edu",
-    "originalAuthor": "Tao Sheng",
+    "originalAuthor": "Aarash Zakeri",
     "originalAuthorEmail": "sjj27@pitt.edu",
     "updaters": [],
     "updaterEmails": [],
     "lastModified": "2023-11-28T19:56:49.000Z",
     "created": "2023-11-28T19:56:49.000Z",
-    "wordCount": 2171,
-    "readingTime": 11,
+    "wordCount": 4300,
+    "readingTime": 22,
     "commits": 3
   },
   "guide-academics/majors/dnid": {
@@ -103,13 +107,19 @@
     "authorEmail": "sjj27@pitt.edu",
     "originalAuthor": "Steven Jarmell",
     "originalAuthorEmail": "sjj27@pitt.edu",
-    "updaters": [],
-    "updaterEmails": [],
+    "updaters": [
+      "Shreyash Ranjan",
+      "liambrem"
+    ],
+    "updaterEmails": [
+      "56934841+codingshreyash@users.noreply.github.com",
+      "liam.e.brem@gmail.com"
+    ],
     "lastModified": "2023-11-28T19:56:49.000Z",
     "created": "2023-11-28T19:56:49.000Z",
     "wordCount": 1090,
     "readingTime": 6,
-    "commits": 3
+    "commits": 6
   },
   "guide-academics/prospective/infosci-vs-cs": {
     "path": "academics/prospective/infosci-vs-cs",
@@ -131,13 +141,19 @@
     "authorEmail": "sjj27@pitt.edu",
     "originalAuthor": "Joshua Spisak",
     "originalAuthorEmail": "sjj27@pitt.edu",
-    "updaters": [],
-    "updaterEmails": [],
+    "updaters": [
+      "Shreyash Ranjan",
+      "liambrem"
+    ],
+    "updaterEmails": [
+      "56934841+codingshreyash@users.noreply.github.com",
+      "liam.e.brem@gmail.com"
+    ],
     "lastModified": "2023-11-28T19:56:49.000Z",
     "created": "2023-11-28T19:56:49.000Z",
     "wordCount": 1012,
     "readingTime": 6,
-    "commits": 3
+    "commits": 6
   },
   "guide-academics/registration/CS1699-registration": {
     "path": "academics/registration/CS1699-registration",
@@ -201,8 +217,12 @@
     "authorEmail": "sjj27@pitt.edu",
     "originalAuthor": "Steven Jarmell",
     "originalAuthorEmail": "sjj27@pitt.edu",
-    "updaters": ["Shreyash Ranjan"],
-    "updaterEmails": ["56934841+codingshreyash@users.noreply.github.com"],
+    "updaters": [
+      "Shreyash Ranjan"
+    ],
+    "updaterEmails": [
+      "56934841+codingshreyash@users.noreply.github.com"
+    ],
     "lastModified": "2023-11-28T19:56:49.000Z",
     "created": "2023-11-28T19:56:49.000Z",
     "wordCount": 1340,
@@ -215,13 +235,19 @@
     "authorEmail": "56934841+codingshreyash@users.noreply.github.com",
     "originalAuthor": "Shreyash Ranjan",
     "originalAuthorEmail": "56934841+codingshreyash@users.noreply.github.com",
-    "updaters": ["David"],
-    "updaterEmails": ["136610493+dvdzs8@users.noreply.github.com"],
+    "updaters": [
+      "David",
+      "liambrem"
+    ],
+    "updaterEmails": [
+      "136610493+dvdzs8@users.noreply.github.com",
+      "liam.e.brem@gmail.com"
+    ],
     "lastModified": "2023-11-28T19:56:49.000Z",
     "created": "2023-11-28T19:56:49.000Z",
     "wordCount": 2171,
     "readingTime": 11,
-    "commits": 9
+    "commits": 12
   },
   "guide-academics/succeed-in-course-x/succeed-in-1501": {
     "path": "academics/succeed-in-course-x/succeed-in-1501",
@@ -229,8 +255,12 @@
     "authorEmail": "sjj27@pitt.edu",
     "originalAuthor": "Nathan Barta",
     "originalAuthorEmail": "sjj27@pitt.edu",
-    "updaters": ["liambrem"],
-    "updaterEmails": ["liam.e.brem@gmail.com"],
+    "updaters": [
+      "liambrem"
+    ],
+    "updaterEmails": [
+      "liam.e.brem@gmail.com"
+    ],
     "lastModified": "2023-11-28T19:56:49.000Z",
     "created": "2023-11-28T19:56:49.000Z",
     "wordCount": 2157,
@@ -271,7 +301,11 @@
     "authorEmail": "sjj27@pitt.edu",
     "originalAuthor": "Gordon Lu",
     "originalAuthorEmail": "sjj27@pitt.edu",
-    "updaters": ["Shreyash Ranjan", "Denys Tsinyk", "liambrem"],
+    "updaters": [
+      "Shreyash Ranjan",
+      "Denys Tsinyk",
+      "liambrem"
+    ],
     "updaterEmails": [
       "56934841+codingshreyash@users.noreply.github.com",
       "denystsinyk@gmail.com",
@@ -279,9 +313,9 @@
     ],
     "lastModified": "2023-11-28T19:56:49.000Z",
     "created": "2023-11-28T19:56:49.000Z",
-    "wordCount": 1343,
+    "wordCount": 1258,
     "readingTime": 7,
-    "commits": 6
+    "commits": 7
   },
   "guide-career/career-fair": {
     "path": "career/career-fair",
@@ -289,8 +323,12 @@
     "authorEmail": "sjj27@pitt.edu",
     "originalAuthor": "Steven Jarmell",
     "originalAuthorEmail": "sjj27@pitt.edu",
-    "updaters": ["Shreyash Ranjan"],
-    "updaterEmails": ["56934841+codingshreyash@users.noreply.github.com"],
+    "updaters": [
+      "Shreyash Ranjan"
+    ],
+    "updaterEmails": [
+      "56934841+codingshreyash@users.noreply.github.com"
+    ],
     "lastModified": "2023-11-28T19:56:49.000Z",
     "created": "2023-11-28T19:56:49.000Z",
     "wordCount": 1888,
@@ -303,13 +341,17 @@
     "authorEmail": "sjj27@pitt.edu",
     "originalAuthor": "Steven Jarmell",
     "originalAuthorEmail": "sjj27@pitt.edu",
-    "updaters": [],
-    "updaterEmails": [],
+    "updaters": [
+      "Shreyash Ranjan"
+    ],
+    "updaterEmails": [
+      "56934841+codingshreyash@users.noreply.github.com"
+    ],
     "lastModified": "2023-11-28T19:56:49.000Z",
     "created": "2023-11-28T19:56:49.000Z",
-    "wordCount": 874,
+    "wordCount": 859,
     "readingTime": 5,
-    "commits": 3
+    "commits": 5
   },
   "guide-career/general-college-advice": {
     "path": "career/general-college-advice",
@@ -331,8 +373,12 @@
     "authorEmail": "sjj27@pitt.edu",
     "originalAuthor": "Steven Jarmell",
     "originalAuthorEmail": "sjj27@pitt.edu",
-    "updaters": ["Shreyash Ranjan"],
-    "updaterEmails": ["56934841+codingshreyash@users.noreply.github.com"],
+    "updaters": [
+      "Shreyash Ranjan"
+    ],
+    "updaterEmails": [
+      "56934841+codingshreyash@users.noreply.github.com"
+    ],
     "lastModified": "2023-11-28T19:56:49.000Z",
     "created": "2023-11-28T19:56:49.000Z",
     "wordCount": 347,
@@ -345,8 +391,12 @@
     "authorEmail": "sjj27@pitt.edu",
     "originalAuthor": "Steven Jarmell",
     "originalAuthorEmail": "sjj27@pitt.edu",
-    "updaters": ["Shreyash Ranjan"],
-    "updaterEmails": ["56934841+codingshreyash@users.noreply.github.com"],
+    "updaters": [
+      "Shreyash Ranjan"
+    ],
+    "updaterEmails": [
+      "56934841+codingshreyash@users.noreply.github.com"
+    ],
     "lastModified": "2023-11-28T19:56:49.000Z",
     "created": "2023-11-28T19:56:49.000Z",
     "wordCount": 209,
@@ -391,9 +441,9 @@
     "updaterEmails": [],
     "lastModified": "2025-11-23T15:30:42.000Z",
     "created": "2025-11-23T15:30:42.000Z",
-    "wordCount": 753,
-    "readingTime": 4,
-    "commits": 3
+    "wordCount": 1143,
+    "readingTime": 6,
+    "commits": 4
   },
   "guide-career/study-plan": {
     "path": "career/study-plan",
@@ -429,13 +479,19 @@
     "authorEmail": "sjj27@pitt.edu",
     "originalAuthor": "Steven Jarmell",
     "originalAuthorEmail": "sjj27@pitt.edu",
-    "updaters": [],
-    "updaterEmails": [],
+    "updaters": [
+      "Shreyash Ranjan",
+      "liambrem"
+    ],
+    "updaterEmails": [
+      "56934841+codingshreyash@users.noreply.github.com",
+      "liam.e.brem@gmail.com"
+    ],
     "lastModified": "2023-11-28T19:56:49.000Z",
     "created": "2023-11-28T19:56:49.000Z",
     "wordCount": 1628,
     "readingTime": 9,
-    "commits": 3
+    "commits": 6
   },
   "guide-career/working-at-startup": {
     "path": "career/working-at-startup",
@@ -457,16 +513,20 @@
     "authorEmail": "sjj27@pitt.edu",
     "originalAuthor": "Steven Jarmell",
     "originalAuthorEmail": "sjj27@pitt.edu",
-    "updaters": ["Shreyash Ranjan"],
-    "updaterEmails": ["56934841+codingshreyash@users.noreply.github.com"],
+    "updaters": [
+      "Shreyash Ranjan"
+    ],
+    "updaterEmails": [
+      "56934841+codingshreyash@users.noreply.github.com"
+    ],
     "lastModified": "2023-11-28T19:56:49.000Z",
     "created": "2023-11-28T19:56:49.000Z",
     "wordCount": 677,
     "readingTime": 4,
     "commits": 4
   },
-  "guide-skills/csc-dev-lab/what-is-csc-dev-lab": {
-    "path": "skills/csc-dev-lab/what-is-csc-dev-lab",
+  "guide-skills/csc-dev-lab/0-what-is-csc-dev-lab": {
+    "path": "skills/csc-dev-lab/0-what-is-csc-dev-lab",
     "author": "Shreyash Ranjan",
     "authorEmail": "56934841+codingshreyash@users.noreply.github.com",
     "originalAuthor": "Shreyash Ranjan",
@@ -477,7 +537,135 @@
     "created": "2025-12-17",
     "wordCount": 470,
     "readingTime": 3,
+    "commits": 8
+  },
+  "guide-skills/csc-dev-lab/1-getting-started": {
+    "path": "skills/csc-dev-lab/1-getting-started",
+    "author": "Liam Brem",
+    "authorEmail": "56934841+codingshreyash@users.noreply.github.com",
+    "originalAuthor": "Liam Brem",
+    "originalAuthorEmail": "56934841+codingshreyash@users.noreply.github.com",
+    "updaters": [],
+    "updaterEmails": [],
+    "lastModified": "2026-01-14T21:27:26.000Z",
+    "created": "2026-01-05",
+    "wordCount": 779,
+    "readingTime": 4,
+    "commits": 1
+  },
+  "guide-skills/csc-dev-lab/2-version-control": {
+    "path": "skills/csc-dev-lab/2-version-control",
+    "author": "Liam Brem",
+    "authorEmail": "56934841+codingshreyash@users.noreply.github.com",
+    "originalAuthor": "Liam Brem",
+    "originalAuthorEmail": "56934841+codingshreyash@users.noreply.github.com",
+    "updaters": [],
+    "updaterEmails": [],
+    "lastModified": "2026-01-14T21:27:26.000Z",
+    "created": "2026-01-06",
+    "wordCount": 1263,
+    "readingTime": 7,
     "commits": 2
+  },
+  "guide-skills/csc-dev-lab/3-clean-code": {
+    "path": "skills/csc-dev-lab/3-clean-code",
+    "author": "Liam Brem",
+    "authorEmail": "56934841+codingshreyash@users.noreply.github.com",
+    "originalAuthor": "Liam Brem",
+    "originalAuthorEmail": "56934841+codingshreyash@users.noreply.github.com",
+    "updaters": [],
+    "updaterEmails": [],
+    "lastModified": "2026-01-14T21:27:26.000Z",
+    "created": "2026-01-08",
+    "wordCount": 732,
+    "readingTime": 4,
+    "commits": 1
+  },
+  "guide-skills/csc-dev-lab/4-testing": {
+    "path": "skills/csc-dev-lab/4-testing",
+    "author": "Liam Brem",
+    "authorEmail": "liam.e.brem@gmail.com",
+    "originalAuthor": "Liam Brem",
+    "originalAuthorEmail": "liam.e.brem@gmail.com",
+    "updaters": [],
+    "updaterEmails": [],
+    "lastModified": "2026-01-14T01:48:08.000Z",
+    "created": "2026-01-09",
+    "wordCount": 871,
+    "readingTime": 5,
+    "commits": 2
+  },
+  "guide-skills/csc-dev-lab/5-agile": {
+    "path": "skills/csc-dev-lab/5-agile",
+    "author": "Shreyash Ranjan",
+    "authorEmail": "56934841+codingshreyash@users.noreply.github.com",
+    "originalAuthor": "Shreyash Ranjan",
+    "originalAuthorEmail": "56934841+codingshreyash@users.noreply.github.com",
+    "updaters": [
+      "liambrem"
+    ],
+    "updaterEmails": [
+      "liam.e.brem@gmail.com"
+    ],
+    "lastModified": "2026-01-14T21:27:26.000Z",
+    "created": "2025-01-14",
+    "wordCount": 1188,
+    "readingTime": 6,
+    "commits": 5
+  },
+  "guide-skills/csc-dev-lab/6-code-review": {
+    "path": "skills/csc-dev-lab/6-code-review",
+    "author": "Shreyash Ranjan",
+    "authorEmail": "56934841+codingshreyash@users.noreply.github.com",
+    "originalAuthor": "Shreyash Ranjan",
+    "originalAuthorEmail": "56934841+codingshreyash@users.noreply.github.com",
+    "updaters": [
+      "liambrem"
+    ],
+    "updaterEmails": [
+      "liam.e.brem@gmail.com"
+    ],
+    "lastModified": "2026-01-14T21:27:26.000Z",
+    "created": "2025-01-14",
+    "wordCount": 1455,
+    "readingTime": 8,
+    "commits": 4
+  },
+  "guide-skills/csc-dev-lab/7-design-docs": {
+    "path": "skills/csc-dev-lab/7-design-docs",
+    "author": "Shreyash Ranjan",
+    "authorEmail": "56934841+codingshreyash@users.noreply.github.com",
+    "originalAuthor": "Shreyash Ranjan",
+    "originalAuthorEmail": "56934841+codingshreyash@users.noreply.github.com",
+    "updaters": [
+      "liambrem"
+    ],
+    "updaterEmails": [
+      "liam.e.brem@gmail.com"
+    ],
+    "lastModified": "2026-01-14T21:27:26.000Z",
+    "created": "2025-01-14",
+    "wordCount": 1444,
+    "readingTime": 8,
+    "commits": 6
+  },
+  "guide-skills/csc-dev-lab/8-when-to-use-ai": {
+    "path": "skills/csc-dev-lab/8-when-to-use-ai",
+    "author": "Shreyash Ranjan",
+    "authorEmail": "56934841+codingshreyash@users.noreply.github.com",
+    "originalAuthor": "Shreyash Ranjan",
+    "originalAuthorEmail": "56934841+codingshreyash@users.noreply.github.com",
+    "updaters": [
+      "liambrem"
+    ],
+    "updaterEmails": [
+      "liam.e.brem@gmail.com"
+    ],
+    "lastModified": "2026-01-14T22:53:46.000Z",
+    "created": "2025-12-17",
+    "wordCount": 1614,
+    "readingTime": 9,
+    "commits": 3
   },
   "guide-skills/external-resources": {
     "path": "skills/external-resources",
@@ -485,8 +673,12 @@
     "authorEmail": "sjj27@pitt.edu",
     "originalAuthor": "Steven Jarmell",
     "originalAuthorEmail": "sjj27@pitt.edu",
-    "updaters": ["Shreyash Ranjan"],
-    "updaterEmails": ["56934841+codingshreyash@users.noreply.github.com"],
+    "updaters": [
+      "Shreyash Ranjan"
+    ],
+    "updaterEmails": [
+      "56934841+codingshreyash@users.noreply.github.com"
+    ],
     "lastModified": "2023-11-28T19:56:49.000Z",
     "created": "2023-11-28T19:56:49.000Z",
     "wordCount": 110,
@@ -541,7 +733,11 @@
     "authorEmail": "sjj27@pitt.edu",
     "originalAuthor": "Alex Zharichenko",
     "originalAuthorEmail": "sjj27@pitt.edu",
-    "updaters": ["braynguyen", "Brayden Nguyen", "Shreyash Ranjan"],
+    "updaters": [
+      "braynguyen",
+      "Brayden Nguyen",
+      "Shreyash Ranjan"
+    ],
     "updaterEmails": [
       "btn16@pitt.edu",
       "112491386+braynguyen@users.noreply.github.com",
@@ -609,14 +805,32 @@
     "readingTime": 3,
     "commits": 4
   },
+  "guide-skills/student-success": {
+    "path": "skills/student-success",
+    "author": "Shreyash Ranjan",
+    "authorEmail": "56934841+codingshreyash@users.noreply.github.com",
+    "originalAuthor": "Shreyash Ranjan",
+    "originalAuthorEmail": "56934841+codingshreyash@users.noreply.github.com",
+    "updaters": [],
+    "updaterEmails": [],
+    "lastModified": "2026-01-22T00:36:08.000Z",
+    "created": "2026-01-22T00:36:08.000Z",
+    "wordCount": 361,
+    "readingTime": 2,
+    "commits": 3
+  },
   "guide-zero-to-offer/ace-your-interview": {
     "path": "zero-to-offer/ace-your-interview",
     "author": "Steven Jarmell",
     "authorEmail": "sjj27@pitt.edu",
     "originalAuthor": "Steven Jarmell",
     "originalAuthorEmail": "sjj27@pitt.edu",
-    "updaters": ["Shreyash Ranjan"],
-    "updaterEmails": ["56934841+codingshreyash@users.noreply.github.com"],
+    "updaters": [
+      "Shreyash Ranjan"
+    ],
+    "updaterEmails": [
+      "56934841+codingshreyash@users.noreply.github.com"
+    ],
     "lastModified": "2023-11-28T19:56:49.000Z",
     "created": "2023-11-28T19:56:49.000Z",
     "wordCount": 1270,
@@ -629,8 +843,12 @@
     "authorEmail": "sjj27@pitt.edu",
     "originalAuthor": "Steven Jarmell",
     "originalAuthorEmail": "sjj27@pitt.edu",
-    "updaters": ["Shreyash Ranjan"],
-    "updaterEmails": ["56934841+codingshreyash@users.noreply.github.com"],
+    "updaters": [
+      "Shreyash Ranjan"
+    ],
+    "updaterEmails": [
+      "56934841+codingshreyash@users.noreply.github.com"
+    ],
     "lastModified": "2023-11-28T19:56:49.000Z",
     "created": "2023-11-28T19:56:49.000Z",
     "wordCount": 1805,
@@ -643,8 +861,12 @@
     "authorEmail": "sjj27@pitt.edu",
     "originalAuthor": "Steven Jarmell",
     "originalAuthorEmail": "sjj27@pitt.edu",
-    "updaters": ["Shreyash Ranjan"],
-    "updaterEmails": ["56934841+codingshreyash@users.noreply.github.com"],
+    "updaters": [
+      "Shreyash Ranjan"
+    ],
+    "updaterEmails": [
+      "56934841+codingshreyash@users.noreply.github.com"
+    ],
     "lastModified": "2023-11-28T19:56:49.000Z",
     "created": "2023-11-28T19:56:49.000Z",
     "wordCount": 1726,
@@ -657,8 +879,12 @@
     "authorEmail": "sjj27@pitt.edu",
     "originalAuthor": "Steven Jarmell",
     "originalAuthorEmail": "sjj27@pitt.edu",
-    "updaters": ["Shreyash Ranjan"],
-    "updaterEmails": ["56934841+codingshreyash@users.noreply.github.com"],
+    "updaters": [
+      "Shreyash Ranjan"
+    ],
+    "updaterEmails": [
+      "56934841+codingshreyash@users.noreply.github.com"
+    ],
     "lastModified": "2023-11-28T19:56:49.000Z",
     "created": "2023-11-28T19:56:49.000Z",
     "wordCount": 1326,
@@ -671,8 +897,12 @@
     "authorEmail": "sjj27@pitt.edu",
     "originalAuthor": "Steven Jarmell",
     "originalAuthorEmail": "sjj27@pitt.edu",
-    "updaters": ["Shreyash Ranjan"],
-    "updaterEmails": ["56934841+codingshreyash@users.noreply.github.com"],
+    "updaters": [
+      "Shreyash Ranjan"
+    ],
+    "updaterEmails": [
+      "56934841+codingshreyash@users.noreply.github.com"
+    ],
     "lastModified": "2023-11-28T19:56:49.000Z",
     "created": "2023-11-28T19:56:49.000Z",
     "wordCount": 1154,
@@ -685,8 +915,12 @@
     "authorEmail": "sjj27@pitt.edu",
     "originalAuthor": "Steven Jarmell",
     "originalAuthorEmail": "sjj27@pitt.edu",
-    "updaters": ["Shreyash Ranjan"],
-    "updaterEmails": ["56934841+codingshreyash@users.noreply.github.com"],
+    "updaters": [
+      "Shreyash Ranjan"
+    ],
+    "updaterEmails": [
+      "56934841+codingshreyash@users.noreply.github.com"
+    ],
     "lastModified": "2023-11-28T19:56:49.000Z",
     "created": "2023-11-28T19:56:49.000Z",
     "wordCount": 318,
