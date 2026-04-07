@@ -21,7 +21,7 @@ search_tags:
 
 Computational biology is an interdisciplinary field that specializes in the use of mathematical modeling, algorithms, and machine learning to frame complicated biological problems into less complicated computational or mathematical problems. It’s not a field that’s typically not offered to undergraduates at many universities, and success in the field requires a strong foundation of many computer science conventions, backed up by a strong intuition on biology. The most successful in the field of computational biology will be able to truly draw connections between both disciplines of computer and life sciences.
 
-The computational biology degree for undergraduates is a joint degree between the School of Computing and Information and Dietrich School of Arts and Sciences, and students are able to choose which school they’d like to be in while pursuing the degree. However, it is worth noting that there are substantial differences between the degree requirements, and that computational biology at Pitt might not be what you expect.
+The computational biology degree for undergraduates is a joint degree between the [School of Computing and Information](https://www.sci.pitt.edu) and [Dietrich School of Arts and Sciences](https://www.asundergrad.pitt.edu), and students are able to choose which school they’d like to be in while pursuing the degree. However, it is worth noting that there are substantial differences between the degree requirements, and that computational biology at Pitt might not be what you expect.
 
 ## Forewarning about the Degree
 
@@ -35,7 +35,7 @@ A glaring issue is the degree’s lack of math and statistics prerequisites requ
 
 This means enrolling in calculus 2-3 and matrices (MATH0230-MATH0240, MATH0280), probability theory (STAT1151 and STAT1152), taking physics 1 for engineers (PHYS0174), and many other computer science courses such as computer organization and systems, machine learning, artificial intelligence, and whatever other courses may interest you (CS0447, CS0449, CS1675, CS1571, etc). To stay competitive with students doing the same degree but at top programs like CMU, MIT, or Stanford, you need to take the same coursework and be confident in the same topics that employers would expect any computational biologist to know.
 
-To further reinforce why you can’t necessarily blindly follow the degree, the PhD program for computational biology at Pitt and CMU is actually a joint program. Furthermore, one of the first classes you’d take upon entering the PhD program is an Advanced Introduction to Machine Learning at CMU (10-715), and the prerequisites for that class is discrete math, probability theory, matrices, calculus 3, and proficiency in python. If you don’t even take these courses during your undergraduate, how could you even try and get admitted/succeed into a program whose first semester course requires it?
+To further reinforce why you can’t necessarily blindly follow the degree, the PhD program for computational biology at Pitt and CMU is actually a joint program. Furthermore, one of the first classes you’d take upon entering the PhD program is an [Advanced Introduction to Machine Learning at CMU (10-715)](https://www.cs.cmu.edu/~nihars/teaching/10715Fa25.html), and the [prerequisites](https://www.cs.cmu.edu/~nihars/teaching/10715Fa25.html#:~:text=Students%20entering%20the,be%20supporting%20Python).) for that class is discrete math, probability theory, matrices, calculus 3, and proficiency in python. If you don’t even take these courses during your undergraduate, how could you even try and get admitted/succeed into a program whose first semester course requires it?
 
 ### Dietrich or SCI?
 
@@ -43,7 +43,7 @@ I believe that it wouldn’t be an understatement to say that it’d be much har
 
 SCI is naturally more flexible due to inherently not being an arts school, so you can spend your credits actually doing STEM courses that you need to be successful, and extra courses that you might find super interesting(I am personally a double major in computational biology AND computer science).
 
-I’d also encourage doing some general education courses at an asynchronous community college over the summer for as much as you can, to offload your semesters. Dietrich is more flexible about this when you’re over 90 credits compared to SCI who would be much more strict about it.
+I’d also encourage doing some general education courses at an asynchronous community college over the summer for as much as you can, to offload your semesters. [Dietrich](https://www.asundergrad.pitt.edu/academics/procedures-and-forms) is more flexible about this when you’re over 90 credits compared to [SCI](https://www.sci.pitt.edu/student-resources/undergraduate-forms) who would be much more strict about it.
 
 ### Am I cooked because I’m not at a t20?
 
@@ -57,9 +57,9 @@ I would not be part of this degree if you’re looking to enter the industry as 
 
 ### Pre-meds can be computational biologists
 
-As the world is transforming and the current pinnacles of technology are becoming more available, it’s especially important for the next generation of physicians to be technologically adept. You can definitely be an undergraduate with aspirations to study medicine, and there’s a growing space for physician-scientists. It’s a good way to stand out, but I’d be extremely careful about what courses you take as a pre-med, as a strong GPA is imperative to success in the field, and the admission officers for med school are extremely unforgiving. Just make sure you look at what the admission requirements are with relation to coursework at med schools and that you take those courses.
+As the world is transforming and the current pinnacles of technology are becoming more available, it’s especially important for the next generation of physicians to be technologically adept. You can definitely be an undergraduate with aspirations to study medicine, and there’s a growing space for [physician-scientists](https://students-residents.aamc.org/applying-md/phd-programs/md-phd-degree-programs-state). It’s a good way to stand out, but I’d be extremely careful about what courses you take as a pre-med, as a strong GPA is imperative to success in the field, and the admission officers for med school are extremely unforgiving. Just make sure you look at what the [admission requirements](https://www.medadmissions.pitt.edu/admissions/you-apply/academic-requirements#:~:text=be:-,REQUIRED,the%202026%20admissions%20cycle) are with relation to coursework at med schools and that you take those courses.
 
-**This bit is definitely to scare pre-meds, so please read:** I know a guy who got a B in organic chemistry 1, and when interviewing for med school, the interviewers asked him why he got a B in organic chemistry. Do **NOT** major in computational biology if you don’t think you can succeed in **ALL** of its disciplines.
+**This bit is definitely to scare pre-meds, so please read:** I know a guy who got a B in organic chemistry 1, and when interviewing for med school, the interviewers asked him why he got a B in organic chemistry. Do **NOT** major in computational biology if you don’t think you can succeed in **ALL** of its disciplines. The process is [uber competitive](https://www.medadmissions.pitt.edu/admissions/who-we-are/class-profile), so tread lightly.
 
 ### A fundamental problem with the comp bio courses
 
@@ -200,6 +200,8 @@ Courses I’d say should 100% be on your radar are specifically 447, 449, 1510, 
 
 Every computational biologist should be familiar with low level programming languages, even if you’d use them way less compared to other languages like Python. A lot of Python libraries are written in C, and you’ll definitely be expected to know about the libraries you’re using in the field. 447 and 449 are the appropriate prerequisites for learning about lower level languages as they teach you a bit about how computers work under the hood.
 
+To further reinforce my point, I'd encourage you to browse around some job postings at comp bio firms such as Recursion, DESRES, Schrödinger, and others to see what they expect their engineers to contribute to, and how. C++ is probably the most employable language right now in all applications of technology, so the best thing you can do for yourself is reinforce yourself with coursework using the language. 
+
 **1510**
 
 This course is hard, but I think I’d be doing you a disservice to not recommend it. Thinking is a very big part of the job, and this class will definitely help you learn to think. Dynamic programming also has applications (specifically in comp genomics) in computational biology, and knowing about algorithms will make you a much, much better scientist.
@@ -232,7 +234,7 @@ Statistics and probability is likely even more foundational to being knowledge a
 
 #### Miscellaneous
 
-It’s also worth noting that you can cross register for courses at CMU. They have a lot more variety in computational biology, so make sure to check them out for something interesting that Pitt might not offer. I’ve always wanted to try and take their string algorithms course (02-414) or epigenetics class (02-319).
+It’s also worth noting that you can [cross register for courses at CMU](https://www.cmu.edu/hub/registrar/registration/cross/incoming.html). They have a lot more variety in [computational biology](https://www.cmu.edu/cbd/education/undergrad-courses.html), so make sure to check them out for something interesting that Pitt might not offer. I’ve always wanted to try and take their string algorithms course (02-414) or epigenetics class (02-319).
 
 ### Scheduling
 
