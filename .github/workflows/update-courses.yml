@@ -30,7 +30,7 @@ jobs:
 
       - name: Commit and push changes
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.WIKI_PAT }}
         run: |
           git config --global user.name 'GitHub Action'
           git config --global user.email 'action@github.com'

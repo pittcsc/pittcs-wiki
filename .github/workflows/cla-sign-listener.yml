@@ -1,0 +1,18 @@
+name: CLA Sign Listener
+
+on:
+  issue_comment:
+    types: [created]
+
+permissions:
+  issues: write
+  pull-requests: write
+
+jobs:
+  call-central-bot:
+    if: ${{ github.event.issue.pull_request && contains(github.event.comment.body, 'I have read the CLA Document and I hereby sign the CLA') }}
+
+    uses: pittcsc/contributor-license-agreement/.github/workflows/cla-sign.yml@main
+
+    secrets:
+      CLA_BOT_TOKEN: ${{ secrets.CLA_BOT_TOKEN }}
