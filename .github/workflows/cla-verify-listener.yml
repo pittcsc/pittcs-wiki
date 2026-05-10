@@ -1,0 +1,12 @@
+name: CLA Signature Check
+
+on:
+  pull_request_target:
+    types: [opened, synchronize, reopened]
+
+permissions:
+  pull-requests: write
+
+jobs:
+  verify-cla:
+    uses: pittcsc/contributor-license-agreement/.github/workflows/cla-verify.yml@main 
