@@ -9,4 +9,4 @@ permissions:
 
 jobs:
   verify-cla:
-    uses: pittcsc/contributor-license-agreement/.github/workflows/cla-verify.yml@main 
+    uses: pittcsc/contributor-license-agreement/.github/workflows/cla-verify.yml@main
