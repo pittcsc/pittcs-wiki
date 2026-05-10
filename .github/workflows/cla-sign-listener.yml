@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   call-central-bot:
-    if: ${{ github.event.issue.pull_request && contains(github.event.comment.body, 'I have read the CLA Document and I hereby sign the CLA') }}
+    if: ${{ github.event.issue.pull_request && contains(github.event.comment.body, 'I have read and agree to the PittCSC CLA') }}
 
     uses: pittcsc/contributor-license-agreement/.github/workflows/cla-sign.yml@main
 
