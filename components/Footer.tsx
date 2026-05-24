@@ -47,7 +47,7 @@ const Footer = (): JSX.Element => {
             Feedback
           </Link>
           <Link
-            href="https://github.com/pittcsc/pittcswiki-next"
+            href="https://github.com/pittcsc/pittcs-wiki"
             target="_blank"
             className="text-gray-600 dark:text-gray-300 hover:text-[#FFB81C] transition-colors duration-200"
           >
