@@ -8,8 +8,8 @@
     "build": "npm run generate-metadata && next build",
     "start": "next start",
     "lint": "next lint",
-    "format": "prettier --check --ignore-path .gitignore .",
-    "format:fix": "prettier --write --ignore-path .gitignore .",
+    "format": "prettier --check .",
+    "format:fix": "prettier --write .",
     "test": "jest",
     "test:watch": "jest --watch"
   },
