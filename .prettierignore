@@ -7,3 +7,6 @@ coverage
 
 # Ignore temp files
 temp_course_page.html
+
+# Ignore auto-generated course file
+data/CourseInfoData.ts

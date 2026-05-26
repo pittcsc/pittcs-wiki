@@ -73,7 +73,9 @@ async function scrapeCourses() {
 
   const courses: CourseData[] = []
 
-  let courseIndex = 0
+  const coursesMap = new Map<string, TermsOffered>()
+  for (const course of CourseInfoData.courses)
+    coursesMap.set(course.id, course.terms_offered)
 
   for (const link of uniqueLinks) {
     const fullUrl = `${BASE_URL}${link}`
@@ -141,13 +143,13 @@ async function scrapeCourses() {
       )
       const requirements = reqMatch ? reqMatch[1].trim() : ""
 
-      while (CourseInfoData.courses[courseIndex].id != id) courseIndex++
-
       // Extract Terms Offered
       const termsOffered: TermsOffered = {
-        FALL: CourseInfoData.courses[courseIndex].terms_offered.FALL,
-        SPRING: CourseInfoData.courses[courseIndex].terms_offered.SPRING,
-        SUMMER: CourseInfoData.courses[courseIndex].terms_offered.SUMMER,
+        ...(coursesMap.get(id) ?? {
+          FALL: false,
+          SPRING: false,
+          SUMMER: false,
+        }),
       }
 
       const currentSectionsText = $detail('h2:contains("Current Sections")')
