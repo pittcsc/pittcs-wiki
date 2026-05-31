@@ -9,7 +9,7 @@ export type CourseInfoDataType = {
 
 export const CourseInfoData: CourseInfoDataType = {
   "metadata": {
-    "generated": "2026-04-21T22:34:46.861Z"
+    "generated": "2026-05-31T01:19:33.814Z"
   },
   "courses": [
     {
@@ -38,9 +38,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": [
-        "Rachel Parkes"
-      ]
+      "instructors": []
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CMPINF-0010",
@@ -54,9 +52,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": [
-        "Joseph Graham"
-      ]
+      "instructors": []
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CMPINF-0011",
@@ -70,9 +66,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": [
-        "Joseph Graham"
-      ]
+      "instructors": []
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CMPINF-0020",
@@ -784,9 +778,11 @@ export const CourseInfoData: CourseInfoDataType = {
       "terms_offered": {
         "FALL": false,
         "SPRING": false,
-        "SUMMER": false
+        "SUMMER": true
       },
-      "instructors": []
+      "instructors": [
+        "Minhee YunEmily Bennett"
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CMPINF-0401",
@@ -798,11 +794,10 @@ export const CourseInfoData: CourseInfoDataType = {
       "terms_offered": {
         "FALL": true,
         "SPRING": true,
-        "SUMMER": false
+        "SUMMER": true
       },
       "instructors": [
-        "Nadine v. F. u. Ludwigsdorff",
-        "Timothy Hoffman"
+        "John Ramirez"
       ]
     },
     {
@@ -845,9 +840,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": [
-        "Christopher MaverickDmitriy Babichenko"
-      ]
+      "instructors": []
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CMPINF-1205",
@@ -861,9 +854,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": [
-        "Song Shi"
-      ]
+      "instructors": []
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CMPINF-1207",
@@ -917,10 +908,10 @@ export const CourseInfoData: CourseInfoDataType = {
       "terms_offered": {
         "FALL": true,
         "SPRING": true,
-        "SUMMER": false
+        "SUMMER": true
       },
       "instructors": [
-        "Michael Yoder"
+        "Alawya Alawami"
       ]
     },
     {
@@ -933,7 +924,7 @@ export const CourseInfoData: CourseInfoDataType = {
       "terms_offered": {
         "FALL": true,
         "SPRING": true,
-        "SUMMER": false
+        "SUMMER": true
       },
       "instructors": [
         "Morgan Frank"
@@ -951,9 +942,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": [
-        "Sean Huff"
-      ]
+      "instructors": []
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CMPINF-2120",
@@ -965,11 +954,10 @@ export const CourseInfoData: CourseInfoDataType = {
       "terms_offered": {
         "FALL": true,
         "SPRING": true,
-        "SUMMER": false
+        "SUMMER": true
       },
       "instructors": [
-        "Alexandros Labrinidis",
-        "Michael Yoder"
+        "Alexandros Labrinidis"
       ]
     },
     {
@@ -982,7 +970,7 @@ export const CourseInfoData: CourseInfoDataType = {
       "terms_offered": {
         "FALL": false,
         "SPRING": true,
-        "SUMMER": false
+        "SUMMER": true
       },
       "instructors": [
         "Philip Grosse"
@@ -998,7 +986,7 @@ export const CourseInfoData: CourseInfoDataType = {
       "terms_offered": {
         "FALL": true,
         "SPRING": true,
-        "SUMMER": false
+        "SUMMER": true
       },
       "instructors": [
         "Marcela Gomez"
@@ -1014,7 +1002,7 @@ export const CourseInfoData: CourseInfoDataType = {
       "terms_offered": {
         "FALL": false,
         "SPRING": true,
-        "SUMMER": false
+        "SUMMER": true
       },
       "instructors": [
         "Dmitriy Babichenko"
@@ -1032,9 +1020,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": [
-        "Konstantinos Pelechrinis"
-      ]
+      "instructors": []
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CMPINF-2222",
@@ -1046,9 +1032,11 @@ export const CourseInfoData: CourseInfoDataType = {
       "terms_offered": {
         "FALL": false,
         "SPRING": false,
-        "SUMMER": false
+        "SUMMER": true
       },
-      "instructors": []
+      "instructors": [
+        "Pengfei Zhou"
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CMPINF-2223",
@@ -1060,9 +1048,11 @@ export const CourseInfoData: CourseInfoDataType = {
       "terms_offered": {
         "FALL": true,
         "SPRING": false,
-        "SUMMER": false
+        "SUMMER": true
       },
-      "instructors": []
+      "instructors": [
+        "Konstantinos Pelechrinis"
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CMPINF-2910",
@@ -1076,9 +1066,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": [
-        "Matthew Burton"
-      ]
+      "instructors": []
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CMPINF-2999",
@@ -1118,12 +1106,10 @@ export const CourseInfoData: CourseInfoDataType = {
       "terms_offered": {
         "FALL": true,
         "SPRING": true,
-        "SUMMER": false
+        "SUMMER": true
       },
       "instructors": [
-        "Donald Bonidie",
-        "Michael Devine",
-        "Timothy Hoffman"
+        "Michael Devine"
       ]
     },
     {
@@ -1166,9 +1152,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": [
-        "Matt de Lima Barbosa"
-      ]
+      "instructors": []
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-0012",
@@ -1180,11 +1164,10 @@ export const CourseInfoData: CourseInfoDataType = {
       "terms_offered": {
         "FALL": true,
         "SPRING": true,
-        "SUMMER": false
+        "SUMMER": true
       },
       "instructors": [
-        "Matt de Lima Barbosa",
-        "Peter DeNardis"
+        "Matt de Lima Barbosa"
       ]
     },
     {
@@ -1267,11 +1250,10 @@ export const CourseInfoData: CourseInfoDataType = {
       "terms_offered": {
         "FALL": true,
         "SPRING": true,
-        "SUMMER": false
+        "SUMMER": true
       },
       "instructors": [
-        "Donald Bonidie",
-        "Nils Murrugarra LLerena"
+        "Donald Bonidie"
       ]
     },
     {
@@ -1284,12 +1266,10 @@ export const CourseInfoData: CourseInfoDataType = {
       "terms_offered": {
         "FALL": true,
         "SPRING": true,
-        "SUMMER": false
+        "SUMMER": true
       },
       "instructors": [
-        "John Ramirez",
-        "Marina Barsky",
-        "Stephen Ellis"
+        "John Ramirez"
       ]
     },
     {
@@ -1302,11 +1282,10 @@ export const CourseInfoData: CourseInfoDataType = {
       "terms_offered": {
         "FALL": true,
         "SPRING": true,
-        "SUMMER": false
+        "SUMMER": true
       },
       "instructors": [
-        "Luis F. N. Q. d. Oliveira",
-        "Youtao Zhang"
+        "Sherif Khattab"
       ]
     },
     {
@@ -1319,10 +1298,10 @@ export const CourseInfoData: CourseInfoDataType = {
       "terms_offered": {
         "FALL": true,
         "SPRING": true,
-        "SUMMER": false
+        "SUMMER": true
       },
       "instructors": [
-        "Jarrett Billingsley"
+        "Sherif Khattab"
       ]
     },
     {
@@ -1337,9 +1316,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": [
-        "Patricia Quirin"
-      ]
+      "instructors": []
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-0699",
@@ -1365,11 +1342,10 @@ export const CourseInfoData: CourseInfoDataType = {
       "terms_offered": {
         "FALL": true,
         "SPRING": true,
-        "SUMMER": false
+        "SUMMER": true
       },
       "instructors": [
-        "Nicholas Farnan",
-        "Sherif Khattab"
+        "Nicholas Farnan"
       ]
     },
     {
@@ -1382,7 +1358,7 @@ export const CourseInfoData: CourseInfoDataType = {
       "terms_offered": {
         "FALL": true,
         "SPRING": true,
-        "SUMMER": false
+        "SUMMER": true
       },
       "instructors": [
         "Thumrongsak Kosiyatrakul"
@@ -1400,10 +1376,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": [
-        "Marina Barsky",
-        "Patrick Skeba"
-      ]
+      "instructors": []
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-1510",
@@ -1417,9 +1390,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": [
-        "Kirk Pruhs"
-      ]
+      "instructors": []
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-1511",
@@ -1433,9 +1404,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": [
-        "Kirk Pruhs"
-      ]
+      "instructors": []
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-1520",
@@ -1447,10 +1416,10 @@ export const CourseInfoData: CourseInfoDataType = {
       "terms_offered": {
         "FALL": true,
         "SPRING": true,
-        "SUMMER": false
+        "SUMMER": true
       },
       "instructors": [
-        "Nicholas Farnan"
+        "Paulo Ferreira"
       ]
     },
     {
@@ -1465,9 +1434,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": [
-        "Thumrongsak Kosiyatrakul"
-      ]
+      "instructors": []
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-1530",
@@ -1481,10 +1448,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": [
-        "Nadine v. F. u. Ludwigsdorff",
-        "Sohel Sarwar"
-      ]
+      "instructors": []
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-1538",
@@ -1512,9 +1476,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": [
-        "Luis F. N. Q. d. Oliveira"
-      ]
+      "instructors": []
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-1550",
@@ -1526,10 +1488,10 @@ export const CourseInfoData: CourseInfoDataType = {
       "terms_offered": {
         "FALL": true,
         "SPRING": true,
-        "SUMMER": false
+        "SUMMER": true
       },
       "instructors": [
-        "Sherif Khattab"
+        "Nicholas Farnan"
       ]
     },
     {
@@ -1544,9 +1506,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": [
-        "Nicholas Farnan"
-      ]
+      "instructors": []
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-1566",
@@ -1572,9 +1532,11 @@ export const CourseInfoData: CourseInfoDataType = {
       "terms_offered": {
         "FALL": false,
         "SPRING": false,
-        "SUMMER": false
+        "SUMMER": true
       },
-      "instructors": []
+      "instructors": [
+        "Thumrongsak Kosiyatrakul"
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-1571",
@@ -1588,9 +1550,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": [
-        "Patrick Skeba"
-      ]
+      "instructors": []
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-1613",
@@ -1604,9 +1564,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": [
-        "Junyu Liu"
-      ]
+      "instructors": []
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-1621",
@@ -1620,9 +1578,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": [
-        "Youtao Zhang"
-      ]
+      "instructors": []
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-1622",
@@ -1664,9 +1620,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": [
-        "Wonsun Ahn"
-      ]
+      "instructors": []
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-1635",
@@ -1708,9 +1662,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": [
-        "Emma Jordan"
-      ]
+      "instructors": []
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-1645",
@@ -1752,9 +1704,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": [
-        "Amy Babay"
-      ]
+      "instructors": []
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-1653",
@@ -1768,9 +1718,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": [
-        "William Garrison"
-      ]
+      "instructors": []
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-1655",
@@ -1798,10 +1746,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": [
-        "Alexandros Labrinidis",
-        "Xiaowei Jia"
-      ]
+      "instructors": []
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-1657",
@@ -1829,9 +1774,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": [
-        "Dan Mahoney"
-      ]
+      "instructors": []
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-1666",
@@ -1859,9 +1802,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": [
-        "Michael Yoder"
-      ]
+      "instructors": []
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-1674",
@@ -1889,9 +1830,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": [
-        "Ryan Shi"
-      ]
+      "instructors": []
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-1678",
@@ -1933,10 +1872,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": [
-        "Emma Jordan",
-        "Jacob Biehl"
-      ]
+      "instructors": []
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-1900",
@@ -1948,10 +1884,10 @@ export const CourseInfoData: CourseInfoDataType = {
       "terms_offered": {
         "FALL": true,
         "SPRING": true,
-        "SUMMER": false
+        "SUMMER": true
       },
       "instructors": [
-        "Wonsun Ahn"
+        "John Ramirez"
       ]
     },
     {
@@ -1964,7 +1900,7 @@ export const CourseInfoData: CourseInfoDataType = {
       "terms_offered": {
         "FALL": true,
         "SPRING": true,
-        "SUMMER": false
+        "SUMMER": true
       },
       "instructors": [
         "John Ramirez"
@@ -1980,7 +1916,7 @@ export const CourseInfoData: CourseInfoDataType = {
       "terms_offered": {
         "FALL": true,
         "SPRING": true,
-        "SUMMER": false
+        "SUMMER": true
       },
       "instructors": [
         "John RamirezEmily Bennett"
@@ -1996,10 +1932,10 @@ export const CourseInfoData: CourseInfoDataType = {
       "terms_offered": {
         "FALL": true,
         "SPRING": true,
-        "SUMMER": false
+        "SUMMER": true
       },
       "instructors": [
-        "Wonsun Ahn"
+        "John Ramirez"
       ]
     },
     {
@@ -2012,7 +1948,7 @@ export const CourseInfoData: CourseInfoDataType = {
       "terms_offered": {
         "FALL": true,
         "SPRING": true,
-        "SUMMER": false
+        "SUMMER": true
       },
       "instructors": [
         "John Ramirez"
@@ -2030,9 +1966,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": [
-        "Emma Jordan"
-      ]
+      "instructors": []
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-2000",
@@ -2044,25 +1978,20 @@ export const CourseInfoData: CourseInfoDataType = {
       "terms_offered": {
         "FALL": true,
         "SPRING": true,
-        "SUMMER": false
+        "SUMMER": true
       },
       "instructors": [
         "Adam Lee",
         "Adriana Kovashka",
         "Alexandros Labrinidis",
-        "Amy Babay",
         "Bruce Childers",
         "Daniel Mosse",
         "Diane Litman",
         "Erin Walker",
-        "Jacob Biehl",
         "John Lange",
-        "Junyu Liu",
         "Kirk Pruhs",
-        "Longfei Shangguan",
         "Milos Hauskrecht",
         "Panos Chrysanthis",
-        "Paul Cohen",
         "Stephen Lee",
         "Xiaowei Jia",
         "Xulong Tang",
@@ -2095,9 +2024,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": [
-        "Adriana Kovashka"
-      ]
+      "instructors": []
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-2003",
@@ -2111,9 +2038,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": [
-        "Jacob Biehl"
-      ]
+      "instructors": []
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-2012",
@@ -2127,9 +2052,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": [
-        "Kirk Pruhs"
-      ]
+      "instructors": []
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-2015",
@@ -2143,9 +2066,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": [
-        "Nicholas Farnan"
-      ]
+      "instructors": []
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-2021",
@@ -2159,9 +2080,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": [
-        "Youtao Zhang"
-      ]
+      "instructors": []
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-2030",
@@ -2175,9 +2094,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": [
-        "Nadine v. F. u. Ludwigsdorff"
-      ]
+      "instructors": []
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-2035",
@@ -2219,9 +2136,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": [
-        "Luis F. N. Q. d. Oliveira"
-      ]
+      "instructors": []
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-2045",
@@ -2277,9 +2192,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": [
-        "Nicholas Farnan"
-      ]
+      "instructors": []
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-2056",
@@ -2293,10 +2206,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": [
-        "Alexandros Labrinidis",
-        "Xiaowei Jia"
-      ]
+      "instructors": []
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-2057",
@@ -2324,9 +2234,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": [
-        "Dan Mahoney"
-      ]
+      "instructors": []
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-2071",
@@ -2340,9 +2248,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": [
-        "Michael Yoder"
-      ]
+      "instructors": []
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-2074",
@@ -2370,9 +2276,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": [
-        "Ryan Shi"
-      ]
+      "instructors": []
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-2078",
@@ -2414,10 +2318,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": [
-        "Emma Jordan",
-        "TBD"
-      ]
+      "instructors": []
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-2110",
@@ -2431,9 +2332,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": [
-        "Kirk Pruhs"
-      ]
+      "instructors": []
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-2150",
@@ -2475,9 +2374,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": [
-        "Nadine v. F. u. Ludwigsdorff"
-      ]
+      "instructors": []
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-2410",
@@ -2491,9 +2388,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": [
-        "Wonsun Ahn"
-      ]
+      "instructors": []
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-2510",
@@ -2507,9 +2402,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": [
-        "Stephen Lee"
-      ]
+      "instructors": []
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-2520",
@@ -2635,9 +2528,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": [
-        "Xiaowei Jia"
-      ]
+      "instructors": []
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-2770",
@@ -2651,9 +2542,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": [
-        "Nils Murrugarra LLerena"
-      ]
+      "instructors": []
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-2893",
@@ -2679,7 +2568,7 @@ export const CourseInfoData: CourseInfoDataType = {
       "terms_offered": {
         "FALL": true,
         "SPRING": true,
-        "SUMMER": false
+        "SUMMER": true
       },
       "instructors": [
         "Jacob BiehlEmily Bennett"
@@ -2695,7 +2584,7 @@ export const CourseInfoData: CourseInfoDataType = {
       "terms_offered": {
         "FALL": true,
         "SPRING": true,
-        "SUMMER": false
+        "SUMMER": true
       },
       "instructors": [
         "Jacob BiehlEmily Bennett"
@@ -2711,27 +2600,24 @@ export const CourseInfoData: CourseInfoDataType = {
       "terms_offered": {
         "FALL": true,
         "SPRING": true,
-        "SUMMER": false
+        "SUMMER": true
       },
       "instructors": [
-        "Aakash Gautam",
         "Adam Lee",
         "Adriana Kovashka",
         "Alexandros Labrinidis",
         "Amy Babay",
+        "Bruce Childers",
         "Daniel Mosse",
         "Diane Litman",
         "Erin Walker",
-        "Jacob Biehl",
         "John Lange",
-        "Junyu Liu",
         "Kirk Pruhs",
         "Longfei Shangguan",
         "Lorraine Li",
-        "Michael Yoder",
+        "Luis F. N. Q. d. Oliveira",
         "Milos Hauskrecht",
         "Panos Chrysanthis",
-        "Paul Cohen",
         "Stephen Lee",
         "Xiaowei Jia",
         "Xulong Tang",
@@ -2748,10 +2634,9 @@ export const CourseInfoData: CourseInfoDataType = {
       "terms_offered": {
         "FALL": true,
         "SPRING": true,
-        "SUMMER": false
+        "SUMMER": true
       },
       "instructors": [
-        "Aakash Gautam",
         "Adam Lee",
         "Adriana Kovashka",
         "Alexandros Labrinidis",
@@ -2761,16 +2646,12 @@ export const CourseInfoData: CourseInfoDataType = {
         "Diane Litman",
         "Erin Walker",
         "Jacob Biehl",
-        "Junyu Liu",
+        "John Lange",
         "Kirk Pruhs",
         "Longfei Shangguan",
         "Lorraine Li",
-        "Michael Yoder",
-        "Milos Hauskrecht",
-        "Nils Murrugarra LLerena",
         "Panos Chrysanthis",
         "Paul Cohen",
-        "Ryan Shi",
         "Stephen Lee",
         "Xiaowei Jia",
         "Xulong Tang",
@@ -2787,27 +2668,21 @@ export const CourseInfoData: CourseInfoDataType = {
       "terms_offered": {
         "FALL": true,
         "SPRING": true,
-        "SUMMER": false
+        "SUMMER": true
       },
       "instructors": [
         "Adam Lee",
         "Adriana Kovashka",
         "Alexandros Labrinidis",
-        "Amy Babay",
         "Bruce Childers",
         "Daniel Mosse",
         "Diane Litman",
         "Erin Walker",
-        "Jacob Biehl",
-        "Junyu Liu",
+        "John Lange",
         "Kirk Pruhs",
-        "Longfei Shangguan",
-        "Lorraine Li",
         "Milos Hauskrecht",
         "Panos Chrysanthis",
-        "Paul Cohen",
         "Stephen Lee",
-        "Xiaowei Jia",
         "Xulong Tang",
         "Youtao Zhang"
       ]
@@ -2992,9 +2867,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": [
-        "Jacob Biehl"
-      ]
+      "instructors": []
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-3710",
@@ -3036,9 +2909,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": [
-        "Lorraine Li"
-      ]
+      "instructors": []
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-3750",
@@ -3092,28 +2963,21 @@ export const CourseInfoData: CourseInfoDataType = {
       "terms_offered": {
         "FALL": true,
         "SPRING": true,
-        "SUMMER": false
+        "SUMMER": true
       },
       "instructors": [
-        "Aakash Gautam",
         "Adam Lee",
         "Adriana Kovashka",
         "Alexandros Labrinidis",
-        "Amy Babay",
         "Bruce Childers",
         "Daniel Mosse",
         "Diane Litman",
         "Erin Walker",
-        "Jacob Biehl",
         "John Lange",
-        "Junyu Liu",
         "Kirk Pruhs",
-        "Lorraine Li",
         "Milos Hauskrecht",
         "Panos Chrysanthis",
-        "Paul Cohen",
         "Stephen Lee",
-        "Xiaowei Jia",
         "Xulong Tang",
         "Youtao Zhang"
       ]
