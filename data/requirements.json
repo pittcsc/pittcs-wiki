@@ -76,7 +76,7 @@
   },
   "CS1541": {
     "requirementsString": " PREQ: (CS 0447 or COE 0447) and (CS 0449 or COE 0449) ; (MIN GRADE 'C' or Transfer)",
-    "prereq": ["CS0445"]
+    "prereq": ["CS0447","CS0449"]
   },
   "CS1550": {
     "requirementsString": " PREQ: (CS 0447 or COE 0447 or COE 0147) and (CS 0449 or COE 0449) or (0456 and 1750); MIN GRADE 'C'  or TRANSFER FOR ALL COURSES LISTED",
