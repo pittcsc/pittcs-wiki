@@ -2,7 +2,7 @@
 
 A modern, community-driven knowledge platform for University of Pittsburgh Computer Science students. This resource provides comprehensive guides on academics, careers, technical skills, and student life.
 
-**[Live Website](https://pittcs.wiki)** | **[Report Issues](https://github.com/pittcsc/pittcswiki-next/issues)** | **[Contributing Guide](docs/contributing.md)**
+**[Live Website](https://pittcs.wiki)** | **[Report Issues](https://github.com/pittcsc/pittcswiki/issues)** | **[Contributing Guide](docs/contributing.md)**
 
 ## About
 
@@ -34,8 +34,8 @@ Rebuilt from the ground up with modern tools for better maintainability, perform
 
 ```bash
 # Clone the repository
-git clone https://github.com/pittcsc/pittcswiki-next.git
-cd pittcswiki-next
+git clone https://github.com/pittcsc/pittcswiki.git
+cd pittcswiki
 
 # Install dependencies
 npm install
@@ -119,6 +119,6 @@ This project is open source and available under the MIT License.
 
 ## Contact & Support
 
-- **Questions or Ideas?** [Open a GitHub Issue](https://github.com/pittcsc/pittcswiki-next/issues)
+- **Questions or Ideas?** [Open a GitHub Issue](https://github.com/pittcsc/pittcswiki/issues)
 - **Reach Out**: [PittCSC@gmail.com](mailto:PittCSC@gmail.com)
-- **Original Wiki**: [Legacy Repository](https://github.com/pittcsc/pittcswiki)
+- **Original Wiki**: [Legacy Repository](https://github.com/pittcsc/pittcswiki-next)
