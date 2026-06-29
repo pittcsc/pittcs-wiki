@@ -9,8 +9,8 @@ Thank you for your interest in contributing to the Pitt CS Wiki! We welcome cont
 1. **Fork** the repository on GitHub
 2. **Clone** your fork locally:
    ```bash
-   git clone https://github.com/your-username/pittcswiki-next.git
-   cd pittcswiki-next
+   git clone https://github.com/your-username/pittcs-wiki.git
+   cd pittcs-wiki
    ```
 3. **Create a new branch** for your changes:
    ```bash
