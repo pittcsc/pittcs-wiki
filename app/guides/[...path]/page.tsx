@@ -95,44 +95,6 @@ export default async function GuidePage({
     } catch (error) {
       console.error("Error loading guide metadata:", error)
     }
-    if(actualFilePath==="academics/scheduling.mdx") {
-      return (
-          <>
-        <WikiArticle
-          file={curFile}
-          path={"guides/" + curPath}
-          frontmatter={fileFrontMatter}
-          gitAuthorTime=""
-          lastUpdatedString=""
-          metadata={metadata}
-        />
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-          <div className="mb-12">
-            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
-              CSC&apos;s highly subjective CS Electives Difficulty Ranking
-            </h2>
-            <p className="text-gray-600 dark:text-gray-400 max-w-3xl mb-6">
-              These rankings are incredibly subjective and difficulty varies
-              more by professor rather than course.
-            </p>
-            <ElectivesRankingTable />
-          </div>
-
-          <div className="mb-8">
-            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
-              Course Prerequisite Graph
-            </h2>
-            <p className="text-gray-600 dark:text-gray-400 max-w-3xl">
-              Visualize the relationships between courses. Solid lines represent
-              prerequisites (must take before), and dashed yellow lines
-              represent corequisites (must take together or before).
-            </p>
-          </div>
-          <PrereqGraph />
-        </div>
-      </>
-      )
-    }
     return (
       <WikiArticle
         file={curFile}
