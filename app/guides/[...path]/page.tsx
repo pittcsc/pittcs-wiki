@@ -86,7 +86,6 @@ export default async function GuidePage({
     } catch (error) {
       console.error("Error loading guide metadata:", error)
     }
-
     return (
       <WikiArticle
         file={curFile}
