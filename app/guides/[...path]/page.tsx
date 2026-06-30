@@ -46,7 +46,7 @@ export default async function GuidePage({
     try {
       if ((await fs.stat(mdPath)).isFile()) {
         curFile = await fs.readFile(mdPath, "utf-8")
-        actualFilePath = curPath 
+        actualFilePath = curPath + ".md"
       }
     } catch (e) {
       // File doesn't exist, continue
@@ -57,7 +57,7 @@ export default async function GuidePage({
       try {
         if ((await fs.stat(mdxPath)).isFile()) {
           curFile = await fs.readFile(mdxPath, "utf-8")
-          actualFilePath = curPath
+          actualFilePath = curPath + ".mdx"
         }
       } catch (e) {
         // File doesn't exist, continue to folder logic
