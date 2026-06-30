@@ -10,6 +10,14 @@ import rehypeRaw from "rehype-raw"
 import { GetFolderInformation } from "@/utils/guides-page-helper"
 import { getGuideStatus } from "@/config/newGuides"
 import { loadGuideMetadataServer, GuideMetadata } from "@/utils/guide-metadata"
+ 
+import dynamic from "next/dynamic"
+import ElectivesRankingTable from "@/components/ElectivesRankingTable"
+
+const PrereqGraph = dynamic(() => import("@/components/Graph/PrereqGraph"), {
+  ssr: false,
+  loading: () => <p>Loading graph...</p>,
+})
 
 export type FileTitlesType = {
   title: string
@@ -35,6 +43,7 @@ export default async function GuidePage({
   let curFile = null
   let actualFilePath = curPath
 
+
   // If path doesn't already have an extension, try both .md and .mdx
   if (!curPath.includes(".md")) {
     const mdPath = path.resolve(safeBasePath, curPath + ".md")
@@ -44,7 +53,7 @@ export default async function GuidePage({
     try {
       if ((await fs.stat(mdPath)).isFile()) {
         curFile = await fs.readFile(mdPath, "utf-8")
-        actualFilePath = curPath + ".md"
+        actualFilePath = curPath 
       }
     } catch (e) {
       // File doesn't exist, continue
@@ -55,7 +64,7 @@ export default async function GuidePage({
       try {
         if ((await fs.stat(mdxPath)).isFile()) {
           curFile = await fs.readFile(mdxPath, "utf-8")
-          actualFilePath = curPath + ".mdx"
+          actualFilePath = curPath
         }
       } catch (e) {
         // File doesn't exist, continue to folder logic
@@ -86,7 +95,44 @@ export default async function GuidePage({
     } catch (error) {
       console.error("Error loading guide metadata:", error)
     }
+    if(actualFilePath==="academics/scheduling.mdx") {
+      return (
+          <>
+        <WikiArticle
+          file={curFile}
+          path={"guides/" + curPath}
+          frontmatter={fileFrontMatter}
+          gitAuthorTime=""
+          lastUpdatedString=""
+          metadata={metadata}
+        />
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+          <div className="mb-12">
+            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
+              CSC&apos;s highly subjective CS Electives Difficulty Ranking
+            </h2>
+            <p className="text-gray-600 dark:text-gray-400 max-w-3xl mb-6">
+              These rankings are incredibly subjective and difficulty varies
+              more by professor rather than course.
+            </p>
+            <ElectivesRankingTable />
+          </div>
 
+          <div className="mb-8">
+            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
+              Course Prerequisite Graph
+            </h2>
+            <p className="text-gray-600 dark:text-gray-400 max-w-3xl">
+              Visualize the relationships between courses. Solid lines represent
+              prerequisites (must take before), and dashed yellow lines
+              represent corequisites (must take together or before).
+            </p>
+          </div>
+          <PrereqGraph />
+        </div>
+      </>
+      )
+    }
     return (
       <WikiArticle
         file={curFile}
