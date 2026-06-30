@@ -11,13 +11,6 @@ import { GetFolderInformation } from "@/utils/guides-page-helper"
 import { getGuideStatus } from "@/config/newGuides"
 import { loadGuideMetadataServer, GuideMetadata } from "@/utils/guide-metadata"
  
-import dynamic from "next/dynamic"
-import ElectivesRankingTable from "@/components/ElectivesRankingTable"
-
-const PrereqGraph = dynamic(() => import("@/components/Graph/PrereqGraph"), {
-  ssr: false,
-  loading: () => <p>Loading graph...</p>,
-})
 
 export type FileTitlesType = {
   title: string
