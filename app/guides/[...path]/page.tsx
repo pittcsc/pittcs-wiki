@@ -150,7 +150,9 @@ export default async function GuidePage({
                   guideSlug = guideSlug.replace(/\.(md|mdx)$/, "")
                   const categorySlug = curPath.split("/").pop() || ""
                   const guideStatus = getGuideStatus(categorySlug, guideSlug)
-
+                  if (file.href.includes(".")) {
+                    file.href = file.href.substring(0, file.href.indexOf("."))
+                  }
                   return (
                     <div key={i} className="guide-card-container">
                       <a
