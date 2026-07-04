@@ -141,12 +141,16 @@ const SiteMapList = ({ type }: any) => {
           getPagesUnderRoute(baseDirectory, relativeFilePath, newNode)
         } else if (!file.name.endsWith("index.md")) {
           const fullFilePath = path.join(baseDirectory, relativeFilePath)
+          const newRelativeFilePath = relativeFilePath.replace(
+            /\.(md|mdx)$/,
+            ""
+          )
           const contents = fs.readFileSync(fullFilePath, { encoding: "utf8" })
           const guideData = getMDFrontMatter(contents)
 
           let newNode: SiteMapTree = {
             title: guideData.title,
-            href: relativeFilePath,
+            href: newRelativeFilePath,
             id: id++,
             children: [],
           }
