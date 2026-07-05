@@ -27,7 +27,7 @@ export default function AboutPage() {
           <Link href="/feedback">filling out this form!</Link> If you are
           interested in the technical details of the wiki, everything is open
           source and documented on{" "}
-          <a href="https://github.com/pittcsc/pittcswiki-next" target="_none">
+          <a href="https://github.com/pittcsc/pittcs-wiki" target="_none">
             the GitHub repo!
           </a>
         </p>
