@@ -9,7 +9,7 @@ export type CourseInfoDataType = {
 
 export const CourseInfoData: CourseInfoDataType = {
   "metadata": {
-    "generated": "2026-06-28T01:18:09.995Z"
+    "generated": "2026-07-05T01:02:30.026Z"
   },
   "courses": [
     {
@@ -1040,11 +1040,11 @@ export const CourseInfoData: CourseInfoDataType = {
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CMPINF-2223",
-      "title": "TEXT AS DATA",
+      "title": "LARGE LANGUAGE MODELS (LLMs) AND THEIR APPLICATIONS",
       "id": "CMPINF2223",
       "credits": 3,
-      "description": "From social media posts to open government materials, texts are pervasive in current human society. These texts, viewed as unstructured data, provide unprecedented insights into the development status and existing problems in many science, social, and business-related areas. This course offers an introduction of computational text analysis to store, process and utilize text as data.  Students will learn fundamental concepts around discovering and representing textual data, building and training computational models from textual data, and applying and measuring the models in resolving real world problems. Students will engage in discussions on social and ethical issues associated with using text as data.",
-      "requirements": "PREQ: CMPINF 2105 and 2120 (Min Grade 'B')",
+      "description": "From social media posts to open government materials, LLMs are pervasive in current human society. This course traces the evolution of natural language processing from traditional rule-based systems to modern Large Language Models. Students will explore the limitations of early NLP approaches, understand the breakthroughs that enabled neural language models, and discover how the revolutionary Transformer architecture transformed the field. Students will engage in discussions on social and ethical issues associated with using LLMs.",
+      "requirements": "PREQ: CMPINF 2105 and 2120",
       "terms_offered": {
         "FALL": true,
         "SPRING": false,
@@ -1060,7 +1060,7 @@ export const CourseInfoData: CourseInfoDataType = {
       "id": "CMPINF2910",
       "credits": 3,
       "description": "This course is a project-based capstone for the Master of Data Science degree.  A case study approach is taken to structuring analysis of data, communicating findings, and informing decision-making processes.",
-      "requirements": "",
+      "requirements": "PREQ: CMINF 2105, 2140, 2110, 2120, 2130, and (CMPINF 2221 or CMPINF 2222 or CMPINF 2211 or CMPINF 2223);  PLAN: DS-MDSC",
       "terms_offered": {
         "FALL": true,
         "SPRING": true,
@@ -1419,7 +1419,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SUMMER": true
       },
       "instructors": [
-        "Paulo Ferreira"
+        "Adam Hobaugh"
       ]
     },
     {
