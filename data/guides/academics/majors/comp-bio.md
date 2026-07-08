@@ -25,7 +25,7 @@ The computational biology degree for undergraduates is a joint degree between th
 
 ## Forewarning about the Degree
 
-I will use this section of the article to describe some shortcomings of the degree, shape your future expectations of participating in such a degree, and how being self-driven enough can really change how competitive you can be by taking advantage of this unique degree setting.
+I will use this section of the article to describe some shortcomings of the degree, shape your future expectations of participating in such a degree, and how being self-driven can really change how competitive you can be by taking advantage of this unique degree setting.
 
 ### You need to be self-driven
 
@@ -35,11 +35,11 @@ A glaring issue is the degree’s lack of math and statistics prerequisites requ
 
 This means enrolling in calculus 2-3 and matrices (MATH0230-MATH0240, MATH0280), probability theory (STAT1151 and STAT1152), taking physics 1 for engineers (PHYS0174), and many other computer science courses such as computer organization and systems, machine learning, artificial intelligence, and whatever other courses may interest you (CS0447, CS0449, CS1675, CS1571, etc). To stay competitive with students doing the same degree but at top programs like CMU, MIT, or Stanford, you need to take the same coursework and be confident in the same topics that employers would expect any computational biologist to know.
 
-To further reinforce why you can’t necessarily blindly follow the degree, the PhD program for computational biology at Pitt and CMU is actually a joint program. Furthermore, one of the first classes you’d take upon entering the PhD program is an [Advanced Introduction to Machine Learning at CMU (10-715)](https://www.cs.cmu.edu/~nihars/teaching/10715Fa25.html), and the [prerequisites](https://www.cs.cmu.edu/~nihars/teaching/10715Fa25.html#:~:text=Students%20entering%20the,be%20supporting%20Python) for that class is discrete math, probability theory, matrices, and calculus 3. If you don’t even take these courses during your undergraduate, how could you even try and get admitted/succeed into a program whose first semester course requires it?
+To further reinforce why you can’t necessarily blindly follow the degree, the PhD program for computational biology at Pitt and CMU is actually a joint program. Furthermore, one of the first classes you’d take upon entering the PhD program is an [Advanced Introduction to Machine Learning at CMU (10-715)](https://www.cs.cmu.edu/~nihars/teaching/10715Fa25.html), and the [prerequisites](https://www.cs.cmu.edu/~nihars/teaching/10715Fa25.html#:~:text=Students%20entering%20the,be%20supporting%20Python) for that class is discrete math, probability theory, matrices, and calculus 3. If you don’t even take these courses during your undergraduate, how could you even try to get admitted to or succeed in a program whose first semester course requires it?
 
 ### Dietrich or SCI?
 
-I believe that it wouldn’t be an understatement to say that it’d be much harder to be as strong of a computational biologist if you complete the degree in Dietrich compared to SCI, purely because there’s a requirement to take 11 (ELEVEN) general education courses, which is much less flexible than SCI who allows overlaps and less requirements for general education.
+I believe that it wouldn’t be an understatement to say that it’d be much harder to be as strong of a computational biologist if you complete the degree in Dietrich compared to SCI, purely because there’s a requirement to take 11 (ELEVEN) general education courses, which is much less flexible than SCI which allows overlaps and fewer requirements for general education.
 
 SCI offers a degree that's naturally more flexible due to inherently not being an arts school, so you can spend your credits actually doing STEM courses that you need to be successful, and extra courses that you might find super interesting (I took some extra computer science courses I knew I'd like, and German 0101 was pretty interesting).
 
@@ -59,7 +59,7 @@ I would not be part of this degree if you’re looking to enter the industry as 
 
 ### Pre-meds can be computational biologists
 
-As the world is transforming and the current pinnacles of technology are becoming more available, it’s especially important for the next generation of physicians to be technologically adept. You can definitely be an undergraduate with aspirations to study medicine, and there’s a growing space for [physician-scientists](https://students-residents.aamc.org/applying-md/phd-programs/md-phd-degree-programs-state). It’s a good way to stand out, but I’d be extremely careful about what courses you take as a pre-med, as a strong GPA is imperative to success in the field, and the admission officers for med school are extremely unforgiving. Just make sure you look at what the [admission requirements](https://www.medadmissions.pitt.edu/admissions/you-apply/academic-requirements#:~:text=be:-,REQUIRED,the%202026%20admissions%20cycle) are, and that you take those courses.
+As the world transforms and the current pinnacles of technology become more available, it’s especially important for the next generation of physicians to be technologically adept. You can definitely be an undergraduate with aspirations to study medicine, and there’s a growing space for [physician-scientists](https://students-residents.aamc.org/applying-md/phd-programs/md-phd-degree-programs-state). It’s a good way to stand out, but I’d be extremely careful about what courses you take as a pre-med, as a strong GPA is imperative to success in the field, and the admission officers for med school are extremely unforgiving. Just make sure you look at what the [admission requirements](https://www.medadmissions.pitt.edu/admissions/you-apply/academic-requirements#:~:text=be:-,REQUIRED,the%202026%20admissions%20cycle) are, and that you take those courses.
 
 **This bit is definitely to scare pre-meds, so please read:** I know a guy who got a B in organic chemistry 1, and when interviewing for med school, the interviewers asked him why he got a B in organic chemistry. Do **NOT** major in computational biology if you don’t think you can succeed in **ALL** of its disciplines. Med school is [uber competitive](https://www.medadmissions.pitt.edu/admissions/who-we-are/class-profile), so tread lightly.
 
@@ -225,7 +225,7 @@ The bread and butter of computational biology is the use and development of mach
 
 #### Biology, Chemistry, Physics
 
-Pitt has a ton of biology and chemistry courses, and it’s definitely one of the universities strong suits. Cell Biology (BIOSC1500) wouldn’t be a bad option, and there are a ton of other courses like synthetic biology, cancer biology, computational chemistry, and more that you could want to take if you’re interested.
+Pitt has a ton of biology and chemistry courses, and it’s definitely one of the university's strong suits. Cell Biology (BIOSC1500) wouldn’t be a bad option, and there are a ton of other courses like synthetic biology, cancer biology, computational chemistry, and more that you could want to take if you’re interested.
 
 For physics, I only took (calc-based) physics 1 just to be in the know about some basic concepts when doing calculations or when it came up in conversation during BIOSC1540. I’d definitely recommend it, and I know Professor Maldonado(teaches 1540) would definitely recommend you take stat mech if you’re interested in modeling.
 
@@ -249,7 +249,7 @@ Probability theory has become indispensable in computer science, it's at the cor
 
 Probability is also just as essential to biology, since you'll be finding yourself predicting random events, managing complex systems, and understanding molecular behavior. Genetics is literally just introductory probability theory.
 
-This also extends to quantum states, reaction liklihood, and molecular motion in chemistry and physics.
+This also extends to quantum states, reaction likelihood, and molecular motion in chemistry and physics.
 
 #### Miscellaneous
 
