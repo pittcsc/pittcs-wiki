@@ -37,7 +37,7 @@ const nextConfig = {
   async redirects() {
     return [
       {
-        source: "/:slug*/:file((?<!index)\\S+).md(\\w*)",
+        source: "/:slug*/:file(\\S+).md(\\w*)",
         destination: "/:slug*/:file",
         permanent: true,
       },
