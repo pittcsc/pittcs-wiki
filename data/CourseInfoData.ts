@@ -9,7 +9,7 @@ export type CourseInfoDataType = {
 
 export const CourseInfoData: CourseInfoDataType = {
   "metadata": {
-    "generated": "2026-07-05T01:02:30.026Z"
+    "generated": "2026-07-12T00:54:19.262Z"
   },
   "courses": [
     {
@@ -1768,7 +1768,7 @@ export const CourseInfoData: CourseInfoDataType = {
       "id": "CS1660",
       "credits": 3,
       "description": "Cloud computing has emerged as a new paradigm for efficient and highly elastic delivery of computing services over the Internet to achieve economies of scale. The course will explore the concept of Cloud Computing, considering both its benefits and challenges. The course will also cover the basic design principles and architectures of Cloud Computing, including its usability and utility to deliver efficiently and flexibly infrastructure, platform, and software as a service. Topics include types of public, private and hybrid cloud computing services, data centers architecture and deployment, cloud computing programming models, virtualization and virtual networking and storage, and large-scale distributed processing framework to manage, process and store big data applications running in clustered systems.  The course will also include hands-on projects focused on developing applications on a MapReduce and Hadoop cluster. Upon successfully completing the course of the course, students will gain an understanding of the goals, benefits, and models of cloud computing, and how storage, processing, and services are designed and managed in a virtualized environment. Through hands-on projects, students will demonstrate proficiency in deploying and evaluating cloud computing applications and services. They will be able to design and deploy data-centered applications and services, and efficiently use frameworks and tools for data analytics.",
-      "requirements": "PREQ: CS 1550; MIN GRADE: C or Transfer",
+      "requirements": "PREQ: CS 0449; MIN GRADE: C or Transfer",
       "terms_offered": {
         "FALL": true,
         "SPRING": true,
@@ -1810,7 +1810,7 @@ export const CourseInfoData: CourseInfoDataType = {
       "id": "CS1674",
       "credits": 3,
       "description": "In this class, students will learn the basics of modern computer vision. The course will cover topics such as image filtering, edge detection, feature extraction, description and matching, grouping and clustering, object detection, activity recognition, and recognition with a human in the loop.",
-      "requirements": "PREQ: CS 1501 or COE 1501 (MIN GRADE 'C' OR TRANSFER)",
+      "requirements": "PREQ: CS 1501 (MIN GRADE 'C' OR TRANSFER)",
       "terms_offered": {
         "FALL": true,
         "SPRING": false,
@@ -2046,7 +2046,7 @@ export const CourseInfoData: CourseInfoDataType = {
       "id": "CS2012",
       "credits": 3,
       "description": "This course will cover methods and strategies that are useful for the design of nonnumeric algorithms.  Students are expected to design their own algorithms.",
-      "requirements": "PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+      "requirements": "",
       "terms_offered": {
         "FALL": false,
         "SPRING": true,
@@ -2172,7 +2172,7 @@ export const CourseInfoData: CourseInfoDataType = {
       "id": "CS2053",
       "credits": 3,
       "description": "This course will provide the necessary conceptual background and hands-on experience to understand the most common cryptographic algorithms and protocols and how to use them to secure computers networks and distributed applications.  Topics include: cryptographic algorithms for data confidentiality, authentication, and integrity, user authentication methods (secure tokens and biometrics), internet security protocols, security in local area networks, firewalls, and intrusion detection systems.",
-      "requirements": "PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+      "requirements": "",
       "terms_offered": {
         "FALL": false,
         "SPRING": false,
@@ -2186,7 +2186,7 @@ export const CourseInfoData: CourseInfoDataType = {
       "id": "CS2055",
       "credits": 3,
       "description": "The objective of this course is to provide an in-depth knowledge of database systems design. Thus, the emphasis is on how to model one's own data and how to use available database management systems effectively. Towards this end, the relational and the object-relational models are discussed in great detail and object-oriented and other data models are also presented. Commercial database management systems are examined and students get practical experience through the use of such systems.",
-      "requirements": "PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+      "requirements": "",
       "terms_offered": {
         "FALL": true,
         "SPRING": true,
@@ -2199,8 +2199,8 @@ export const CourseInfoData: CourseInfoDataType = {
       "title": "INTRODUCTION TO DATA SCIENCE",
       "id": "CS2056",
       "credits": 3,
-      "description": "",
-      "requirements": "PLAN: Computer Science or Computer Engineering",
+      "description": "This course aims to expose students to different data management, data manipulation, and data analysis techniques. The class will cover all the major data management paradigms (relational/SQL, XML/Xquery, RDF/SPARQL) including NOSQL and data stream processing approaches. Going beyond traditional data management techniques, the class will expose students to information retrieval, data mining, data warehousing, network analysis, and other data analysis topics. Time permitting, the class will include big data processing techniques, such as the map/reduce framework.",
+      "requirements": "",
       "terms_offered": {
         "FALL": true,
         "SPRING": true,
@@ -2326,7 +2326,7 @@ export const CourseInfoData: CourseInfoDataType = {
       "id": "CS2110",
       "credits": 3,
       "description": "This course deals with computability theory, automata theory and formal languages.  Various models of computation will be examined, their relations to each other and their properties will be studied.  Topics include models for computable functions and church's thesis, models for recognizers and their relation to formal grammars, algorithmically solvable and unsolvable problems, and the complexity of computations.",
-      "requirements": "PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+      "requirements": "",
       "terms_offered": {
         "FALL": false,
         "SPRING": true,
@@ -2354,7 +2354,7 @@ export const CourseInfoData: CourseInfoDataType = {
       "id": "CS2210",
       "credits": 3,
       "description": "The design and implementation of current high level languages.  Emphasis is placed on the structure of compilers. Lexical, syntax and semantic analysis as well as target code generation and register allocation.  Storage management techniques for recursive and retentive control structures. Formal specification techniques.",
-      "requirements": "PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+      "requirements": "",
       "terms_offered": {
         "FALL": true,
         "SPRING": false,
@@ -2368,7 +2368,7 @@ export const CourseInfoData: CourseInfoDataType = {
       "id": "CS2310",
       "credits": 3,
       "description": "This course will examine the software engineering process in general, the considerations for large software projects in particular, and then will focus on the conversion of software specifications into production code.  Topics will include modern design methods, safety-critical software, verification and validation, testing theory and methods, reengineering of legacy software.",
-      "requirements": "PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+      "requirements": "",
       "terms_offered": {
         "FALL": false,
         "SPRING": true,
@@ -2382,7 +2382,7 @@ export const CourseInfoData: CourseInfoDataType = {
       "id": "CS2410",
       "credits": 3,
       "description": "A study of the hardware structure of computer systems and subsystems.  Topics include:  processor architecture, parallelism and pipelining, cache and main memory organization, i/o controllers and i/o processors, and interconnection structures.",
-      "requirements": "PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+      "requirements": "",
       "terms_offered": {
         "FALL": false,
         "SPRING": true,
@@ -2396,7 +2396,7 @@ export const CourseInfoData: CourseInfoDataType = {
       "id": "CS2510",
       "credits": 3,
       "description": "An in-depth study of the control abstractions in modern operating systems and the issues involved in efficient implementation of those abstractions.  Topics will include concurrency and its control, memory management, resource management, and structure of distributed and parallel operating systems.  These topics will be developed through the lectures, assigned readings from the literature, and an examination of actual operating systems.",
-      "requirements": "PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+      "requirements": "",
       "terms_offered": {
         "FALL": false,
         "SPRING": true,
@@ -2452,7 +2452,7 @@ export const CourseInfoData: CourseInfoDataType = {
       "id": "CS2620",
       "credits": 3,
       "description": "This course discusses computer graphics, modeling and visualization techniques used to solve scientific problems. Focus falls on identifying scientific problems, proposing solutions involving graphical modeling and visualization, and designing, implementing, and evaluating the solutions. Examples include interactive software systems, quantitative analysis tools, or new applications of existing visualizations methods.",
-      "requirements": "PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+      "requirements": "",
       "terms_offered": {
         "FALL": false,
         "SPRING": false,
@@ -2480,7 +2480,7 @@ export const CourseInfoData: CourseInfoDataType = {
       "id": "CS2710",
       "credits": 3,
       "description": "This course covers the foundational techniques in artificial intelligence, including:  problem definition and analysis, heuristic search, adversarial search, knowledge representation, planning and constraint satisfaction, and methods for reasoning under uncertainty.  Attention will be given to the roles of these techniques in the design of intelligent agents.",
-      "requirements": "PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+      "requirements": "",
       "terms_offered": {
         "FALL": true,
         "SPRING": false,
@@ -2494,7 +2494,7 @@ export const CourseInfoData: CourseInfoDataType = {
       "id": "CS2731",
       "credits": 3,
       "description": "This course provides an introduction to the field of Natural Language Processing (NLP) - the creation of computer programs that can understand, generate, and learn natural language. Natural language understanding will be used as a vehicle to introduce the three major subfields of NLP: syntax, semantics, and pragmatics. The course will introduce both knowledge-based and statistical methods for NLP, and will illustrate the use of such methods in a variety of application areas.",
-      "requirements": "PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+      "requirements": "",
       "terms_offered": {
         "FALL": true,
         "SPRING": false,
@@ -2536,7 +2536,7 @@ export const CourseInfoData: CourseInfoDataType = {
       "id": "CS2770",
       "credits": 3,
       "description": "",
-      "requirements": "PLAN: Computer Science or Computer Engineering",
+      "requirements": "",
       "terms_offered": {
         "FALL": false,
         "SPRING": true,
