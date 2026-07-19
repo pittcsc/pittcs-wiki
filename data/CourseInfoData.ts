@@ -9,7 +9,7 @@ export type CourseInfoDataType = {
 
 export const CourseInfoData: CourseInfoDataType = {
   "metadata": {
-    "generated": "2026-07-12T00:54:19.262Z"
+    "generated": "2026-07-19T00:52:56.144Z"
   },
   "courses": [
     {
@@ -2032,7 +2032,7 @@ export const CourseInfoData: CourseInfoDataType = {
       "id": "CS2003",
       "credits": 1,
       "description": "The computer science colloquium is offered as a one unit graduate class, with a satisfactory/no credit (S/NC) grading option. The aim of this weekly meeting is to discuss the most recent advances in computer science.",
-      "requirements": "PREQ: CS 2001 and 2002; PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS)",
+      "requirements": "PREQ: CS 2001 and 2002; PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering Electrical & Computer Engineer (ECE-MSECE; ECE-PHD)",
       "terms_offered": {
         "FALL": true,
         "SPRING": true,
@@ -2046,7 +2046,7 @@ export const CourseInfoData: CourseInfoDataType = {
       "id": "CS2012",
       "credits": 3,
       "description": "This course will cover methods and strategies that are useful for the design of nonnumeric algorithms.  Students are expected to design their own algorithms.",
-      "requirements": "",
+      "requirements": "PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering Electrical & Computer Engineer (ECE-MSECE; ECE-PHD)",
       "terms_offered": {
         "FALL": false,
         "SPRING": true,
@@ -2172,7 +2172,7 @@ export const CourseInfoData: CourseInfoDataType = {
       "id": "CS2053",
       "credits": 3,
       "description": "This course will provide the necessary conceptual background and hands-on experience to understand the most common cryptographic algorithms and protocols and how to use them to secure computers networks and distributed applications.  Topics include: cryptographic algorithms for data confidentiality, authentication, and integrity, user authentication methods (secure tokens and biometrics), internet security protocols, security in local area networks, firewalls, and intrusion detection systems.",
-      "requirements": "",
+      "requirements": "PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering Electrical & Computer Engineer (ECE-MSECE; ECE-PHD)",
       "terms_offered": {
         "FALL": false,
         "SPRING": false,
@@ -2186,7 +2186,7 @@ export const CourseInfoData: CourseInfoDataType = {
       "id": "CS2055",
       "credits": 3,
       "description": "The objective of this course is to provide an in-depth knowledge of database systems design. Thus, the emphasis is on how to model one's own data and how to use available database management systems effectively. Towards this end, the relational and the object-relational models are discussed in great detail and object-oriented and other data models are also presented. Commercial database management systems are examined and students get practical experience through the use of such systems.",
-      "requirements": "",
+      "requirements": "PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering Electrical & Computer Engineer (ECE-MSECE; ECE-PHD)",
       "terms_offered": {
         "FALL": true,
         "SPRING": true,
@@ -2200,7 +2200,7 @@ export const CourseInfoData: CourseInfoDataType = {
       "id": "CS2056",
       "credits": 3,
       "description": "This course aims to expose students to different data management, data manipulation, and data analysis techniques. The class will cover all the major data management paradigms (relational/SQL, XML/Xquery, RDF/SPARQL) including NOSQL and data stream processing approaches. Going beyond traditional data management techniques, the class will expose students to information retrieval, data mining, data warehousing, network analysis, and other data analysis topics. Time permitting, the class will include big data processing techniques, such as the map/reduce framework.",
-      "requirements": "",
+      "requirements": "PLAN: Computer Science or Computer Engineering Electrical & Computer Engineer (ECE-MSECE; ECE-PHD)",
       "terms_offered": {
         "FALL": true,
         "SPRING": true,
@@ -2326,7 +2326,7 @@ export const CourseInfoData: CourseInfoDataType = {
       "id": "CS2110",
       "credits": 3,
       "description": "This course deals with computability theory, automata theory and formal languages.  Various models of computation will be examined, their relations to each other and their properties will be studied.  Topics include models for computable functions and church's thesis, models for recognizers and their relation to formal grammars, algorithmically solvable and unsolvable problems, and the complexity of computations.",
-      "requirements": "",
+      "requirements": "PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering Electrical & Computer Engineer (ECE-MSECE; ECE-PHD)",
       "terms_offered": {
         "FALL": false,
         "SPRING": true,
@@ -2354,7 +2354,7 @@ export const CourseInfoData: CourseInfoDataType = {
       "id": "CS2210",
       "credits": 3,
       "description": "The design and implementation of current high level languages.  Emphasis is placed on the structure of compilers. Lexical, syntax and semantic analysis as well as target code generation and register allocation.  Storage management techniques for recursive and retentive control structures. Formal specification techniques.",
-      "requirements": "",
+      "requirements": "PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
       "terms_offered": {
         "FALL": true,
         "SPRING": false,
@@ -2368,7 +2368,7 @@ export const CourseInfoData: CourseInfoDataType = {
       "id": "CS2310",
       "credits": 3,
       "description": "This course will examine the software engineering process in general, the considerations for large software projects in particular, and then will focus on the conversion of software specifications into production code.  Topics will include modern design methods, safety-critical software, verification and validation, testing theory and methods, reengineering of legacy software.",
-      "requirements": "",
+      "requirements": "PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering Electrical & Computer Engineer (ECE-MSECE; ECE-PHD)",
       "terms_offered": {
         "FALL": false,
         "SPRING": true,
@@ -2382,7 +2382,7 @@ export const CourseInfoData: CourseInfoDataType = {
       "id": "CS2410",
       "credits": 3,
       "description": "A study of the hardware structure of computer systems and subsystems.  Topics include:  processor architecture, parallelism and pipelining, cache and main memory organization, i/o controllers and i/o processors, and interconnection structures.",
-      "requirements": "",
+      "requirements": "PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering Electrical & Computer Engineer (ECE-MSECE; ECE-PHD)",
       "terms_offered": {
         "FALL": false,
         "SPRING": true,
@@ -2396,7 +2396,7 @@ export const CourseInfoData: CourseInfoDataType = {
       "id": "CS2510",
       "credits": 3,
       "description": "An in-depth study of the control abstractions in modern operating systems and the issues involved in efficient implementation of those abstractions.  Topics will include concurrency and its control, memory management, resource management, and structure of distributed and parallel operating systems.  These topics will be developed through the lectures, assigned readings from the literature, and an examination of actual operating systems.",
-      "requirements": "",
+      "requirements": "PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering Electrical & Computer Engineer (ECE-MSECE; ECE-PHD)",
       "terms_offered": {
         "FALL": false,
         "SPRING": true,
@@ -2452,7 +2452,7 @@ export const CourseInfoData: CourseInfoDataType = {
       "id": "CS2620",
       "credits": 3,
       "description": "This course discusses computer graphics, modeling and visualization techniques used to solve scientific problems. Focus falls on identifying scientific problems, proposing solutions involving graphical modeling and visualization, and designing, implementing, and evaluating the solutions. Examples include interactive software systems, quantitative analysis tools, or new applications of existing visualizations methods.",
-      "requirements": "",
+      "requirements": "PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering Electrical & Computer Engineer (ECE-MSECE; ECE-PHD)",
       "terms_offered": {
         "FALL": false,
         "SPRING": false,
@@ -2480,7 +2480,7 @@ export const CourseInfoData: CourseInfoDataType = {
       "id": "CS2710",
       "credits": 3,
       "description": "This course covers the foundational techniques in artificial intelligence, including:  problem definition and analysis, heuristic search, adversarial search, knowledge representation, planning and constraint satisfaction, and methods for reasoning under uncertainty.  Attention will be given to the roles of these techniques in the design of intelligent agents.",
-      "requirements": "",
+      "requirements": "PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering Electrical & Computer Engineer (ECE-MSECE; ECE-PHD)",
       "terms_offered": {
         "FALL": true,
         "SPRING": false,
@@ -2494,7 +2494,7 @@ export const CourseInfoData: CourseInfoDataType = {
       "id": "CS2731",
       "credits": 3,
       "description": "This course provides an introduction to the field of Natural Language Processing (NLP) - the creation of computer programs that can understand, generate, and learn natural language. Natural language understanding will be used as a vehicle to introduce the three major subfields of NLP: syntax, semantics, and pragmatics. The course will introduce both knowledge-based and statistical methods for NLP, and will illustrate the use of such methods in a variety of application areas.",
-      "requirements": "",
+      "requirements": "PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering Electrical & Computer Engineer (ECE-MSECE; ECE-PHD)",
       "terms_offered": {
         "FALL": true,
         "SPRING": false,
@@ -2508,7 +2508,7 @@ export const CourseInfoData: CourseInfoDataType = {
       "id": "CS2750",
       "credits": 3,
       "description": "This course will give an overview of many techniques and algorithms in machine learning, beginning with topics such as linear and logistic regression, multi-layer neural networks and ending up with more recent topics such as boosting and support vector machines.  The basic ideas and intuition behind modern machine learning methods, as well as, a more formal understanding of how and why they work will be covered.  Students will have an opportunity to experiment with various machine learning techniques or apply them to a selected problem or domain in the context of a term project.",
-      "requirements": "PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+      "requirements": "PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering Electrical & Computer Engineer (ECE-MSECE, ECE-PHD)",
       "terms_offered": {
         "FALL": true,
         "SPRING": false,
@@ -2536,7 +2536,7 @@ export const CourseInfoData: CourseInfoDataType = {
       "id": "CS2770",
       "credits": 3,
       "description": "",
-      "requirements": "",
+      "requirements": "PLAN: Computer Science or Computer Engineering Electrical & Computer Engineer (ECE-MSECE; ECE-PHD)",
       "terms_offered": {
         "FALL": false,
         "SPRING": true,
@@ -2888,7 +2888,7 @@ export const CourseInfoData: CourseInfoDataType = {
       "title": "ADVANCED TOPICS IN INTERNET OF THINGS",
       "id": "CS3720",
       "credits": 3,
-      "description": "A practical course in expert systems involving discussions of fundamentals of building expert systems, discussion of open problems, and designing and building a protype expert system.",
+      "description": "A practical course in IoT systems, including sensing, data collection, data preparation, data transmission, and AI/Machine Learning methods.  The class will involve discussions of fundamentals of building systems, discussion of open problems, and designing and building a prototype IoT system.",
       "requirements": "",
       "terms_offered": {
         "FALL": true,
