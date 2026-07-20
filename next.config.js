@@ -34,6 +34,15 @@ const nextConfig = {
   experimental: {
     // webpackBuildWorker: true,
   },
+  async redirects() {
+    return [
+      {
+        source: "/:slug*/:file(\\S+).md(\\w*)",
+        destination: "/:slug*/:file",
+        permanent: true,
+      },
+    ]
+  },
 }
 
 module.exports = nextConfig
