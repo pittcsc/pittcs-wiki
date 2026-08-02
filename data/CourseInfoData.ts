@@ -9,7 +9,7 @@ export type CourseInfoDataType = {
 
 export const CourseInfoData: CourseInfoDataType = {
   "metadata": {
-    "generated": "2026-07-26T00:55:26.101Z"
+    "generated": "2026-08-02T00:54:05.479Z"
   },
   "courses": [
     {
@@ -24,7 +24,16 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": false,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [
+        "Anna Hermann",
+        "Emily Bennett",
+        "Emily Park",
+        "Jen Gentzel",
+        "John Faulkner",
+        "Kailyn Lukaszewski",
+        "Kristine Pugliese",
+        "Rachel Parkes"
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CMPINF-0002",
@@ -38,7 +47,9 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [
+        "Rachel Parkes"
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CMPINF-0010",
@@ -52,7 +63,10 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [
+        "Joseph Graham",
+        "William Garrison"
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CMPINF-0011",
@@ -66,7 +80,10 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [
+        "Joseph Graham",
+        "William Garrison"
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CMPINF-0020",
@@ -766,7 +783,9 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": false,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [
+        "TBD"
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CMPINF-0090",
@@ -780,9 +799,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": false,
         "SUMMER": true
       },
-      "instructors": [
-        "Minhee YunEmily Bennett"
-      ]
+      "instructors": []
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CMPINF-0401",
@@ -797,7 +814,9 @@ export const CourseInfoData: CourseInfoDataType = {
         "SUMMER": true
       },
       "instructors": [
-        "John Ramirez"
+        "John Ramirez",
+        "Nadine v. F. u. Ludwigsdorff",
+        "Timothy Hoffman"
       ]
     },
     {
@@ -840,7 +859,9 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [
+        "Pat Healy"
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CMPINF-1205",
@@ -854,7 +875,9 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [
+        "Song Shi"
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CMPINF-1207",
@@ -868,7 +891,9 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": false,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [
+        "Matthew Burton"
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CMPINF-1981",
@@ -911,7 +936,8 @@ export const CourseInfoData: CourseInfoDataType = {
         "SUMMER": true
       },
       "instructors": [
-        "Alawya Alawami"
+        "Alawya Alawami",
+        "Michael Yoder"
       ]
     },
     {
@@ -942,7 +968,9 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [
+        "Sean Huff"
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CMPINF-2120",
@@ -956,9 +984,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": true
       },
-      "instructors": [
-        "Alexandros Labrinidis"
-      ]
+      "instructors": []
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CMPINF-2130",
@@ -972,9 +998,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": true
       },
-      "instructors": [
-        "Philip Grosse"
-      ]
+      "instructors": []
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CMPINF-2140",
@@ -984,13 +1008,11 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "\"Data are a form of power\" and the ways that data scientists use data have an impact on individuals and communities. In this course, we will interrogate the work of data scientists through a social justice lens and develop a personal statement that articulates responsible data science. Responsible data practices cut across the lifecycle of a dataset, and a responsible data scientist will ask questions about the decisions and people behind the data collection, people represented or ignored in the dataset, and the people impacted by tools and algorithms that use the data. In this course, we will engage with social justice, policy, and people-oriented dimensions of data work. Each module will introduce a case study or vignette that illustrates these dimensions across different aspects of data work. Through these modules, we will develop cognitive approaches for examining data, our positionality, and the implications of data collection, analysis, and algorithms on communities.",
       "requirements": "",
       "terms_offered": {
-        "FALL": true,
+        "FALL": false,
         "SPRING": true,
         "SUMMER": true
       },
-      "instructors": [
-        "Marcela Gomez"
-      ]
+      "instructors": []
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CMPINF-2211",
@@ -1004,9 +1026,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": true
       },
-      "instructors": [
-        "Dmitriy Babichenko"
-      ]
+      "instructors": []
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CMPINF-2221",
@@ -1020,7 +1040,9 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [
+        "Konstantinos Pelechrinis"
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CMPINF-2222",
@@ -1030,7 +1052,7 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "In this course students will learn the foundational assumptions, concepts, and popular tools for applying deep learners to a wide variety of supervised and unsupervised learning problems. The course is hands-on and demonstrates the key concepts and skills through numerous programming examples in lectures, homework assignments, and projects. The course begins by introducing various optimization strategies which underlie how deep learners are trained, before moving to the proper training, validating, and tuning of deep learning methods for supervised learning problems. This portion of the course stresses how the fundamental optimization concepts impact model training. Students will also learn how deep learners relate to and are extensions of generalized linear models in order to reinforce essential supervised learning concepts. The course concludes by focusing on applying deep learning techniques to unsupervised learning problems via variational autoencoders. Multiple autoencoder architecture strategies and training approaches are demonstrated.",
       "requirements": "PREQ: CMPINF 2105 and 2120 and 2130 (Min Grade 'B')",
       "terms_offered": {
-        "FALL": false,
+        "FALL": true,
         "SPRING": false,
         "SUMMER": true
       },
@@ -1050,9 +1072,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": false,
         "SUMMER": true
       },
-      "instructors": [
-        "Konstantinos Pelechrinis"
-      ]
+      "instructors": []
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CMPINF-2910",
@@ -1066,7 +1086,9 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [
+        "Matthew Burton"
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CMPINF-2999",
@@ -1109,7 +1131,9 @@ export const CourseInfoData: CourseInfoDataType = {
         "SUMMER": true
       },
       "instructors": [
-        "Michael Devine"
+        "Michael Devine",
+        "Olena Sherbinin",
+        "Timothy Hoffman"
       ]
     },
     {
@@ -1152,7 +1176,9 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [
+        "Nils Murrugarra LLerena"
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-0012",
@@ -1167,7 +1193,8 @@ export const CourseInfoData: CourseInfoDataType = {
         "SUMMER": true
       },
       "instructors": [
-        "Matt de Lima Barbosa"
+        "Matt de Lima Barbosa",
+        "Michael Devine"
       ]
     },
     {
@@ -1192,7 +1219,7 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "This course will provide a basic understanding of the methods and techniques of developing a simple to moderately complex web site.  Using the current standard web page language, students will be instructed on creating and maintaining a simple web site.  After the foundation language has been established, the aid of an internet editor will be introduced.  A second web-based language will be included to further enhance the web sites.",
       "requirements": "",
       "terms_offered": {
-        "FALL": true,
+        "FALL": false,
         "SPRING": false,
         "SUMMER": false
       },
@@ -1253,7 +1280,9 @@ export const CourseInfoData: CourseInfoDataType = {
         "SUMMER": true
       },
       "instructors": [
-        "Donald Bonidie"
+        "Donald Bonidie",
+        "Nils Murrugarra LLerena",
+        "William Garrison"
       ]
     },
     {
@@ -1269,7 +1298,8 @@ export const CourseInfoData: CourseInfoDataType = {
         "SUMMER": true
       },
       "instructors": [
-        "John Ramirez"
+        "Sherif Khattab",
+        "Timothy James"
       ]
     },
     {
@@ -1285,7 +1315,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SUMMER": true
       },
       "instructors": [
-        "Sherif Khattab"
+        "Luis F. N. Q. d. Oliveira"
       ]
     },
     {
@@ -1301,7 +1331,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SUMMER": true
       },
       "instructors": [
-        "Sherif Khattab"
+        "Jarrett Billingsley"
       ]
     },
     {
@@ -1316,7 +1346,9 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [
+        "Patricia Quirin"
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-0699",
@@ -1345,7 +1377,8 @@ export const CourseInfoData: CourseInfoDataType = {
         "SUMMER": true
       },
       "instructors": [
-        "Nicholas Farnan"
+        "Nicholas Farnan",
+        "Sherif Khattab"
       ]
     },
     {
@@ -1376,7 +1409,10 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [
+        "Marina Barsky",
+        "Patrick Skeba"
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-1510",
@@ -1386,11 +1422,13 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "This course will cover methods and strategies that are useful for the design of nonnumeric algorithms.  Students are expected to design their own algorithms.",
       "requirements": "PREQ: [(CS 1501 or COE 1501) and CS 1502] or (CS 0458 and CS 1710); MIN GRADE 'C' or Transfer FOR ALL COURSES LISTED\n            Course Attributes: Writing Intensive Course (WRIT)",
       "terms_offered": {
-        "FALL": false,
+        "FALL": true,
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [
+        "Kirk Pruhs"
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-1511",
@@ -1419,7 +1457,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SUMMER": true
       },
       "instructors": [
-        "Adam Hobaugh"
+        "Brian Nixon"
       ]
     },
     {
@@ -1448,7 +1486,9 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [
+        "Nadine v. F. u. Ludwigsdorff"
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-1538",
@@ -1491,7 +1531,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SUMMER": true
       },
       "instructors": [
-        "Nicholas Farnan"
+        "Stephen Lee"
       ]
     },
     {
@@ -1506,7 +1546,10 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [
+        "Brian Nixon",
+        "Marina Barsky"
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-1566",
@@ -1520,7 +1563,9 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": false,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [
+        "Thumrongsak Kosiyatrakul"
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-1567",
@@ -1534,9 +1579,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": false,
         "SUMMER": true
       },
-      "instructors": [
-        "Thumrongsak Kosiyatrakul"
-      ]
+      "instructors": []
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-1571",
@@ -1546,11 +1589,13 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "This course will provide an introduction to the fundamental concepts and techniques underlying the construction of intelligent computer systems.  Topics covered in the course include:  problem solving and search, logic and knowledge representation, planning, reasoning and decision-making in the presence of uncertainty, and machine learning.",
       "requirements": "PREQ: (CS 1501 or COE 1501) and CS 1502 (Min Grade 'C' or Transfer for All Listed Courses)",
       "terms_offered": {
-        "FALL": false,
+        "FALL": true,
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [
+        "Patrick Skeba"
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-1613",
@@ -1588,7 +1633,7 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "This course will introduce the basic concepts of compiler design and implementation.  Topics include lexical analysis, various types of parsers, intermediate and object code generation and code optimization.  The material will be presented from an implementation point of view rather than a formal approach.  The impact of language design on compilers will also be examined.",
       "requirements": "PREQ: CS 0441 and ((CS or COE 0447 or COE 0147) or (CS 0406 and 0456)); (MIN GRADE 'C'  OR TRANSFER FOR ALL COURSES LISTED)",
       "terms_offered": {
-        "FALL": true,
+        "FALL": false,
         "SPRING": false,
         "SUMMER": false
       },
@@ -1620,7 +1665,9 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [
+        "Wonsun Ahn"
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-1635",
@@ -1634,7 +1681,9 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": false,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [
+        "Jacob Biehl"
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-1637",
@@ -1662,7 +1711,9 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [
+        "Daniel Mosse"
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-1645",
@@ -1686,7 +1737,7 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "To discuss in depth some advanced features of fundamental importance in the design of operating systems.  The subjects discussed include interprocess communication, real-time scheduling, advanced file systems, security and protection mechanisms.  The objective of the course is to provide an understanding of these advanced issues, as well as to bring awareness of the known solutions to these problems and to the limitations of these solutions.",
       "requirements": "PREQ: CS 1550 or 1312 or 1792; (MIN GRADE 'C' OR TRANSFER FOR ALL COURSES LISTED)",
       "terms_offered": {
-        "FALL": true,
+        "FALL": false,
         "SPRING": false,
         "SUMMER": false
       },
@@ -1700,7 +1751,7 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "This course will include basic principles and topics of computer communications. An overview of interfaces that interconnect hardware and software components, describing the procedures and rules involved in the communication process and the software which controls computers communication. Discussion on network architectures, design principles, basic protocol suites, and the concept of internetworking. Proficiency in this course requires a foundation in intermediate Java programming, basic C programming, elementary data structures, as well as knowledge in multithreading and mutexes.",
       "requirements": "PREQ: (CS 0447 or COE 0447 or COE 0147) and (CS 0449 or COE 0449); (MIN GRADE 'C'  OR TRANSFER FOR ALL COURSES LISTED)",
       "terms_offered": {
-        "FALL": true,
+        "FALL": false,
         "SPRING": true,
         "SUMMER": false
       },
@@ -1746,7 +1797,10 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [
+        "Alexandros Labrinidis",
+        "Emma Jordan"
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-1657",
@@ -1756,7 +1810,7 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "Privacy is an increasingly significant concern in our modern, connected society. We all share personal information on a daily basis with a wide range of organizations. Although at times such sharing can be intentional and beneficial for the user, other times information is shared against the user's will, used for purposes that the user did not expect, revealed to entities other than those approved by the user, or used to infer additional information that the user did not intend to reveal. In this course, students will learn to reason about what information is revealed through the use of computer systems. They will study several different scenarios in which information sharing is either unavoidable or to some extent desirable, and discuss the balance between the benefits and costs of sharing. Finally, students will learn about several privacy-enhancing technologies (PETs), and how these can be put to use by software developers to defend the privacy of their users.",
       "requirements": "PREQ: CS 0441 and CS 1501 with a minimum grade of C or TRANSFER",
       "terms_offered": {
-        "FALL": true,
+        "FALL": false,
         "SPRING": false,
         "SUMMER": false
       },
@@ -1774,7 +1828,9 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [
+        "Dan Mahoney"
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-1666",
@@ -1788,7 +1844,9 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": false,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [
+        "Nicholas Farnan"
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-1671",
@@ -1798,11 +1856,13 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "This course provides an introduction to the field of natural language processing (NLP) - the creation of computer programs that can understand, generate, and learn languages used by humans.  It will expose students to real-world applications such as speech recognition, information retrieval, dialogue agents, question answering systems, and machine translations by means of computational techniques including search algorithms, dynamic programming, hidden Markov models, probabilistic context free grammars, and related machine learning algorithms.",
       "requirements": "PREQ: CS 1501; (MIN GRADE 'C'  OR TRANSFER)\n            Course Attributes: Learning Sciences",
       "terms_offered": {
-        "FALL": false,
+        "FALL": true,
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [
+        "Michael Yoder"
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-1674",
@@ -1816,7 +1876,9 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": false,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [
+        "Nils Murrugarra LLerena"
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-1675",
@@ -1830,7 +1892,9 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [
+        "Patrick Skeba"
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-1678",
@@ -1840,7 +1904,7 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "This undergraduate course will cover the basics of modern deep neural networks. The first part of the course will introduce neural network architectures, activation functions, and operations. It will present different loss functions and describe how training is performed via backpropagation. In the second part, the course will describe specific types of neural networks, e.g. convolutional, recurrent, and graph networks, as well as their applications in computer vision and natural language processing. The course will also briefly discuss reinforcement learning and unsupervised learning, in the context of neural networks. In addition to attending lectures and completing bi-weekly homework assignments, students will also carry out and present a project.",
       "requirements": "Pre-requisites: MATH 0220 and (MATH 0280 or MATH 1180) and CS 1501 with a minimum grade of C or TRANSFER.",
       "terms_offered": {
-        "FALL": true,
+        "FALL": false,
         "SPRING": false,
         "SUMMER": false
       },
@@ -1858,7 +1922,9 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": false,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [
+        "Lorraine Li"
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-1699",
@@ -1868,11 +1934,13 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "This is a special topics course that allows the computer science department to test run a course before deciding whether to permanently add it to our curriculum.\n\n\nSpring 2026 topics: \n\nCS 1699 (32717): Intro to Reinforcement Learning\n\nInstructor: Emma Jordan\n\nDescription: Reinforcement learning is a branch of machine learning that focuses on learning to make decisions through trial and error. The course covers Markov decision processes, the mathematical formulation of sequential decision-making problems, and foundational reinforcement learning algorithms for making optimal decisions. Specifically, the course will cover value-based and policy gradient methods, such as Q-learning and actor-critic, which underpin modern successes, including playing Atari 2600 games, playing Go, and training large language models. The course will provide you with both the basic mathematical principles underlying these methods and programming experience by creating your own reinforcement learning agents. In addition to having programming skills of an upper-level undergraduate, you should also be familiar with differentiation, basic probability, and linear algebra concepts. \n \n\nCS 1699 (29203): Design Thinking to Improve Work Practice - HONORS\n\nInstructor: Jacob Biehl\n\nDescription: This is an interdisciplinary course intended for a broad range of students and/or backgrounds. The course seeks participation from technical, health, social science, business, and design-focused majors. The course targets students who want to experience early product exploration and prototyping processes while learning how to work successfully on a multidisciplinary team. The course will cover a range of design methodologies use to envision socio-technical solutions to improve workflow challenges. Each offering of the course will focus on a particular work domain.  Spring 2026 semester will focus on home healthcare and clinical care processes.  The course will investigate these domains using a variety of methods, which include ethnomethodological observations, contextual inquiry, structure interviews, cognitive walkthroughs, market discovery and more.  Prototyping techniques include low-fidelity paper-based prototyping to use of modern design tools such as Figma and Adobe XD. Students will be expected to contribute significant time to reading, writing, and interaction with clinical partners.",
       "requirements": "",
       "terms_offered": {
-        "FALL": false,
+        "FALL": true,
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [
+        "Emma Jordan"
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-1900",
@@ -1887,7 +1955,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SUMMER": true
       },
       "instructors": [
-        "John Ramirez"
+        "Wonsun Ahn"
       ]
     },
     {
@@ -1935,7 +2003,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SUMMER": true
       },
       "instructors": [
-        "John Ramirez"
+        "Wonsun Ahn"
       ]
     },
     {
@@ -1966,7 +2034,9 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [
+        "Daniel Mosse"
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-2000",
@@ -1988,13 +2058,16 @@ export const CourseInfoData: CourseInfoDataType = {
         "Daniel Mosse",
         "Diane Litman",
         "Erin Walker",
+        "Jacob Biehl",
         "John Lange",
         "Kirk Pruhs",
+        "Longfei Shangguan",
+        "Lorraine Li",
         "Milos Hauskrecht",
         "Panos Chrysanthis",
         "Stephen Lee",
+        "Wonsun Ahn",
         "Xiaowei Jia",
-        "Xulong Tang",
         "Youtao Zhang"
       ]
     },
@@ -2010,7 +2083,9 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": false,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [
+        "Adriana Kovashka"
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-2002",
@@ -2038,7 +2113,9 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [
+        "Jacob Biehl"
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-2012",
@@ -2048,11 +2125,13 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "This course will cover methods and strategies that are useful for the design of nonnumeric algorithms.  Students are expected to design their own algorithms.",
       "requirements": "PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering Electrical & Computer Engineer (ECE-MSECE; ECE-PHD)",
       "terms_offered": {
-        "FALL": false,
+        "FALL": true,
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [
+        "Kirk Pruhs"
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-2015",
@@ -2090,11 +2169,13 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "The purpose of this course is to provide a general survey of software engineering. Some of the topics covered include: software project planning and management, requirements engineering, model-based engineering, design patterns, and testing. Particular emphasis is on a team project in which small teams of students design and implement a software system.",
       "requirements": "",
       "terms_offered": {
-        "FALL": false,
+        "FALL": true,
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [
+        "Nadine v. F. u. Ludwigsdorff"
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-2035",
@@ -2108,7 +2189,9 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": false,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [
+        "Jacob Biehl"
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-2037",
@@ -2160,7 +2243,7 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "To discuss in depth some advanced features of fundamental importance in the design of operating systems.  The subjects discussed include interprocess communication, real-time scheduling, advanced file systems, security and protection mechanisms.  The objective of the course is to provide an understanding of these advanced issues, as well as to bring awareness of the known solutions to these problems and to the limitations of these solutions.",
       "requirements": "",
       "terms_offered": {
-        "FALL": true,
+        "FALL": false,
         "SPRING": false,
         "SUMMER": false
       },
@@ -2192,7 +2275,10 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [
+        "Brian Nixon",
+        "Marina Barsky"
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-2056",
@@ -2202,7 +2288,7 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "This course aims to expose students to different data management, data manipulation, and data analysis techniques. The class will cover all the major data management paradigms (relational/SQL, XML/Xquery, RDF/SPARQL) including NOSQL and data stream processing approaches. Going beyond traditional data management techniques, the class will expose students to information retrieval, data mining, data warehousing, network analysis, and other data analysis topics. Time permitting, the class will include big data processing techniques, such as the map/reduce framework.",
       "requirements": "PLAN: Computer Science or Computer Engineering Electrical & Computer Engineer (ECE-MSECE; ECE-PHD)",
       "terms_offered": {
-        "FALL": true,
+        "FALL": false,
         "SPRING": true,
         "SUMMER": false
       },
@@ -2216,7 +2302,7 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "Privacy is an increasingly significant concern in our modern, connected society. We all share personal information on a daily basis with a wide range of organizations. Although at times such sharing can be intentional and beneficial for the user, other times information is shared against the user's will, used for purposes that the user did not expect, revealed to entities other than those approved by the user, or used to infer additional information that the user did not intend to reveal. In this course, students will learn to reason about what information is revealed through the use of computer systems. They will study several different scenarios in which information sharing is either unavoidable or to some extent desirable, and discuss the balance between the benefits and costs of sharing. Finally, students will learn about several privacy-enhancing technologies (PETs), and how these can be put to use by software developers to defend the privacy of their users.",
       "requirements": "PREQ: PLAN: CSCI-PHD and CSCI-MS.",
       "terms_offered": {
-        "FALL": true,
+        "FALL": false,
         "SPRING": false,
         "SUMMER": false
       },
@@ -2234,7 +2320,9 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [
+        "Dan Mahoney"
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-2071",
@@ -2244,11 +2332,13 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "This course provides an introduction to the field of natural language processing (NLP) - the creation of programs that can understand, generate, and learn languages used by humans. It will expose students to applications by means of computational techniques including dynamic programming, hidden markov models, grammars, and machine learning algorithms.",
       "requirements": "PREQ: CS 1501; (MIN GRADE 'C'  or TRANSFER) and MATH 0280 or 1180; PLAN: CSCI-MS or CSCI-PHD",
       "terms_offered": {
-        "FALL": false,
+        "FALL": true,
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [
+        "Michael Yoder"
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-2074",
@@ -2262,7 +2352,9 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": false,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [
+        "Nils Murrugarra LLerena"
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-2075",
@@ -2276,7 +2368,9 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [
+        "Patrick Skeba"
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-2078",
@@ -2286,7 +2380,7 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "This course will cover the basics of modern deep neural networks. The first part of the course will introduce neural network architectures, activation functions, and operations. It will present different loss functions and describe how training is performed via backpropagation. In the second part, the course will describe specific types of neural networks, e.g. convolutional, recurrent, and graph networks, as well as their applications in computer vision and natural language processing. The course will also briefly discuss reinforcement learning and unsupervised learning, in the context of neural networks. In addition to attending lectures and completing bi-weekly homework assignments, students will also carry out and present a project.",
       "requirements": "PREQ: MATH 0230 and (MATH 0280 or MATH 1180) and CS 1501 with a minimum grade of C or TRANSFER.",
       "terms_offered": {
-        "FALL": true,
+        "FALL": false,
         "SPRING": false,
         "SUMMER": false
       },
@@ -2304,7 +2398,9 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": false,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [
+        "Lorraine Li"
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-2099",
@@ -2342,7 +2438,7 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "This course deals with the analysis of algorithms and the relevance of such analysis to the design of efficient algorithms.  The derivation of results that are primarily of theoretical significance shares importance with the practical task of designing efficient algorithms.  Topics covered: searching and sorting, graph algorithms, arithmetic, np-completeness, and lower bound techniques.",
       "requirements": "",
       "terms_offered": {
-        "FALL": true,
+        "FALL": false,
         "SPRING": false,
         "SUMMER": false
       },
@@ -2360,7 +2456,9 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": false,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [
+        "Youtao Zhang"
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-2310",
@@ -2416,7 +2514,9 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": false,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [
+        "Amy Babay"
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-2530",
@@ -2468,7 +2568,7 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "Human-Computer Interaction is the science of building technologies for human use and studying how people use existing technologies. This course provides an introduction to user research methods in Human-Computer Interaction, including the generative methods used to design technologies, evaluative methods used to assess technologies, and human and automated data analysis approaches. The course will discuss applications of these topics to both well-established technologies (websites, mobile apps) and emerging technologies (e.g., brain-computer interfaces, AR/VR) as well as applications to emerging research areas in HCI such as crowdsourcing and human-AI interaction. A strong programming background is expected to take this course.",
       "requirements": "",
       "terms_offered": {
-        "FALL": true,
+        "FALL": false,
         "SPRING": false,
         "SUMMER": false
       },
@@ -2486,7 +2586,9 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": false,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [
+        "Milos Hauskrecht"
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-2731",
@@ -2500,7 +2602,9 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": false,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [
+        "Lorraine Li"
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-2750",
@@ -2514,7 +2618,9 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": false,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [
+        "Ryan Shi"
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-2756",
@@ -2556,7 +2662,9 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": false,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [
+        "Junyu Liu"
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-2900",
@@ -2611,13 +2719,15 @@ export const CourseInfoData: CourseInfoDataType = {
         "Daniel Mosse",
         "Diane Litman",
         "Erin Walker",
-        "John Lange",
+        "Jacob Biehl",
         "Kirk Pruhs",
         "Longfei Shangguan",
         "Lorraine Li",
         "Luis F. N. Q. d. Oliveira",
         "Milos Hauskrecht",
+        "Nils Murrugarra LLerena",
         "Panos Chrysanthis",
+        "Paul Cohen",
         "Stephen Lee",
         "Xiaowei Jia",
         "Xulong Tang",
@@ -2637,19 +2747,22 @@ export const CourseInfoData: CourseInfoDataType = {
         "SUMMER": true
       },
       "instructors": [
+        "Aakash Gautam",
         "Adam Lee",
         "Adriana Kovashka",
         "Alexandros Labrinidis",
         "Amy Babay",
-        "Bruce Childers",
         "Daniel Mosse",
         "Diane Litman",
         "Erin Walker",
         "Jacob Biehl",
-        "John Lange",
+        "Junyu Liu",
         "Kirk Pruhs",
         "Longfei Shangguan",
         "Lorraine Li",
+        "Luis F. N. Q. d. Oliveira",
+        "Milos Hauskrecht",
+        "Nils Murrugarra LLerena",
         "Panos Chrysanthis",
         "Paul Cohen",
         "Stephen Lee",
@@ -2674,15 +2787,23 @@ export const CourseInfoData: CourseInfoDataType = {
         "Adam Lee",
         "Adriana Kovashka",
         "Alexandros Labrinidis",
+        "Amy Babay",
         "Bruce Childers",
         "Daniel Mosse",
         "Diane Litman",
         "Erin Walker",
-        "John Lange",
+        "Jacob Biehl",
+        "Junyu Liu",
         "Kirk Pruhs",
+        "Longfei Shangguan",
+        "Lorraine Li",
+        "Luis F. N. Q. d. Oliveira",
         "Milos Hauskrecht",
+        "Nils Murrugarra LLerena",
         "Panos Chrysanthis",
+        "Paul Cohen",
         "Stephen Lee",
+        "Xiaowei Jia",
         "Xulong Tang",
         "Youtao Zhang"
       ]
@@ -2737,7 +2858,7 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "This course will survey current topics in computer architecture.",
       "requirements": "PREQ:  CS 2410",
       "terms_offered": {
-        "FALL": true,
+        "FALL": false,
         "SPRING": false,
         "SUMMER": false
       },
@@ -2891,7 +3012,7 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "A practical course in IoT systems, including sensing, data collection, data preparation, data transmission, and AI/Machine Learning methods.  The class will involve discussions of fundamentals of building systems, discussion of open problems, and designing and building a prototype IoT system.",
       "requirements": "",
       "terms_offered": {
-        "FALL": true,
+        "FALL": false,
         "SPRING": false,
         "SUMMER": false
       },
@@ -2947,7 +3068,7 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "This course aims to provide students with an introduction to a range of advanced topics in computing. It will explore the current and future challenges facing the emerging computing paradigms. These will also be used to illustrate the many different influences and trade-offs involved in computing and information systems.",
       "requirements": "",
       "terms_offered": {
-        "FALL": true,
+        "FALL": false,
         "SPRING": false,
         "SUMMER": false
       },
@@ -2969,15 +3090,22 @@ export const CourseInfoData: CourseInfoDataType = {
         "Adam Lee",
         "Adriana Kovashka",
         "Alexandros Labrinidis",
+        "Amy Babay",
         "Bruce Childers",
         "Daniel Mosse",
         "Diane Litman",
         "Erin Walker",
+        "Jacob Biehl",
         "John Lange",
         "Kirk Pruhs",
+        "Longfei Shangguan",
+        "Lorraine Li",
+        "Luis F. N. Q. d. Oliveira",
         "Milos Hauskrecht",
         "Panos Chrysanthis",
+        "Paul Cohen",
         "Stephen Lee",
+        "Xiaowei Jia",
         "Xulong Tang",
         "Youtao Zhang"
       ]
