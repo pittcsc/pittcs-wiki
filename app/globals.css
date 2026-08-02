@@ -1371,11 +1371,16 @@ html.dark .card:hover {
 
 /* Hero Section with gradient fade to background color */
 .hero-section {
+  background-image: var(--hero-bg-light);
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-attachment: scroll !important;
   margin-bottom: 1.5rem;
+}
+
+.dark .hero-section {
+  background-image: var(--hero-bg-dark);
 }
 
 /* Skeleton Loading States */
