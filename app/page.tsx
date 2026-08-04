@@ -1,8 +1,6 @@
-"use client"
-
 import Image from "next/image"
 import Link from "next/link"
-import { useEffect, useState } from "react"
+import type { CSSProperties } from "react"
 
 import CampusBackground from "@/images/pittcampus.jpg"
 import Logo from "@/images/logo.svg"
@@ -10,42 +8,29 @@ import { RightArrowSvg } from "@/svgs/RightArrowSvg"
 import LinkPanel from "@/components/LinkPanel/LinkPanel"
 
 export default function Home() {
-  const [isDark, setIsDark] = useState(false)
-
-  useEffect(() => {
-    const checkDarkMode = () => {
-      setIsDark(document.documentElement.classList.contains("dark"))
-    }
-
-    checkDarkMode()
-
-    const observer = new MutationObserver(checkDarkMode)
-    observer.observe(document.documentElement, {
-      attributes: true,
-      attributeFilter: ["class"],
-    })
-
-    return () => observer.disconnect()
-  }, [])
-
   const lightGradient = `linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 65%, rgba(255,255,255,0.3) 78%, rgba(255,255,255,0.8) 90%, #fafbfc 100%), url('${CampusBackground.src}')`
   const darkGradient = `linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 65%, rgba(0,0,0,0.3) 78%, rgba(0,0,0,0.7) 90%, #0f0f0f 100%), url('${CampusBackground.src}')`
+
+  // Both gradients are always defined; globals.css picks the right one from the
+  // `dark` class (set pre-paint by the layout script), so there is no
+  // light-mode flash and no dependency on client-side JS/hydration.
+  const heroStyle = {
+    "--hero-bg-light": lightGradient,
+    "--hero-bg-dark": darkGradient,
+    width: "100vw",
+    marginLeft: "calc(-50vw + 50%)",
+    marginTop: "-20px",
+    paddingTop: "5rem",
+    paddingBottom: "3rem",
+    backgroundPosition: "center top",
+  } as CSSProperties
 
   return (
     <main>
       {/* Hero Section with Background Image and Gradient Fade */}
       <div
         className="hero-section relative overflow-hidden bg-[#fafbfc] dark:bg-[#0f0f0f]"
-        style={{
-          backgroundImage: isDark ? darkGradient : lightGradient,
-          width: "100vw",
-          marginLeft: "calc(-50vw + 50%)",
-          marginTop: "-20px",
-          paddingTop: "5rem",
-          paddingBottom: "3rem",
-          backgroundPosition: "center top",
-          backgroundColor: isDark ? "#0f0f0f" : "#fafbfc",
-        }}
+        style={heroStyle}
       >
         {/* Hero Content */}
         <div className="max-w-4xl mx-auto relative z-10">
