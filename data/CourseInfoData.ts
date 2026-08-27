@@ -9,7 +9,7 @@ export type CourseInfoDataType = {
 
 export const CourseInfoData: CourseInfoDataType = {
   "metadata": {
-    "generated": "2026-08-16T00:24:37.742Z"
+    "generated": "2026-08-23T00:24:25.568Z"
   },
   "courses": [
     {
@@ -25,14 +25,15 @@ export const CourseInfoData: CourseInfoDataType = {
         "SUMMER": false
       },
       "instructors": [
+        "Amy Vaught",
         "Anna Hermann",
         "Emily Bennett",
         "Emily Park",
         "Jen Gentzel",
+        "Jennifer Welton",
         "John Faulkner",
-        "Kailyn Lukaszewski",
         "Kristine Pugliese",
-        "Rachel Parkes"
+        "Lynnsey Doane"
       ]
     },
     {
@@ -983,7 +984,9 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": true
       },
-      "instructors": []
+      "instructors": [
+        "Alexandros Labrinidis"
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CMPINF-2130",
@@ -1071,7 +1074,9 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": false,
         "SUMMER": true
       },
-      "instructors": []
+      "instructors": [
+        "Emma Jordan"
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CMPINF-2910",
@@ -2712,6 +2717,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SUMMER": true
       },
       "instructors": [
+        "Aakash Gautam",
         "Adam Lee",
         "Adriana Kovashka",
         "Alexandros Labrinidis",
@@ -2729,6 +2735,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "Nils Murrugarra LLerena",
         "Panos Chrysanthis",
         "Paul Cohen",
+        "Ryan Shi",
         "Stephen Lee",
         "Xiaowei Jia",
         "Xulong Tang",
