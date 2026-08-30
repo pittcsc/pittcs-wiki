@@ -9,7 +9,7 @@ export type CourseInfoDataType = {
 
 export const CourseInfoData: CourseInfoDataType = {
   "metadata": {
-    "generated": "2026-08-23T00:24:25.568Z"
+    "generated": "2026-08-30T00:57:33.847Z"
   },
   "courses": [
     {
@@ -780,13 +780,11 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "",
       "requirements": "Department Consent Required\n            Course Attributes: GER Pmathic Ctext: Ethical/Pol",
       "terms_offered": {
-        "FALL": true,
+        "FALL": false,
         "SPRING": false,
         "SUMMER": false
       },
-      "instructors": [
-        "TBD"
-      ]
+      "instructors": []
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CMPINF-0090",
