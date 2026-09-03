@@ -10,6 +10,13 @@ jobs:
   update-courses:
     runs-on: ubuntu-latest
     steps:
+      - name: Generate Github App Token
+        id: app-token
+        uses: actions/create-github-app-token@v3
+        with:
+          client-id: ${{ vars.WIKI_BOT_CLIENT_ID }}
+          private-key: ${{ secrets.WIKI_BOT_PRIVATE_KEY }}
+
       - name: Checkout code
         uses: actions/checkout@v3
 
@@ -30,7 +37,7 @@ jobs:
 
       - name: Commit and push changes
         env:
-          GH_TOKEN: ${{ secrets.WIKI_PAT }}
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
         run: |
           git config --global user.name 'GitHub Action'
           git config --global user.email 'action@github.com'
