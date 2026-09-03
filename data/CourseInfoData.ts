@@ -9,7 +9,7 @@ export type CourseInfoDataType = {
 
 export const CourseInfoData: CourseInfoDataType = {
   "metadata": {
-    "generated": "2026-08-30T00:57:33.847Z"
+    "generated": "2026-09-03T16:18:17.201Z"
   },
   "courses": [
     {
@@ -2414,11 +2414,13 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "This is a special topics course that allows the computer science department to test run a course before deciding whether to permanently add it to our curriculum.",
       "requirements": "",
       "terms_offered": {
-        "FALL": false,
+        "FALL": true,
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [
+        "Emma Jordan"
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-2110",
