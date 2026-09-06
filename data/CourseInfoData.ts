@@ -9,7 +9,7 @@ export type CourseInfoDataType = {
 
 export const CourseInfoData: CourseInfoDataType = {
   "metadata": {
-    "generated": "2026-09-03T16:39:22.537Z"
+    "generated": "2026-09-06T00:59:08.591Z"
   },
   "courses": [
     {
@@ -2116,7 +2116,7 @@ export const CourseInfoData: CourseInfoDataType = {
         "SUMMER": false
       },
       "instructors": [
-        "Jacob Biehl"
+        "Milos Hauskrecht"
       ]
     },
     {
@@ -2143,13 +2143,11 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "As the second in a two-course sequence on algorithms and data structures, this course covers a broad range of the most commonly used algorithms. Some examples include algorithms for searching, encryption, compression, graphs, and dynamic programming. The students will implement and test several algorithms. The course is programming intensive.",
       "requirements": "",
       "terms_offered": {
-        "FALL": true,
+        "FALL": false,
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": [
-        "Nicholas Farnan"
-      ]
+      "instructors": []
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-2021",
@@ -2189,13 +2187,11 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "This course will introduce concepts and common practices for building software for user interfaces. Concepts will connect across input, visual layout techniques, and software patterns for responsive user interaction with a focus on mobile platforms (web and native). Emergent interface concepts, such as voice, AR/VR, and IoT will also be explored while building upon the course's software foundation. This course is targeted for students who desire skills in front-end development, interface design and prototyping, and user experience engineering.",
       "requirements": "",
       "terms_offered": {
-        "FALL": true,
+        "FALL": false,
         "SPRING": false,
         "SUMMER": false
       },
-      "instructors": [
-        "Jacob Biehl"
-      ]
+      "instructors": []
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-2037",
