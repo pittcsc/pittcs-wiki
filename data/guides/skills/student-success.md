@@ -12,7 +12,7 @@ search_tags:
     "academic support",
     "navigate",
     "lynnsey doane",
-    "kailyn lukaszewski",
+    "emily kerr",
   ]
 ---
 
@@ -20,7 +20,7 @@ The School of Computing and Information (SCI) has a dedicated Student Success te
 
 ## About the Team
 
-[Lynnsey Doane](https://www.sci.pitt.edu/people/lynnsey-doane) (Director) and [Kailyn Lukaszewski](https://www.sci.pitt.edu/people/kailyn-lukaszewski) (Coordinator) work with SCI students on academic stuff, but they also help with the non-academic parts of being a student. If you're trying to figure out your schedule, dealing with a rough semester, or just want to talk through something, they're available.
+[Lynnsey Doane](https://www.sci.pitt.edu/people/lynnsey-doane) (Director) and [Emily Kerr](https://www.sci.pitt.edu/people/emily-kerr) (Coordinator) work with SCI students on academic stuff, but they also help with the non-academic parts of being a student. If you're trying to figure out your schedule, dealing with a rough semester, or just want to talk through something, they're available.
 
 ## What They Do
 
@@ -59,7 +59,7 @@ Everything is virtual, so you don't need to go anywhere.
 **The Team:**
 
 - **[Lynnsey Doane](https://www.sci.pitt.edu/people/lynnsey-doane)** - Director of Student Success
-- **[Kailyn Lukaszewski](https://www.sci.pitt.edu/people/kailyn-lukaszewski)** - Student Success Coordinator
+- **[Emily Kerr](https://www.sci.pitt.edu/people/emily-kerr)** - Student Success Coordinator
 
 **Contact:**
 
