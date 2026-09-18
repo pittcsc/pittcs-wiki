@@ -11,7 +11,7 @@ So you want to be a Teaching Assistant for the CS Department… good choice! But
 
 ## Who should I contact?
 
-Before you can even help any student out, you have to apply for the job! Kailyn Lukaszewski is in charge of coordinating UTAs and Peer Tutor job assignments. Email her at [kcl37@pitt.edu](mailto:KCL37@pitt.edu)!
+Before you can even help any student out, you have to apply for the job! [Emily Kerr](https://www.sci.pitt.edu/people/emily-kerr) is in charge of coordinating UTAs and Peer Tutor job assignments. Email them at [erk56@pitt.edu](mailto:erk56@pitt.edu)!
 
 ## Should I TA?
 
