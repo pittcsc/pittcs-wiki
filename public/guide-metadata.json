@@ -69,6 +69,20 @@
     "readingTime": 4,
     "commits": 2
   },
+  "guide-academics/majors/machine-learning": {
+    "path": "academics/majors/machine-learning",
+    "author": "Aarash Zakeri",
+    "authorEmail": "",
+    "originalAuthor": "Aarash Zakeri",
+    "originalAuthorEmail": "",
+    "updaters": [],
+    "updaterEmails": [],
+    "lastModified": "2026-09-28T17:45:06.370Z",
+    "created": "2026-09-28T17:45:06.370Z",
+    "wordCount": 2110,
+    "readingTime": 11,
+    "commits": 0
+  },
   "guide-academics/minors/stats": {
     "path": "academics/minors/stats",
     "author": "Alex Zharichenko",
@@ -290,7 +304,7 @@
     "created": "2023-11-28T19:56:49.000Z",
     "wordCount": 1258,
     "readingTime": 7,
-    "commits": 7
+    "commits": 9
   },
   "guide-career/career-fair": {
     "path": "career/career-fair",
@@ -745,7 +759,7 @@
     "created": "2026-01-22T00:36:08.000Z",
     "wordCount": 361,
     "readingTime": 2,
-    "commits": 3
+    "commits": 4
   },
   "guide-zero-to-offer/ace-your-interview": {
     "path": "zero-to-offer/ace-your-interview",
