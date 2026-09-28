@@ -33,12 +33,8 @@
     "authorEmail": "sjj27@pitt.edu",
     "originalAuthor": "Steven Jarmell",
     "originalAuthorEmail": "sjj27@pitt.edu",
-    "updaters": [
-      "Jayden Kelly"
-    ],
-    "updaterEmails": [
-      "jaykelly924@gmail.com"
-    ],
+    "updaters": ["Jayden Kelly"],
+    "updaterEmails": ["jaykelly924@gmail.com"],
     "lastModified": "2023-11-28T19:56:49.000Z",
     "created": "2023-11-28T19:56:49.000Z",
     "wordCount": 1232,
@@ -51,12 +47,8 @@
     "authorEmail": "sjj27@pitt.edu",
     "originalAuthor": "Aarash Zakeri",
     "originalAuthorEmail": "sjj27@pitt.edu",
-    "updaters": [
-      "ArchZak"
-    ],
-    "updaterEmails": [
-      "izear21@gmail.com"
-    ],
+    "updaters": ["ArchZak"],
+    "updaterEmails": ["izear21@gmail.com"],
     "lastModified": "2023-11-28T19:56:49.000Z",
     "created": "2023-11-28T19:56:49.000Z",
     "wordCount": 4737,
@@ -125,10 +117,7 @@
     "authorEmail": "sjj27@pitt.edu",
     "originalAuthor": "Steven Jarmell",
     "originalAuthorEmail": "sjj27@pitt.edu",
-    "updaters": [
-      "Shreyash Ranjan",
-      "liambrem"
-    ],
+    "updaters": ["Shreyash Ranjan", "liambrem"],
     "updaterEmails": [
       "56934841+codingshreyash@users.noreply.github.com",
       "liam.e.brem@gmail.com"
@@ -159,10 +148,7 @@
     "authorEmail": "sjj27@pitt.edu",
     "originalAuthor": "Joshua Spisak",
     "originalAuthorEmail": "sjj27@pitt.edu",
-    "updaters": [
-      "Shreyash Ranjan",
-      "liambrem"
-    ],
+    "updaters": ["Shreyash Ranjan", "liambrem"],
     "updaterEmails": [
       "56934841+codingshreyash@users.noreply.github.com",
       "liam.e.brem@gmail.com"
@@ -235,12 +221,8 @@
     "authorEmail": "sjj27@pitt.edu",
     "originalAuthor": "Steven Jarmell",
     "originalAuthorEmail": "sjj27@pitt.edu",
-    "updaters": [
-      "Shreyash Ranjan"
-    ],
-    "updaterEmails": [
-      "56934841+codingshreyash@users.noreply.github.com"
-    ],
+    "updaters": ["Shreyash Ranjan"],
+    "updaterEmails": ["56934841+codingshreyash@users.noreply.github.com"],
     "lastModified": "2023-11-28T19:56:49.000Z",
     "created": "2023-11-28T19:56:49.000Z",
     "wordCount": 1340,
@@ -253,10 +235,7 @@
     "authorEmail": "56934841+codingshreyash@users.noreply.github.com",
     "originalAuthor": "Shreyash Ranjan",
     "originalAuthorEmail": "56934841+codingshreyash@users.noreply.github.com",
-    "updaters": [
-      "David",
-      "liambrem"
-    ],
+    "updaters": ["David", "liambrem"],
     "updaterEmails": [
       "136610493+dvdzs8@users.noreply.github.com",
       "liam.e.brem@gmail.com"
@@ -273,12 +252,8 @@
     "authorEmail": "sjj27@pitt.edu",
     "originalAuthor": "Nathan Barta",
     "originalAuthorEmail": "sjj27@pitt.edu",
-    "updaters": [
-      "liambrem"
-    ],
-    "updaterEmails": [
-      "liam.e.brem@gmail.com"
-    ],
+    "updaters": ["liambrem"],
+    "updaterEmails": ["liam.e.brem@gmail.com"],
     "lastModified": "2023-11-28T19:56:49.000Z",
     "created": "2023-11-28T19:56:49.000Z",
     "wordCount": 2157,
@@ -319,11 +294,7 @@
     "authorEmail": "sjj27@pitt.edu",
     "originalAuthor": "Gordon Lu",
     "originalAuthorEmail": "sjj27@pitt.edu",
-    "updaters": [
-      "Shreyash Ranjan",
-      "Denys Tsinyk",
-      "liambrem"
-    ],
+    "updaters": ["Shreyash Ranjan", "Denys Tsinyk", "liambrem"],
     "updaterEmails": [
       "56934841+codingshreyash@users.noreply.github.com",
       "denystsinyk@gmail.com",
@@ -341,12 +312,8 @@
     "authorEmail": "sjj27@pitt.edu",
     "originalAuthor": "Steven Jarmell",
     "originalAuthorEmail": "sjj27@pitt.edu",
-    "updaters": [
-      "Shreyash Ranjan"
-    ],
-    "updaterEmails": [
-      "56934841+codingshreyash@users.noreply.github.com"
-    ],
+    "updaters": ["Shreyash Ranjan"],
+    "updaterEmails": ["56934841+codingshreyash@users.noreply.github.com"],
     "lastModified": "2023-11-28T19:56:49.000Z",
     "created": "2023-11-28T19:56:49.000Z",
     "wordCount": 1888,
@@ -359,12 +326,8 @@
     "authorEmail": "sjj27@pitt.edu",
     "originalAuthor": "Steven Jarmell",
     "originalAuthorEmail": "sjj27@pitt.edu",
-    "updaters": [
-      "Shreyash Ranjan"
-    ],
-    "updaterEmails": [
-      "56934841+codingshreyash@users.noreply.github.com"
-    ],
+    "updaters": ["Shreyash Ranjan"],
+    "updaterEmails": ["56934841+codingshreyash@users.noreply.github.com"],
     "lastModified": "2023-11-28T19:56:49.000Z",
     "created": "2023-11-28T19:56:49.000Z",
     "wordCount": 859,
@@ -391,12 +354,8 @@
     "authorEmail": "sjj27@pitt.edu",
     "originalAuthor": "Steven Jarmell",
     "originalAuthorEmail": "sjj27@pitt.edu",
-    "updaters": [
-      "Shreyash Ranjan"
-    ],
-    "updaterEmails": [
-      "56934841+codingshreyash@users.noreply.github.com"
-    ],
+    "updaters": ["Shreyash Ranjan"],
+    "updaterEmails": ["56934841+codingshreyash@users.noreply.github.com"],
     "lastModified": "2023-11-28T19:56:49.000Z",
     "created": "2023-11-28T19:56:49.000Z",
     "wordCount": 347,
@@ -409,12 +368,8 @@
     "authorEmail": "sjj27@pitt.edu",
     "originalAuthor": "Steven Jarmell",
     "originalAuthorEmail": "sjj27@pitt.edu",
-    "updaters": [
-      "Shreyash Ranjan"
-    ],
-    "updaterEmails": [
-      "56934841+codingshreyash@users.noreply.github.com"
-    ],
+    "updaters": ["Shreyash Ranjan"],
+    "updaterEmails": ["56934841+codingshreyash@users.noreply.github.com"],
     "lastModified": "2023-11-28T19:56:49.000Z",
     "created": "2023-11-28T19:56:49.000Z",
     "wordCount": 209,
@@ -497,10 +452,7 @@
     "authorEmail": "sjj27@pitt.edu",
     "originalAuthor": "Steven Jarmell",
     "originalAuthorEmail": "sjj27@pitt.edu",
-    "updaters": [
-      "Shreyash Ranjan",
-      "liambrem"
-    ],
+    "updaters": ["Shreyash Ranjan", "liambrem"],
     "updaterEmails": [
       "56934841+codingshreyash@users.noreply.github.com",
       "liam.e.brem@gmail.com"
@@ -531,12 +483,8 @@
     "authorEmail": "sjj27@pitt.edu",
     "originalAuthor": "Steven Jarmell",
     "originalAuthorEmail": "sjj27@pitt.edu",
-    "updaters": [
-      "Shreyash Ranjan"
-    ],
-    "updaterEmails": [
-      "56934841+codingshreyash@users.noreply.github.com"
-    ],
+    "updaters": ["Shreyash Ranjan"],
+    "updaterEmails": ["56934841+codingshreyash@users.noreply.github.com"],
     "lastModified": "2023-11-28T19:56:49.000Z",
     "created": "2023-11-28T19:56:49.000Z",
     "wordCount": 677,
@@ -619,12 +567,8 @@
     "authorEmail": "56934841+codingshreyash@users.noreply.github.com",
     "originalAuthor": "Shreyash Ranjan",
     "originalAuthorEmail": "56934841+codingshreyash@users.noreply.github.com",
-    "updaters": [
-      "liambrem"
-    ],
-    "updaterEmails": [
-      "liam.e.brem@gmail.com"
-    ],
+    "updaters": ["liambrem"],
+    "updaterEmails": ["liam.e.brem@gmail.com"],
     "lastModified": "2026-01-14T21:27:26.000Z",
     "created": "2025-01-14",
     "wordCount": 1188,
@@ -637,12 +581,8 @@
     "authorEmail": "56934841+codingshreyash@users.noreply.github.com",
     "originalAuthor": "Shreyash Ranjan",
     "originalAuthorEmail": "56934841+codingshreyash@users.noreply.github.com",
-    "updaters": [
-      "liambrem"
-    ],
-    "updaterEmails": [
-      "liam.e.brem@gmail.com"
-    ],
+    "updaters": ["liambrem"],
+    "updaterEmails": ["liam.e.brem@gmail.com"],
     "lastModified": "2026-01-14T21:27:26.000Z",
     "created": "2025-01-14",
     "wordCount": 1455,
@@ -655,12 +595,8 @@
     "authorEmail": "56934841+codingshreyash@users.noreply.github.com",
     "originalAuthor": "Shreyash Ranjan",
     "originalAuthorEmail": "56934841+codingshreyash@users.noreply.github.com",
-    "updaters": [
-      "liambrem"
-    ],
-    "updaterEmails": [
-      "liam.e.brem@gmail.com"
-    ],
+    "updaters": ["liambrem"],
+    "updaterEmails": ["liam.e.brem@gmail.com"],
     "lastModified": "2026-01-14T21:27:26.000Z",
     "created": "2025-01-14",
     "wordCount": 1444,
@@ -673,12 +609,8 @@
     "authorEmail": "56934841+codingshreyash@users.noreply.github.com",
     "originalAuthor": "Shreyash Ranjan",
     "originalAuthorEmail": "56934841+codingshreyash@users.noreply.github.com",
-    "updaters": [
-      "liambrem"
-    ],
-    "updaterEmails": [
-      "liam.e.brem@gmail.com"
-    ],
+    "updaters": ["liambrem"],
+    "updaterEmails": ["liam.e.brem@gmail.com"],
     "lastModified": "2026-01-14T22:53:46.000Z",
     "created": "2025-12-17",
     "wordCount": 1614,
@@ -691,12 +623,8 @@
     "authorEmail": "sjj27@pitt.edu",
     "originalAuthor": "Steven Jarmell",
     "originalAuthorEmail": "sjj27@pitt.edu",
-    "updaters": [
-      "Shreyash Ranjan"
-    ],
-    "updaterEmails": [
-      "56934841+codingshreyash@users.noreply.github.com"
-    ],
+    "updaters": ["Shreyash Ranjan"],
+    "updaterEmails": ["56934841+codingshreyash@users.noreply.github.com"],
     "lastModified": "2023-11-28T19:56:49.000Z",
     "created": "2023-11-28T19:56:49.000Z",
     "wordCount": 110,
@@ -751,11 +679,7 @@
     "authorEmail": "sjj27@pitt.edu",
     "originalAuthor": "Alex Zharichenko",
     "originalAuthorEmail": "sjj27@pitt.edu",
-    "updaters": [
-      "braynguyen",
-      "Brayden Nguyen",
-      "Shreyash Ranjan"
-    ],
+    "updaters": ["braynguyen", "Brayden Nguyen", "Shreyash Ranjan"],
     "updaterEmails": [
       "btn16@pitt.edu",
       "112491386+braynguyen@users.noreply.github.com",
@@ -843,12 +767,8 @@
     "authorEmail": "sjj27@pitt.edu",
     "originalAuthor": "Steven Jarmell",
     "originalAuthorEmail": "sjj27@pitt.edu",
-    "updaters": [
-      "Shreyash Ranjan"
-    ],
-    "updaterEmails": [
-      "56934841+codingshreyash@users.noreply.github.com"
-    ],
+    "updaters": ["Shreyash Ranjan"],
+    "updaterEmails": ["56934841+codingshreyash@users.noreply.github.com"],
     "lastModified": "2023-11-28T19:56:49.000Z",
     "created": "2023-11-28T19:56:49.000Z",
     "wordCount": 1270,
@@ -861,12 +781,8 @@
     "authorEmail": "sjj27@pitt.edu",
     "originalAuthor": "Steven Jarmell",
     "originalAuthorEmail": "sjj27@pitt.edu",
-    "updaters": [
-      "Shreyash Ranjan"
-    ],
-    "updaterEmails": [
-      "56934841+codingshreyash@users.noreply.github.com"
-    ],
+    "updaters": ["Shreyash Ranjan"],
+    "updaterEmails": ["56934841+codingshreyash@users.noreply.github.com"],
     "lastModified": "2023-11-28T19:56:49.000Z",
     "created": "2023-11-28T19:56:49.000Z",
     "wordCount": 1805,
@@ -879,12 +795,8 @@
     "authorEmail": "sjj27@pitt.edu",
     "originalAuthor": "Steven Jarmell",
     "originalAuthorEmail": "sjj27@pitt.edu",
-    "updaters": [
-      "Shreyash Ranjan"
-    ],
-    "updaterEmails": [
-      "56934841+codingshreyash@users.noreply.github.com"
-    ],
+    "updaters": ["Shreyash Ranjan"],
+    "updaterEmails": ["56934841+codingshreyash@users.noreply.github.com"],
     "lastModified": "2023-11-28T19:56:49.000Z",
     "created": "2023-11-28T19:56:49.000Z",
     "wordCount": 1726,
@@ -897,12 +809,8 @@
     "authorEmail": "sjj27@pitt.edu",
     "originalAuthor": "Steven Jarmell",
     "originalAuthorEmail": "sjj27@pitt.edu",
-    "updaters": [
-      "Shreyash Ranjan"
-    ],
-    "updaterEmails": [
-      "56934841+codingshreyash@users.noreply.github.com"
-    ],
+    "updaters": ["Shreyash Ranjan"],
+    "updaterEmails": ["56934841+codingshreyash@users.noreply.github.com"],
     "lastModified": "2023-11-28T19:56:49.000Z",
     "created": "2023-11-28T19:56:49.000Z",
     "wordCount": 1326,
@@ -915,12 +823,8 @@
     "authorEmail": "sjj27@pitt.edu",
     "originalAuthor": "Steven Jarmell",
     "originalAuthorEmail": "sjj27@pitt.edu",
-    "updaters": [
-      "Shreyash Ranjan"
-    ],
-    "updaterEmails": [
-      "56934841+codingshreyash@users.noreply.github.com"
-    ],
+    "updaters": ["Shreyash Ranjan"],
+    "updaterEmails": ["56934841+codingshreyash@users.noreply.github.com"],
     "lastModified": "2023-11-28T19:56:49.000Z",
     "created": "2023-11-28T19:56:49.000Z",
     "wordCount": 1154,
@@ -933,12 +837,8 @@
     "authorEmail": "sjj27@pitt.edu",
     "originalAuthor": "Steven Jarmell",
     "originalAuthorEmail": "sjj27@pitt.edu",
-    "updaters": [
-      "Shreyash Ranjan"
-    ],
-    "updaterEmails": [
-      "56934841+codingshreyash@users.noreply.github.com"
-    ],
+    "updaters": ["Shreyash Ranjan"],
+    "updaterEmails": ["56934841+codingshreyash@users.noreply.github.com"],
     "lastModified": "2023-11-28T19:56:49.000Z",
     "created": "2023-11-28T19:56:49.000Z",
     "wordCount": 318,
