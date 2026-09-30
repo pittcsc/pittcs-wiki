@@ -73,7 +73,7 @@ There’s obviously nothing you can do about that, but it’s worth noting.
 
 ### Conclusion
 
-If you’ve read everything above, you should be equipped with the context you need to make your own decisions about the degre and know what you’re signing up for. Let’s talk about the coursework now.
+If you’ve read everything above, you should be equipped with the context you need to make your own decisions about the degree and know what you’re signing up for. Let’s talk about the coursework now.
 
 ## Declaration Requirements:
 
