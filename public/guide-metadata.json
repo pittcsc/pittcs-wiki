@@ -53,7 +53,7 @@
     "created": "2023-11-28T19:56:49.000Z",
     "wordCount": 4737,
     "readingTime": 24,
-    "commits": 5
+    "commits": 6
   },
   "guide-academics/majors/dnid": {
     "path": "academics/majors/dnid",
@@ -72,16 +72,16 @@
   "guide-academics/majors/machine-learning": {
     "path": "academics/majors/machine-learning",
     "author": "Aarash Zakeri",
-    "authorEmail": "",
+    "authorEmail": "izear21@gmail.com",
     "originalAuthor": "Aarash Zakeri",
-    "originalAuthorEmail": "",
+    "originalAuthorEmail": "izear21@gmail.com",
     "updaters": [],
     "updaterEmails": [],
-    "lastModified": "2026-09-28T17:45:06.370Z",
-    "created": "2026-09-28T17:45:06.370Z",
-    "wordCount": 2110,
-    "readingTime": 11,
-    "commits": 0
+    "lastModified": "2026-09-28T17:50:13.000Z",
+    "created": "2026-09-28T17:50:13.000Z",
+    "wordCount": 3123,
+    "readingTime": 16,
+    "commits": 2
   },
   "guide-academics/minors/stats": {
     "path": "academics/minors/stats",
