@@ -9,7 +9,7 @@ export type CourseInfoDataType = {
 
 export const CourseInfoData: CourseInfoDataType = {
   "metadata": {
-    "generated": "2026-09-06T00:59:08.591Z"
+    "generated": "2026-10-25T22:49:51.580Z"
   },
   "courses": [
     {
@@ -21,7 +21,7 @@ export const CourseInfoData: CourseInfoDataType = {
       "requirements": "PROG: School of Computing and Information",
       "terms_offered": {
         "FALL": true,
-        "SPRING": false,
+        "SPRING": true,
         "SUMMER": false
       },
       "instructors": [
@@ -34,6 +34,24 @@ export const CourseInfoData: CourseInfoDataType = {
         "John Faulkner",
         "Kristine Pugliese",
         "Lynnsey Doane"
+      ],
+      "typically_offered": "Fall, Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 9
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
       ]
     },
     {
@@ -50,6 +68,24 @@ export const CourseInfoData: CourseInfoDataType = {
       },
       "instructors": [
         "Rachel Parkes"
+      ],
+      "typically_offered": "Fall, Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 1
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 1
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
       ]
     },
     {
@@ -62,11 +98,29 @@ export const CourseInfoData: CourseInfoDataType = {
       "terms_offered": {
         "FALL": true,
         "SPRING": true,
-        "SUMMER": false
+        "SUMMER": true
       },
       "instructors": [
         "Joseph Graham",
         "William Garrison"
+      ],
+      "typically_offered": "Fall, Spring, Summer",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 10
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 4
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
       ]
     },
     {
@@ -84,6 +138,24 @@ export const CourseInfoData: CourseInfoDataType = {
       "instructors": [
         "Joseph Graham",
         "William Garrison"
+      ],
+      "typically_offered": "Fall, Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 2
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 1
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
       ]
     },
     {
@@ -304,11 +376,29 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "Students participating in an exchange program where in-major equivalents have been determined by their undergraduate director will be enrolled in this course.",
       "requirements": "",
       "terms_offered": {
-        "FALL": false,
-        "SPRING": false,
-        "SUMMER": false
+        "FALL": true,
+        "SPRING": true,
+        "SUMMER": true
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Fall, Spring, Summer",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 2
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CMPINF-0036",
@@ -318,11 +408,29 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "Used to adjust tuition and fees for Study Abroad Exchange programs",
       "requirements": "",
       "terms_offered": {
-        "FALL": false,
-        "SPRING": false,
-        "SUMMER": false
+        "FALL": true,
+        "SPRING": true,
+        "SUMMER": true
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Fall, Spring, Summer",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 1
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 1
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CMPINF-0040",
@@ -542,11 +650,29 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "This is a study abroad course used for the sole purpose of attaching the study abroad admin fee.",
       "requirements": "",
       "terms_offered": {
-        "FALL": false,
-        "SPRING": false,
-        "SUMMER": false
+        "FALL": true,
+        "SPRING": true,
+        "SUMMER": true
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Fall, Spring, Summer",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CMPINF-0056",
@@ -710,11 +836,29 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "",
       "requirements": "",
       "terms_offered": {
-        "FALL": false,
-        "SPRING": false,
-        "SUMMER": false
+        "FALL": true,
+        "SPRING": true,
+        "SUMMER": true
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Fall, Spring, Summer",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 1
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 1
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CMPINF-0071",
@@ -798,7 +942,24 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": false,
         "SUMMER": true
       },
-      "instructors": []
+      "instructors": [],
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CMPINF-0401",
@@ -816,6 +977,24 @@ export const CourseInfoData: CourseInfoDataType = {
         "John Ramirez",
         "Nadine v. F. u. Ludwigsdorff",
         "Timothy Hoffman"
+      ],
+      "typically_offered": "Fall, Spring, Summer",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 14
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 10
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 2
+        }
       ]
     },
     {
@@ -826,11 +1005,29 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "Various topics in computing and information will be covered.",
       "requirements": "",
       "terms_offered": {
-        "FALL": false,
+        "FALL": true,
         "SPRING": false,
-        "SUMMER": false
+        "SUMMER": true
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Fall, Summer",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CMPINF-1061",
@@ -840,11 +1037,29 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "This course is designed to provide a general introduction to the rapidly growing field of data science. Topics will include data summarization and visualization, data distributions, the scientific and statistical inference process, confidence intervals, hypothesis testing, sampling, regression, and classification. The course will be very hands-on with students actively carrying out the techniques and procedures being taught on real datasets in order to foster the ability to reason with data. As part of this process, students will be taught the basics of programming (coding) in R and these skills will be reinforced through weekly lab sessions. In developing the core concepts, students will also be exposed to ancillary topics such as data ethics, simulation basics, and best practices in programming. No previous programming experience nor any background in statistics will be assumed.",
       "requirements": "",
       "terms_offered": {
-        "FALL": false,
+        "FALL": true,
         "SPRING": false,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Fall",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CMPINF-1201",
@@ -854,12 +1069,30 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "How are computational artifacts currently designed, and how can they be designed differently? What stories can be told by collaborating with computers? What stories can't be told? This project-based course will enable students to engage with and create computational narratives and interactive projects with data, hardware and algorithms. Each collaboratively taught iteration of the course will include 3-4 of these units, such as: fabrication, interactive hardware, computational narrative, interactive data, and prototyping. Students will consider what it means to compose with computers for human audiences, and with humans for computer audiences. Designed for Digital Narrative and Interactive Design (DNID) majors to take midway through the major, it will help students consolidate the interdisciplinary knowledge they have obtained in their prerequisite courses, introduce them to examples of interdisciplinary work that will inform their later capstone projects, and give them practice in working on collaborative projects that span the humanities and information/computing fields.",
       "requirements": "PREQ: (ENGCMP 0425, OR HAA 0425, OR ENGLIT 0512) AND (CS 0010, OR CS 0011, OR CS 0012, OR CS 0007, OR CS 0008, OR INFSCI 0419)",
       "terms_offered": {
-        "FALL": true,
+        "FALL": false,
         "SPRING": true,
         "SUMMER": false
       },
       "instructors": [
         "Christopher MaverickPat Healy"
+      ],
+      "typically_offered": "Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 1
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 1
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
       ]
     },
     {
@@ -871,11 +1104,29 @@ export const CourseInfoData: CourseInfoDataType = {
       "requirements": "",
       "terms_offered": {
         "FALL": true,
-        "SPRING": true,
+        "SPRING": false,
         "SUMMER": false
       },
       "instructors": [
         "Song Shi"
+      ],
+      "typically_offered": "Fall",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 1
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 1
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
       ]
     },
     {
@@ -892,6 +1143,24 @@ export const CourseInfoData: CourseInfoDataType = {
       },
       "instructors": [
         "Anna Kasunic"
+      ],
+      "typically_offered": "Fall",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 1
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
       ]
     },
     {
@@ -917,10 +1186,28 @@ export const CourseInfoData: CourseInfoDataType = {
       "requirements": "",
       "terms_offered": {
         "FALL": false,
-        "SPRING": false,
+        "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CMPINF-2100",
@@ -936,6 +1223,24 @@ export const CourseInfoData: CourseInfoDataType = {
       },
       "instructors": [
         "Michael Yoder"
+      ],
+      "typically_offered": "Fall, Spring, Summer",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 1
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
       ]
     },
     {
@@ -952,6 +1257,24 @@ export const CourseInfoData: CourseInfoDataType = {
       },
       "instructors": [
         "Alawya Alawami"
+      ],
+      "typically_offered": "Fall, Spring, Summer",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
       ]
     },
     {
@@ -968,6 +1291,24 @@ export const CourseInfoData: CourseInfoDataType = {
       },
       "instructors": [
         "Sean Huff"
+      ],
+      "typically_offered": "Fall, Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
       ]
     },
     {
@@ -984,6 +1325,24 @@ export const CourseInfoData: CourseInfoDataType = {
       },
       "instructors": [
         "Alexandros Labrinidis"
+      ],
+      "typically_offered": "Fall, Spring, Summer",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
       ]
     },
     {
@@ -998,7 +1357,25 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": true
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Spring, Summer",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 1
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 1
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CMPINF-2140",
@@ -1012,21 +1389,57 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": true
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Spring, Summer",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CMPINF-2211",
-      "title": "FOUNDATIONS OF CLOUD COMPUTING FOR DATA SCIENCE PROFESSIONALS",
+      "title": "FOUNDATIONS OF CLOUD COMPUTING",
       "id": "CMPINF2211",
       "credits": 3,
       "description": "This course will introduce students to some of the core concepts of cloud computing. Students will gain both the foundational knowledge and hands-on practical experience required for understanding cloud computing from historical, software engineering, and business perspectives. The course will cover the essential characteristics of cloud computing, including its history, business uses, and technology use cases enabled by the proliferation of cloud platforms. Students will learn about the different cloud computing service models, as well as some of the key components of a cloud information technology infrastructure.",
-      "requirements": "PREQ: CMPINF 2110 (MIN GRADE 'B')",
+      "requirements": "",
       "terms_offered": {
         "FALL": false,
         "SPRING": true,
         "SUMMER": true
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Spring, Summer",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CMPINF-2221",
@@ -1034,7 +1447,7 @@ export const CourseInfoData: CourseInfoDataType = {
       "id": "CMPINF2221",
       "credits": 3,
       "description": "In this course students will learn the foundational assumptions, concepts, and popular tools for applying Bayesian techniques to solve challenging data related problems. This course is hands-on and demonstrates the key concepts and skills through numerous programming examples in lectures, homework assignments, and projects. The course begins by reviewing probability distributions with a special emphasis on how distributions communicate uncertainty. The Bayesian \"mindset\" is introduced by showing how probability distributions allow subjective information to be used in modeling tasks via Prior distributions. Students will be shown the connection between Bayesian Priors and Non-Bayesian regularization/penalization methods which they have been introduced to in previous courses. From there, students are taught how to properly train, validate, and communicate the Bayesian modeling results for linear, generalized linear models, and multi-level (hierarchical) models using popular open-source libraries. Special emphasis is made to diagnose the Bayesian inference procedure to ensure the models are adequate and trustworthy.",
-      "requirements": "PREQ: CMPINF 2105 and 2120 and 2130 (MIN GRADE 'B')",
+      "requirements": "",
       "terms_offered": {
         "FALL": true,
         "SPRING": true,
@@ -1042,6 +1455,24 @@ export const CourseInfoData: CourseInfoDataType = {
       },
       "instructors": [
         "Konstantinos Pelechrinis"
+      ],
+      "typically_offered": "Fall, Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
       ]
     },
     {
@@ -1050,14 +1481,32 @@ export const CourseInfoData: CourseInfoDataType = {
       "id": "CMPINF2222",
       "credits": 3,
       "description": "In this course students will learn the foundational assumptions, concepts, and popular tools for applying deep learners to a wide variety of supervised and unsupervised learning problems. The course is hands-on and demonstrates the key concepts and skills through numerous programming examples in lectures, homework assignments, and projects. The course begins by introducing various optimization strategies which underlie how deep learners are trained, before moving to the proper training, validating, and tuning of deep learning methods for supervised learning problems. This portion of the course stresses how the fundamental optimization concepts impact model training. Students will also learn how deep learners relate to and are extensions of generalized linear models in order to reinforce essential supervised learning concepts. The course concludes by focusing on applying deep learning techniques to unsupervised learning problems via variational autoencoders. Multiple autoencoder architecture strategies and training approaches are demonstrated.",
-      "requirements": "PREQ: CMPINF 2105 and 2120 and 2130 (Min Grade 'B')",
+      "requirements": "",
       "terms_offered": {
         "FALL": true,
-        "SPRING": false,
-        "SUMMER": true
+        "SPRING": true,
+        "SUMMER": false
       },
       "instructors": [
         "Pengfei Zhou"
+      ],
+      "typically_offered": "Fall, Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
       ]
     },
     {
@@ -1074,6 +1523,24 @@ export const CourseInfoData: CourseInfoDataType = {
       },
       "instructors": [
         "Emma Jordan"
+      ],
+      "typically_offered": "Fall, Summer",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
       ]
     },
     {
@@ -1090,6 +1557,24 @@ export const CourseInfoData: CourseInfoDataType = {
       },
       "instructors": [
         "Matthew Burton"
+      ],
+      "typically_offered": "Fall, Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
       ]
     },
     {
@@ -1101,10 +1586,28 @@ export const CourseInfoData: CourseInfoDataType = {
       "requirements": "",
       "terms_offered": {
         "FALL": false,
-        "SPRING": false,
+        "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-0004",
@@ -1114,11 +1617,29 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "This is a first course in computer science.  It is designed to be of special interest to students majoring in one of the social sciences or humanities.  Objectives of this course include use of the computer in an interactive environment; problem analysis and the development of algorithms; learning the basic language; designing; coding; and documenting programs using techniques of good programming style.",
       "requirements": "",
       "terms_offered": {
-        "FALL": false,
-        "SPRING": false,
-        "SUMMER": false
+        "FALL": true,
+        "SPRING": true,
+        "SUMMER": true
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Fall, Spring, Summer",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-0007",
@@ -1136,6 +1657,24 @@ export const CourseInfoData: CourseInfoDataType = {
         "Michael Devine",
         "Olena Sherbinin",
         "Timothy Hoffman"
+      ],
+      "typically_offered": "Fall, Spring, Summer",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 15
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 12
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 2
+        }
       ]
     },
     {
@@ -1146,11 +1685,29 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "This is course is designed as a first course in computer science programming.  It is recommended for those students majoring in one of the natural sciences, social sciences, or humanities who wish to learn the fundamentals of programming.  It is also useful to students intending to major in computer science who do not have the required background for CS 0401.  The focus of this course is on problem analysis, the development of algorithms and computer programs in python. Instruction will be provided to students interested in taking CS 401 in converting python programs to Java.",
       "requirements": "",
       "terms_offered": {
-        "FALL": false,
-        "SPRING": false,
-        "SUMMER": false
+        "FALL": true,
+        "SPRING": true,
+        "SUMMER": true
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Fall, Spring, Summer",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-0010",
@@ -1160,11 +1717,29 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "All of the CS 001X courses will introduce students to the concepts of computing and computer programming. Students in these courses will learn how a computer works and how to write programs in order to use the computer as a problem solving tool. A major focus of the class will be on developing problem-solving skills (e.g., how to decompose a problem into more manageable parts and how to combine those parts into an overall solution).  CS 0010 in particular will focus on problems related to IoT and engineering. Students will be required to purchase a Raspberry Pi and sensors in order to complete the projects and labs assigned throughout the course.",
       "requirements": "",
       "terms_offered": {
-        "FALL": false,
-        "SPRING": false,
+        "FALL": true,
+        "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Fall, Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-0011",
@@ -1176,10 +1751,28 @@ export const CourseInfoData: CourseInfoDataType = {
       "terms_offered": {
         "FALL": true,
         "SPRING": true,
-        "SUMMER": false
+        "SUMMER": true
       },
       "instructors": [
         "Nils Murrugarra LLerena"
+      ],
+      "typically_offered": "Fall, Spring, Summer",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 3
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 3
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
       ]
     },
     {
@@ -1192,11 +1785,29 @@ export const CourseInfoData: CourseInfoDataType = {
       "terms_offered": {
         "FALL": true,
         "SPRING": true,
-        "SUMMER": true
+        "SUMMER": false
       },
       "instructors": [
         "Matt de Lima Barbosa",
         "Michael Devine"
+      ],
+      "typically_offered": "Fall, Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 6
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 6
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 1
+        }
       ]
     },
     {
@@ -1207,11 +1818,29 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "What is the environmental impact of websites such as Facebook or Amazon?  How is society affected by throwing away old computers?  The purpose of this course is to introduce the intersection of computers and society.  Sustainability will be used as a concept to bridge the tradeoffs between technological and ecological forces.  Topics include but are not limited to: energy production, e-books, telecommuting and e-waste.  No computer programming or math background required.",
       "requirements": "",
       "terms_offered": {
-        "FALL": false,
+        "FALL": true,
         "SPRING": false,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Fall",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-0134",
@@ -1222,10 +1851,28 @@ export const CourseInfoData: CourseInfoDataType = {
       "requirements": "",
       "terms_offered": {
         "FALL": false,
-        "SPRING": false,
+        "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-0155",
@@ -1236,10 +1883,28 @@ export const CourseInfoData: CourseInfoDataType = {
       "requirements": "PREQ: CS 0007 or 0010 or 0011 or 0012 or CMPINF 0401 or CS 0401 or CS 0417 or CS 0457 or CS 0422; Enrollment blocked if currently or previously enrolled in CS 0445 or 0455 or INFSCI 0510\n            Course Attributes: DSAS Quant.-Formal Reason General Ed. Requirement",
       "terms_offered": {
         "FALL": false,
-        "SPRING": false,
+        "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-0207",
@@ -1249,11 +1914,29 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "This course is designed to transition students who can program at an intermediate level into the Java programming language.  It focuses on the Java object model and object-oriented programming with Java.",
       "requirements": "PREQ: INFSCI 0201 or ECE 0301; Enrollment blocked if currently or previously enrolled in CS 0401 or CMPINF 0401 or CS 0422 or CS 0417 or CS 0457 or CS 0445 or CS 0455",
       "terms_offered": {
-        "FALL": false,
-        "SPRING": false,
+        "FALL": true,
+        "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Fall, Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-0334",
@@ -1263,11 +1946,29 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "The course will consist of advanced implementations of both markup as well as scripting languages. In addition, students will be introduced to a graphical interface application that will allow them to explore concepts of server side web development. A reflective programming language and database application will be used to introduce the server side web development concepts.",
       "requirements": "PREQ: CS 0007 or 0134 or 0401 or INFSCI 0017 (Min Grade 'C' or Transfer)",
       "terms_offered": {
-        "FALL": false,
+        "FALL": true,
         "SPRING": false,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Fall",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-0441",
@@ -1285,6 +1986,24 @@ export const CourseInfoData: CourseInfoDataType = {
         "Donald Bonidie",
         "Nils Murrugarra LLerena",
         "William Garrison"
+      ],
+      "typically_offered": "Fall, Spring, Summer",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 11
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 11
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 2
+        }
       ]
     },
     {
@@ -1302,6 +2021,24 @@ export const CourseInfoData: CourseInfoDataType = {
       "instructors": [
         "Sherif Khattab",
         "Timothy James"
+      ],
+      "typically_offered": "Fall, Spring, Summer",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 12
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 15
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 2
+        }
       ]
     },
     {
@@ -1318,6 +2055,24 @@ export const CourseInfoData: CourseInfoDataType = {
       },
       "instructors": [
         "Luis F. N. Q. d. Oliveira"
+      ],
+      "typically_offered": "Fall, Spring, Summer",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 12
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 9
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 2
+        }
       ]
     },
     {
@@ -1334,6 +2089,24 @@ export const CourseInfoData: CourseInfoDataType = {
       },
       "instructors": [
         "Jarrett Billingsley"
+      ],
+      "typically_offered": "Fall, Spring, Summer",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 8
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 6
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 2
+        }
       ]
     },
     {
@@ -1346,10 +2119,28 @@ export const CourseInfoData: CourseInfoDataType = {
       "terms_offered": {
         "FALL": true,
         "SPRING": true,
-        "SUMMER": false
+        "SUMMER": true
       },
       "instructors": [
         "Patricia Quirin"
+      ],
+      "typically_offered": "Fall, Spring, Summer",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 3
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 3
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
       ]
     },
     {
@@ -1360,11 +2151,29 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "Various topics in Computer Science will be introduced and discussed. This course in not part of the Computer Science major.",
       "requirements": "",
       "terms_offered": {
-        "FALL": false,
+        "FALL": true,
         "SPRING": false,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Fall",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-1501",
@@ -1381,6 +2190,24 @@ export const CourseInfoData: CourseInfoDataType = {
       "instructors": [
         "Nicholas Farnan",
         "Sherif Khattab"
+      ],
+      "typically_offered": "Fall, Spring, Summer",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 15
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 13
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 2
+        }
       ]
     },
     {
@@ -1397,6 +2224,24 @@ export const CourseInfoData: CourseInfoDataType = {
       },
       "instructors": [
         "Thumrongsak Kosiyatrakul"
+      ],
+      "typically_offered": "Fall, Spring, Summer",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 2
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 2
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 1
+        }
       ]
     },
     {
@@ -1414,6 +2259,24 @@ export const CourseInfoData: CourseInfoDataType = {
       "instructors": [
         "Marina Barsky",
         "Patrick Skeba"
+      ],
+      "typically_offered": "Fall, Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 9
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 6
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
       ]
     },
     {
@@ -1425,11 +2288,29 @@ export const CourseInfoData: CourseInfoDataType = {
       "requirements": "PREQ: [(CS 1501 or COE 1501) and CS 1502] or (CS 0458 and CS 1710); MIN GRADE 'C' or Transfer FOR ALL COURSES LISTED\n            Course Attributes: Writing Intensive Course (WRIT)",
       "terms_offered": {
         "FALL": true,
-        "SPRING": true,
+        "SPRING": false,
         "SUMMER": false
       },
       "instructors": [
         "Kirk Pruhs"
+      ],
+      "typically_offered": "Fall",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 2
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
       ]
     },
     {
@@ -1444,7 +2325,25 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-1520",
@@ -1460,6 +2359,24 @@ export const CourseInfoData: CourseInfoDataType = {
       },
       "instructors": [
         "Brian Nixon"
+      ],
+      "typically_offered": "Fall, Spring, Summer",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 6
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 6
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 1
+        }
       ]
     },
     {
@@ -1474,7 +2391,25 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 1
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-1530",
@@ -1486,10 +2421,28 @@ export const CourseInfoData: CourseInfoDataType = {
       "terms_offered": {
         "FALL": true,
         "SPRING": true,
-        "SUMMER": false
+        "SUMMER": true
       },
       "instructors": [
         "Nadine v. F. u. Ludwigsdorff"
+      ],
+      "typically_offered": "Fall, Spring, Summer",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 2
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 1
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
       ]
     },
     {
@@ -1514,11 +2467,29 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "Examination of computer architecture and hardware system organization.  Topics include:  CPU organization, sequential and microprogrammed control, instruction set implementation, memory organizations, input/output structure, peripherals and computer communications.",
       "requirements": "PREQ: (CS 0447 or COE 0447) and (CS 0449 or COE 0449) ; (MIN GRADE 'C' or Transfer)",
       "terms_offered": {
-        "FALL": false,
+        "FALL": true,
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Fall, Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 1
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-1550",
@@ -1534,6 +2505,24 @@ export const CourseInfoData: CourseInfoDataType = {
       },
       "instructors": [
         "Stephen Lee"
+      ],
+      "typically_offered": "Fall, Spring, Summer",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 3
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 2
+        }
       ]
     },
     {
@@ -1546,11 +2535,29 @@ export const CourseInfoData: CourseInfoDataType = {
       "terms_offered": {
         "FALL": true,
         "SPRING": true,
-        "SUMMER": false
+        "SUMMER": true
       },
       "instructors": [
         "Brian Nixon",
         "Marina Barsky"
+      ],
+      "typically_offered": "Fall, Spring, Summer",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 6
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 3
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
       ]
     },
     {
@@ -1567,6 +2574,24 @@ export const CourseInfoData: CourseInfoDataType = {
       },
       "instructors": [
         "Thumrongsak Kosiyatrakul"
+      ],
+      "typically_offered": "Fall",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 3
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
       ]
     },
     {
@@ -1581,7 +2606,25 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": false,
         "SUMMER": true
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Summer",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 1
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-1571",
@@ -1592,11 +2635,29 @@ export const CourseInfoData: CourseInfoDataType = {
       "requirements": "PREQ: (CS 1501 or COE 1501) and CS 1502 (Min Grade 'C' or Transfer for All Listed Courses)",
       "terms_offered": {
         "FALL": true,
-        "SPRING": true,
+        "SPRING": false,
         "SUMMER": false
       },
       "instructors": [
         "Patrick Skeba"
+      ],
+      "typically_offered": "Fall",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 1
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 1
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
       ]
     },
     {
@@ -1611,7 +2672,25 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 2
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-1621",
@@ -1621,11 +2700,29 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "An analytical examination of modern high-level programming language structures; including design specification and implementation.  Advanced forms of data types, expressions, and control primitives.  Relationship of storage management techniques and language design.",
       "requirements": "PREQ: CS (0441 and 0445) or (0406 and 0455); (MIN GRADE 'C' or TRANSFER FOR ALL COURSES LISTED)",
       "terms_offered": {
-        "FALL": false,
-        "SPRING": true,
+        "FALL": true,
+        "SPRING": false,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Fall",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-1622",
@@ -1636,10 +2733,28 @@ export const CourseInfoData: CourseInfoDataType = {
       "requirements": "PREQ: CS 0441 and ((CS or COE 0447 or COE 0147) or (CS 0406 and 0456)); (MIN GRADE 'C'  OR TRANSFER FOR ALL COURSES LISTED)",
       "terms_offered": {
         "FALL": false,
-        "SPRING": false,
+        "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-1631",
@@ -1650,10 +2765,28 @@ export const CourseInfoData: CourseInfoDataType = {
       "requirements": "PREQ: (CS 0441 and (CS or COE 0445)) or (CS 0406 and 0455); (MIN GRADE 'C' OR TRANSFER FOR ALL COURSES LISTED)",
       "terms_offered": {
         "FALL": false,
-        "SPRING": false,
+        "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-1632",
@@ -1665,10 +2798,28 @@ export const CourseInfoData: CourseInfoDataType = {
       "terms_offered": {
         "FALL": true,
         "SPRING": true,
-        "SUMMER": false
+        "SUMMER": true
       },
       "instructors": [
         "Wonsun Ahn"
+      ],
+      "typically_offered": "Fall, Spring, Summer",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 2
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 2
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
       ]
     },
     {
@@ -1679,12 +2830,30 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "This course will introduce concepts and common practices for building software for user interfaces. Concepts will connect across input, visual layout techniques, and software patterns for responsive user interaction with a focus on mobile platforms (web and native). Emergent interface concepts, such as voice, AR/VR, and IoT will also be explored while building upon the course's software foundation. This course is targeted for students who desire skills in front-end development, interface design and prototyping, and user experience engineering.",
       "requirements": "PREQ: CS 0445 (MIN GRADE 'C' or Transfer)",
       "terms_offered": {
-        "FALL": true,
-        "SPRING": false,
+        "FALL": false,
+        "SPRING": true,
         "SUMMER": false
       },
       "instructors": [
         "Jacob Biehl"
+      ],
+      "typically_offered": "Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 1
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
       ]
     },
     {
@@ -1695,11 +2864,29 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "The focus of the course is on the design of human-centered systems that people find usable, desirable, and useful. The course will introduce students to user-centered practices in Human Computer Interaction. The course will cover the theory and practical application of Human-Computer Interaction concepts and ideas. Students will gain knowledge on diverse methods and tools to understand, improve, and create technology that harmonizes with and improves human capabilities, goals, and social environments.",
       "requirements": "CS 1501: Algorithm Implementation; MIN GRADE: C or Transfer\n            Course Attributes: Learning Sciences",
       "terms_offered": {
-        "FALL": false,
+        "FALL": true,
         "SPRING": false,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Fall",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-1640",
@@ -1715,6 +2902,24 @@ export const CourseInfoData: CourseInfoDataType = {
       },
       "instructors": [
         "Daniel Mosse"
+      ],
+      "typically_offered": "Fall, Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 1
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 1
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
       ]
     },
     {
@@ -1725,11 +2930,29 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "This course is an introduction to the architecture of and software techniques for parallel and high performance computing systems.  The content includes fundamental aspects of vector processing, shared-memory, and distributed-memory systems.  Specific applications in parallel processing paradigms will be covered.",
       "requirements": "PREQ: CS 0447 and 0449 and 1501; (MIN GRADE 'C' OR TRANSFER FOR ALL COURSES LISTED)",
       "terms_offered": {
-        "FALL": false,
-        "SPRING": false,
+        "FALL": true,
+        "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Fall, Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-1651",
@@ -1740,10 +2963,28 @@ export const CourseInfoData: CourseInfoDataType = {
       "requirements": "PREQ: CS 1550 or 1312 or 1792; (MIN GRADE 'C' OR TRANSFER FOR ALL COURSES LISTED)",
       "terms_offered": {
         "FALL": false,
-        "SPRING": false,
+        "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-1652",
@@ -1753,11 +2994,29 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "This course will include basic principles and topics of computer communications. An overview of interfaces that interconnect hardware and software components, describing the procedures and rules involved in the communication process and the software which controls computers communication. Discussion on network architectures, design principles, basic protocol suites, and the concept of internetworking. Proficiency in this course requires a foundation in intermediate Java programming, basic C programming, elementary data structures, as well as knowledge in multithreading and mutexes.",
       "requirements": "PREQ: (CS 0447 or COE 0447 or COE 0147) and (CS 0449 or COE 0449); (MIN GRADE 'C'  OR TRANSFER FOR ALL COURSES LISTED)",
       "terms_offered": {
-        "FALL": false,
-        "SPRING": true,
+        "FALL": true,
+        "SPRING": false,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Fall",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 1
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-1653",
@@ -1767,11 +3026,29 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "This course will provide the necessary conceptual background and hands-on experience to understand the most common cryptographic algorithms and protocols and how to use them to secure computers networks and distributed applications.  Topics include: cryptographic algorithms for data confidentiality, authentication, and integrity, user authentication methods (secure tokens and biometrics), internet security protocols, security in local area networks, firewalls, and intrusion detection systems.",
       "requirements": "PREQ: (CS 0449 or COE 0449) and (CS 1501 or COE 1501) or (CS 0458 or CS 1750); (MIN GRADE 'C'  OR TRANSFER FOR ALL COURSES LISTED)",
       "terms_offered": {
-        "FALL": false,
-        "SPRING": true,
-        "SUMMER": false
+        "FALL": true,
+        "SPRING": false,
+        "SUMMER": true
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Fall, Summer",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 1
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-1655",
@@ -1802,6 +3079,24 @@ export const CourseInfoData: CourseInfoDataType = {
       "instructors": [
         "Alexandros Labrinidis",
         "Emma Jordan"
+      ],
+      "typically_offered": "Fall, Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 5
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 5
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
       ]
     },
     {
@@ -1813,10 +3108,28 @@ export const CourseInfoData: CourseInfoDataType = {
       "requirements": "PREQ: CS 0441 and CS 1501 with a minimum grade of C or TRANSFER",
       "terms_offered": {
         "FALL": false,
-        "SPRING": false,
+        "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-1660",
@@ -1832,6 +3145,24 @@ export const CourseInfoData: CourseInfoDataType = {
       },
       "instructors": [
         "Dan Mahoney"
+      ],
+      "typically_offered": "Fall, Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 1
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 1
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
       ]
     },
     {
@@ -1848,6 +3179,24 @@ export const CourseInfoData: CourseInfoDataType = {
       },
       "instructors": [
         "Nicholas Farnan"
+      ],
+      "typically_offered": "Fall",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 1
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
       ]
     },
     {
@@ -1859,11 +3208,29 @@ export const CourseInfoData: CourseInfoDataType = {
       "requirements": "PREQ: CS 1501; (MIN GRADE 'C'  OR TRANSFER)\n            Course Attributes: Learning Sciences",
       "terms_offered": {
         "FALL": true,
-        "SPRING": true,
+        "SPRING": false,
         "SUMMER": false
       },
       "instructors": [
         "Michael Yoder"
+      ],
+      "typically_offered": "Fall",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 1
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 1
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
       ]
     },
     {
@@ -1880,6 +3247,24 @@ export const CourseInfoData: CourseInfoDataType = {
       },
       "instructors": [
         "Nils Murrugarra LLerena"
+      ],
+      "typically_offered": "Fall",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 1
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
       ]
     },
     {
@@ -1896,6 +3281,24 @@ export const CourseInfoData: CourseInfoDataType = {
       },
       "instructors": [
         "Patrick Skeba"
+      ],
+      "typically_offered": "Fall, Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 3
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 3
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
       ]
     },
     {
@@ -1910,7 +3313,24 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": false,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [],
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 1
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-1684",
@@ -1921,11 +3341,29 @@ export const CourseInfoData: CourseInfoDataType = {
       "requirements": "PRE: CS1501 and (MATH 1180 OR MATH 0206 OR MATH 0280 OR MATH 1080 OR MATH 1181 OR MATH 1185)",
       "terms_offered": {
         "FALL": true,
-        "SPRING": false,
+        "SPRING": true,
         "SUMMER": false
       },
       "instructors": [
         "Lorraine Li"
+      ],
+      "typically_offered": "Fall, Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 1
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
       ]
     },
     {
@@ -1942,6 +3380,24 @@ export const CourseInfoData: CourseInfoDataType = {
       },
       "instructors": [
         "Emma Jordan"
+      ],
+      "typically_offered": "Fall, Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 1
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 2
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
       ]
     },
     {
@@ -1958,6 +3414,24 @@ export const CourseInfoData: CourseInfoDataType = {
       },
       "instructors": [
         "Wonsun Ahn"
+      ],
+      "typically_offered": "Fall, Spring, Summer",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 2
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 1
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 1
+        }
       ]
     },
     {
@@ -1974,6 +3448,24 @@ export const CourseInfoData: CourseInfoDataType = {
       },
       "instructors": [
         "John Ramirez"
+      ],
+      "typically_offered": "Fall, Spring, Summer",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 1
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 1
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 1
+        }
       ]
     },
     {
@@ -1985,11 +3477,29 @@ export const CourseInfoData: CourseInfoDataType = {
       "requirements": "",
       "terms_offered": {
         "FALL": true,
-        "SPRING": true,
+        "SPRING": false,
         "SUMMER": true
       },
       "instructors": [
         "John RamirezEmily Bennett"
+      ],
+      "typically_offered": "Fall, Summer",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 1
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 1
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 1
+        }
       ]
     },
     {
@@ -2001,11 +3511,29 @@ export const CourseInfoData: CourseInfoDataType = {
       "requirements": "",
       "terms_offered": {
         "FALL": true,
-        "SPRING": true,
-        "SUMMER": true
+        "SPRING": false,
+        "SUMMER": false
       },
       "instructors": [
         "Wonsun Ahn"
+      ],
+      "typically_offered": "Fall",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
       ]
     },
     {
@@ -2022,6 +3550,24 @@ export const CourseInfoData: CourseInfoDataType = {
       },
       "instructors": [
         "John Ramirez"
+      ],
+      "typically_offered": "Fall, Spring, Summer",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 1
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 1
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 1
+        }
       ]
     },
     {
@@ -2038,6 +3584,24 @@ export const CourseInfoData: CourseInfoDataType = {
       },
       "instructors": [
         "Daniel Mosse"
+      ],
+      "typically_offered": "Fall, Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 1
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 1
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
       ]
     },
     {
@@ -2071,6 +3635,24 @@ export const CourseInfoData: CourseInfoDataType = {
         "Wonsun Ahn",
         "Xiaowei Jia",
         "Youtao Zhang"
+      ],
+      "typically_offered": "Fall, Spring, Summer",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 19
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 22
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 18
+        }
       ]
     },
     {
@@ -2087,6 +3669,24 @@ export const CourseInfoData: CourseInfoDataType = {
       },
       "instructors": [
         "Adriana Kovashka"
+      ],
+      "typically_offered": "Fall",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 1
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
       ]
     },
     {
@@ -2101,7 +3701,25 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 1
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-2003",
@@ -2117,6 +3735,24 @@ export const CourseInfoData: CourseInfoDataType = {
       },
       "instructors": [
         "Milos Hauskrecht"
+      ],
+      "typically_offered": "Fall, Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 1
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 1
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
       ]
     },
     {
@@ -2128,11 +3764,29 @@ export const CourseInfoData: CourseInfoDataType = {
       "requirements": "PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering Electrical & Computer Engineer (ECE-MSECE; ECE-PHD)",
       "terms_offered": {
         "FALL": true,
-        "SPRING": true,
+        "SPRING": false,
         "SUMMER": false
       },
       "instructors": [
         "Kirk Pruhs"
+      ],
+      "typically_offered": "Fall",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 2
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
       ]
     },
     {
@@ -2143,11 +3797,29 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "As the second in a two-course sequence on algorithms and data structures, this course covers a broad range of the most commonly used algorithms. Some examples include algorithms for searching, encryption, compression, graphs, and dynamic programming. The students will implement and test several algorithms. The course is programming intensive.",
       "requirements": "",
       "terms_offered": {
-        "FALL": false,
+        "FALL": true,
         "SPRING": true,
-        "SUMMER": false
+        "SUMMER": true
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Fall, Spring, Summer",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 1
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-2021",
@@ -2157,11 +3829,29 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "An analytical examination of modern high-level programming language structures; including design specification and implementation. Advanced forms of data types, expressions, and control primitives. Relationship of storage management techniques and language design.",
       "requirements": "PLAN: Computer Science (CSCI-MS)",
       "terms_offered": {
-        "FALL": false,
-        "SPRING": true,
+        "FALL": true,
+        "SPRING": false,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Fall",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-2030",
@@ -2177,6 +3867,24 @@ export const CourseInfoData: CourseInfoDataType = {
       },
       "instructors": [
         "Nadine v. F. u. Ludwigsdorff"
+      ],
+      "typically_offered": "Fall, Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 2
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
       ]
     },
     {
@@ -2188,10 +3896,28 @@ export const CourseInfoData: CourseInfoDataType = {
       "requirements": "",
       "terms_offered": {
         "FALL": false,
-        "SPRING": false,
+        "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-2037",
@@ -2201,11 +3927,29 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "The focus of the course is on the design of human-centered systems that people find usable, desirable, and useful. The course will introduce students to user-centered practices in Human-Computer Interaction. The course will cover the theory and practical application of Human-Computer Interaction concepts and ideas. Students will gain knowledge on diverse methods and tools to understand, improve, and create technology that harmonizes with and improves human capabilities, goals, and social environments.",
       "requirements": "",
       "terms_offered": {
-        "FALL": false,
+        "FALL": true,
         "SPRING": false,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Fall",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-2041",
@@ -2219,7 +3963,25 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 1
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-2045",
@@ -2229,11 +3991,29 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "This course is an introduction to the architecture of and software techniques for parallel and high performance computing systems.  The content includes fundamental aspects of vector processing, shared-memory and distributed-memory systems.  Students will be expected to complete a number of projects demonstrating specific applications in parallel processing paradigms.",
       "requirements": "",
       "terms_offered": {
-        "FALL": false,
-        "SPRING": false,
+        "FALL": true,
+        "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Fall, Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-2051",
@@ -2244,10 +4024,28 @@ export const CourseInfoData: CourseInfoDataType = {
       "requirements": "",
       "terms_offered": {
         "FALL": false,
-        "SPRING": false,
+        "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-2053",
@@ -2257,11 +4055,29 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "This course will provide the necessary conceptual background and hands-on experience to understand the most common cryptographic algorithms and protocols and how to use them to secure computers networks and distributed applications.  Topics include: cryptographic algorithms for data confidentiality, authentication, and integrity, user authentication methods (secure tokens and biometrics), internet security protocols, security in local area networks, firewalls, and intrusion detection systems.",
       "requirements": "PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering Electrical & Computer Engineer (ECE-MSECE; ECE-PHD)",
       "terms_offered": {
-        "FALL": false,
+        "FALL": true,
         "SPRING": false,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Fall",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-2055",
@@ -2278,6 +4094,24 @@ export const CourseInfoData: CourseInfoDataType = {
       "instructors": [
         "Brian Nixon",
         "Marina Barsky"
+      ],
+      "typically_offered": "Fall, Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 6
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 1
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
       ]
     },
     {
@@ -2288,11 +4122,29 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "This course aims to expose students to different data management, data manipulation, and data analysis techniques. The class will cover all the major data management paradigms (relational/SQL, XML/Xquery, RDF/SPARQL) including NOSQL and data stream processing approaches. Going beyond traditional data management techniques, the class will expose students to information retrieval, data mining, data warehousing, network analysis, and other data analysis topics. Time permitting, the class will include big data processing techniques, such as the map/reduce framework.",
       "requirements": "PLAN: Computer Science or Computer Engineering Electrical & Computer Engineer (ECE-MSECE; ECE-PHD)",
       "terms_offered": {
-        "FALL": false,
+        "FALL": true,
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Fall, Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 3
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-2057",
@@ -2303,10 +4155,28 @@ export const CourseInfoData: CourseInfoDataType = {
       "requirements": "PREQ: PLAN: CSCI-PHD and CSCI-MS.",
       "terms_offered": {
         "FALL": false,
-        "SPRING": false,
+        "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-2060",
@@ -2322,6 +4192,24 @@ export const CourseInfoData: CourseInfoDataType = {
       },
       "instructors": [
         "Dan Mahoney"
+      ],
+      "typically_offered": "Fall, Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 1
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 1
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
       ]
     },
     {
@@ -2332,12 +4220,30 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "This course provides an introduction to the field of natural language processing (NLP) - the creation of programs that can understand, generate, and learn languages used by humans. It will expose students to applications by means of computational techniques including dynamic programming, hidden markov models, grammars, and machine learning algorithms.",
       "requirements": "PREQ: CS 1501; (MIN GRADE 'C'  or TRANSFER) and MATH 0280 or 1180; PLAN: CSCI-MS or CSCI-PHD",
       "terms_offered": {
-        "FALL": true,
+        "FALL": false,
         "SPRING": true,
         "SUMMER": false
       },
       "instructors": [
         "Michael Yoder"
+      ],
+      "typically_offered": "Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 1
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 1
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
       ]
     },
     {
@@ -2354,6 +4260,23 @@ export const CourseInfoData: CourseInfoDataType = {
       },
       "instructors": [
         "Nils Murrugarra LLerena"
+      ],
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 1
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
       ]
     },
     {
@@ -2370,6 +4293,24 @@ export const CourseInfoData: CourseInfoDataType = {
       },
       "instructors": [
         "Patrick Skeba"
+      ],
+      "typically_offered": "Fall, Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 3
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 3
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
       ]
     },
     {
@@ -2384,7 +4325,24 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": false,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [],
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-2084",
@@ -2394,12 +4352,30 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "Artificial intelligence holds tremendous promise to benefit nearly all aspects of society, including healthcare, food production, economy, education, security, the law, and even our personal activities. The development of AI is creating new opportunities to improve the lives of people around the world. At the same time, these intelligent models may incorporate existing biases or create new biases that can seriously harm society. At its worst, AI can exacerbate misguided old practices and aggravate past social harms with its unprecedented processing powers and the veneer of seemingly objectivity, as humans in various social factions are disparately impacted by the AI-aided decisions.  Facing the ethical implications of AI, students need to be prepared with the critical intellectual capacities that allow them to understand and deal with these ethical challenges. These capacities comprise multi-disciplinary concepts ranging from statistical learning theories, model design, and ethical foundation, to psychological and cultural frameworks that are necessary for successfully navigating and evaluating responsible AI practices. Further, \"ethical competence\" will involve understanding various challenges surrounding AI, such as ethical regulation, fairness assessment, and interpretability of models. Note that this is a technical class. Our focus will be on designing, evaluating, and mitigating bias in machine learning models. You will have three programming assignments in Python.",
       "requirements": "",
       "terms_offered": {
-        "FALL": true,
-        "SPRING": false,
+        "FALL": false,
+        "SPRING": true,
         "SUMMER": false
       },
       "instructors": [
         "Lorraine Li"
+      ],
+      "typically_offered": "Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 1
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
       ]
     },
     {
@@ -2416,6 +4392,24 @@ export const CourseInfoData: CourseInfoDataType = {
       },
       "instructors": [
         "Emma Jordan"
+      ],
+      "typically_offered": "Fall, Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 1
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 2
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
       ]
     },
     {
@@ -2430,7 +4424,25 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-2150",
@@ -2441,10 +4453,28 @@ export const CourseInfoData: CourseInfoDataType = {
       "requirements": "",
       "terms_offered": {
         "FALL": false,
-        "SPRING": false,
+        "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 1
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-2210",
@@ -2454,12 +4484,30 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "The design and implementation of current high level languages.  Emphasis is placed on the structure of compilers. Lexical, syntax and semantic analysis as well as target code generation and register allocation.  Storage management techniques for recursive and retentive control structures. Formal specification techniques.",
       "requirements": "PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
       "terms_offered": {
-        "FALL": true,
-        "SPRING": false,
+        "FALL": false,
+        "SPRING": true,
         "SUMMER": false
       },
       "instructors": [
         "Youtao Zhang"
+      ],
+      "typically_offered": "Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 1
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
       ]
     },
     {
@@ -2470,11 +4518,29 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "This course will examine the software engineering process in general, the considerations for large software projects in particular, and then will focus on the conversion of software specifications into production code.  Topics will include modern design methods, safety-critical software, verification and validation, testing theory and methods, reengineering of legacy software.",
       "requirements": "PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering Electrical & Computer Engineer (ECE-MSECE; ECE-PHD)",
       "terms_offered": {
-        "FALL": false,
-        "SPRING": true,
+        "FALL": true,
+        "SPRING": false,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Fall",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-2410",
@@ -2484,11 +4550,29 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "A study of the hardware structure of computer systems and subsystems.  Topics include:  processor architecture, parallelism and pipelining, cache and main memory organization, i/o controllers and i/o processors, and interconnection structures.",
       "requirements": "PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering Electrical & Computer Engineer (ECE-MSECE; ECE-PHD)",
       "terms_offered": {
-        "FALL": false,
-        "SPRING": true,
+        "FALL": true,
+        "SPRING": false,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Fall",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 1
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-2510",
@@ -2498,11 +4582,29 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "An in-depth study of the control abstractions in modern operating systems and the issues involved in efficient implementation of those abstractions.  Topics will include concurrency and its control, memory management, resource management, and structure of distributed and parallel operating systems.  These topics will be developed through the lectures, assigned readings from the literature, and an examination of actual operating systems.",
       "requirements": "PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering Electrical & Computer Engineer (ECE-MSECE; ECE-PHD)",
       "terms_offered": {
-        "FALL": false,
-        "SPRING": true,
+        "FALL": true,
+        "SPRING": false,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Fall",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 1
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-2520",
@@ -2512,12 +4614,30 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "The course provides an understanding of the basic principles of broadband networks.  It will introduce protocols suitable for broadband networks, with emphasis on atm.  Other technologies, such as frame relay and smds, will be discussed. The course will also address important design issues for high speed networks including characterizations of (a) network traffic and its implications on network design, and (b) application performance objectives, traffic policing, and congestion control algorithms that can meet those diverse objectives.",
       "requirements": "PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
       "terms_offered": {
-        "FALL": true,
-        "SPRING": false,
+        "FALL": false,
+        "SPRING": true,
         "SUMMER": false
       },
       "instructors": [
         "Amy Babay"
+      ],
+      "typically_offered": "Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 1
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
       ]
     },
     {
@@ -2543,10 +4663,28 @@ export const CourseInfoData: CourseInfoDataType = {
       "requirements": "PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
       "terms_offered": {
         "FALL": false,
-        "SPRING": false,
+        "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 1
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-2620",
@@ -2557,10 +4695,28 @@ export const CourseInfoData: CourseInfoDataType = {
       "requirements": "PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering Electrical & Computer Engineer (ECE-MSECE; ECE-PHD)",
       "terms_offered": {
         "FALL": false,
-        "SPRING": false,
+        "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-2637",
@@ -2570,11 +4726,29 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "Human-Computer Interaction is the science of building technologies for human use and studying how people use existing technologies. This course provides an introduction to user research methods in Human-Computer Interaction, including the generative methods used to design technologies, evaluative methods used to assess technologies, and human and automated data analysis approaches. The course will discuss applications of these topics to both well-established technologies (websites, mobile apps) and emerging technologies (e.g., brain-computer interfaces, AR/VR) as well as applications to emerging research areas in HCI such as crowdsourcing and human-AI interaction. A strong programming background is expected to take this course.",
       "requirements": "",
       "terms_offered": {
-        "FALL": false,
-        "SPRING": false,
+        "FALL": true,
+        "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Fall, Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-2710",
@@ -2590,6 +4764,24 @@ export const CourseInfoData: CourseInfoDataType = {
       },
       "instructors": [
         "Milos Hauskrecht"
+      ],
+      "typically_offered": "Fall",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 1
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
       ]
     },
     {
@@ -2600,12 +4792,30 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "This course provides an introduction to the field of Natural Language Processing (NLP) - the creation of computer programs that can understand, generate, and learn natural language. Natural language understanding will be used as a vehicle to introduce the three major subfields of NLP: syntax, semantics, and pragmatics. The course will introduce both knowledge-based and statistical methods for NLP, and will illustrate the use of such methods in a variety of application areas.",
       "requirements": "PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering Electrical & Computer Engineer (ECE-MSECE; ECE-PHD)",
       "terms_offered": {
-        "FALL": true,
-        "SPRING": false,
+        "FALL": false,
+        "SPRING": true,
         "SUMMER": false
       },
       "instructors": [
         "Lorraine Li"
+      ],
+      "typically_offered": "Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 1
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
       ]
     },
     {
@@ -2616,12 +4826,30 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "This course will give an overview of many techniques and algorithms in machine learning, beginning with topics such as linear and logistic regression, multi-layer neural networks and ending up with more recent topics such as boosting and support vector machines.  The basic ideas and intuition behind modern machine learning methods, as well as, a more formal understanding of how and why they work will be covered.  Students will have an opportunity to experiment with various machine learning techniques or apply them to a selected problem or domain in the context of a term project.",
       "requirements": "PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering Electrical & Computer Engineer (ECE-MSECE, ECE-PHD)",
       "terms_offered": {
-        "FALL": true,
-        "SPRING": false,
+        "FALL": false,
+        "SPRING": true,
         "SUMMER": false
       },
       "instructors": [
         "Ryan Shi"
+      ],
+      "typically_offered": "Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 1
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
       ]
     },
     {
@@ -2632,11 +4860,29 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "Data mining is the process of efficient supervised or unsupervised discovery of non-trivial and useful knowledge and patterns from collections of data. This proposed course aims to provide a discussion of multiple common tasks in data mining, including association rules/sequential patterns, classification, anomaly detection, avoiding false discoveries, and clustering. Besides, this course will also introduce the latest advances in data mining and provide extensive hands-on experience via programming projects.  Non-CS students interested in enrolling must suggest project ideas and obtain the instructors written permission to override the enrollment requirements.",
       "requirements": "PREQ: CS 1656",
       "terms_offered": {
-        "FALL": false,
+        "FALL": true,
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Fall, Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-2770",
@@ -2650,7 +4896,25 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 1
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-2893",
@@ -2666,6 +4930,24 @@ export const CourseInfoData: CourseInfoDataType = {
       },
       "instructors": [
         "Junyu Liu"
+      ],
+      "typically_offered": "Fall",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 1
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
       ]
     },
     {
@@ -2682,6 +4964,24 @@ export const CourseInfoData: CourseInfoDataType = {
       },
       "instructors": [
         "Jacob BiehlEmily Bennett"
+      ],
+      "typically_offered": "Fall, Spring, Summer",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 1
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 1
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 1
+        }
       ]
     },
     {
@@ -2693,11 +4993,29 @@ export const CourseInfoData: CourseInfoDataType = {
       "requirements": "",
       "terms_offered": {
         "FALL": true,
-        "SPRING": true,
-        "SUMMER": true
+        "SPRING": false,
+        "SUMMER": false
       },
       "instructors": [
         "Jacob BiehlEmily Bennett"
+      ],
+      "typically_offered": "Fall",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 1
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 1
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 1
+        }
       ]
     },
     {
@@ -2736,6 +5054,24 @@ export const CourseInfoData: CourseInfoDataType = {
         "Xiaowei Jia",
         "Xulong Tang",
         "Youtao Zhang"
+      ],
+      "typically_offered": "Fall, Spring, Summer",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 24
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 22
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 19
+        }
       ]
     },
     {
@@ -2773,6 +5109,24 @@ export const CourseInfoData: CourseInfoDataType = {
         "Xiaowei Jia",
         "Xulong Tang",
         "Youtao Zhang"
+      ],
+      "typically_offered": "Fall, Spring, Summer",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 23
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 24
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 23
+        }
       ]
     },
     {
@@ -2810,6 +5164,24 @@ export const CourseInfoData: CourseInfoDataType = {
         "Xiaowei Jia",
         "Xulong Tang",
         "Youtao Zhang"
+      ],
+      "typically_offered": "Fall, Spring, Summer",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 22
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 22
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 18
+        }
       ]
     },
     {
@@ -2863,10 +5235,28 @@ export const CourseInfoData: CourseInfoDataType = {
       "requirements": "PREQ:  CS 2410",
       "terms_offered": {
         "FALL": false,
-        "SPRING": false,
+        "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-3510",
@@ -2876,11 +5266,29 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "An in-depth study of specific topics of modern operative systems, the theory behind them, and their implementation. Topics may include advanced concepts in distributed systems, multimedia systems, file systems, resource management, distributed shared memory, among others.",
       "requirements": "PREQ: CS 2510",
       "terms_offered": {
-        "FALL": false,
+        "FALL": true,
         "SPRING": false,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Fall",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-3525",
@@ -2919,10 +5327,28 @@ export const CourseInfoData: CourseInfoDataType = {
       "requirements": "",
       "terms_offered": {
         "FALL": false,
-        "SPRING": false,
+        "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-3551",
@@ -2933,10 +5359,28 @@ export const CourseInfoData: CourseInfoDataType = {
       "requirements": "PREQ: CS 2510 and 2550",
       "terms_offered": {
         "FALL": false,
-        "SPRING": false,
+        "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-3570",
@@ -2946,11 +5390,29 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "",
       "requirements": "",
       "terms_offered": {
-        "FALL": false,
+        "FALL": true,
         "SPRING": false,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Fall",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-3580",
@@ -2992,7 +5454,25 @@ export const CourseInfoData: CourseInfoDataType = {
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-3710",
@@ -3003,10 +5483,28 @@ export const CourseInfoData: CourseInfoDataType = {
       "requirements": "PREQ: CS 2710",
       "terms_offered": {
         "FALL": false,
-        "SPRING": false,
+        "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-3720",
@@ -3016,11 +5514,29 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "A practical course in IoT systems, including sensing, data collection, data preparation, data transmission, and AI/Machine Learning methods.  The class will involve discussions of fundamentals of building systems, discussion of open problems, and designing and building a prototype IoT system.",
       "requirements": "",
       "terms_offered": {
-        "FALL": false,
-        "SPRING": false,
+        "FALL": true,
+        "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Fall, Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-3730",
@@ -3030,11 +5546,29 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "Natural language processing (NLP) is primarily concerned with creating computer programs that interact with human languages.  The objective of this course is to continue the studies of natural language processing (NLP), to explore selected topics among syntax, semantics, and pragmatics more deeply, and to discuss recent advances in (NLP).",
       "requirements": "PREQ: CS 2731",
       "terms_offered": {
-        "FALL": false,
+        "FALL": true,
         "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Fall, Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-3750",
@@ -3044,11 +5578,29 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "This course will survey advanced topics in machine learning, for example, inductive learning, reinforcement learning, and neural network learning.",
       "requirements": "PREQ: CS 2750",
       "terms_offered": {
-        "FALL": false,
+        "FALL": true,
         "SPRING": false,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Fall",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-3790",
@@ -3059,10 +5611,28 @@ export const CourseInfoData: CourseInfoDataType = {
       "requirements": "",
       "terms_offered": {
         "FALL": false,
-        "SPRING": false,
+        "SPRING": true,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Spring",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-3800",
@@ -3072,11 +5642,29 @@ export const CourseInfoData: CourseInfoDataType = {
       "description": "This course aims to provide students with an introduction to a range of advanced topics in computing. It will explore the current and future challenges facing the emerging computing paradigms. These will also be used to illustrate the many different influences and trade-offs involved in computing and information systems.",
       "requirements": "",
       "terms_offered": {
-        "FALL": false,
+        "FALL": true,
         "SPRING": false,
         "SUMMER": false
       },
-      "instructors": []
+      "instructors": [],
+      "typically_offered": "Fall",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 0
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 0
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 0
+        }
+      ]
     },
     {
       "sci_href": "https://courses.sci.pitt.edu/courses/view/CS-3900",
@@ -3112,6 +5700,24 @@ export const CourseInfoData: CourseInfoDataType = {
         "Xiaowei Jia",
         "Xulong Tang",
         "Youtao Zhang"
+      ],
+      "typically_offered": "Fall, Spring, Summer",
+      "term_offerings": [
+        {
+          "term": "2271",
+          "name": "Fall 2026",
+          "sections": 22
+        },
+        {
+          "term": "2274",
+          "name": "Spring 2027",
+          "sections": 22
+        },
+        {
+          "term": "2277",
+          "name": "Summer 2027",
+          "sections": 18
+        }
       ]
     }
   ]
