@@ -2,12 +2,25 @@ import * as fs from "fs"
 import * as path from "path"
 import * as cheerio from "cheerio"
 import { CourseInfoData } from "../data/CourseInfoData"
+import {
+  fetchCatalog,
+  fetchSectionCount,
+  isTermPublished,
+  sleep,
+  upcomingTerms,
+} from "./pitt-class-search"
 
 // Types matching the existing data structure
 type TermsOffered = {
   FALL: boolean
   SPRING: boolean
   SUMMER: boolean
+}
+
+type TermOffering = {
+  term: string
+  name: string
+  sections: number
 }
 
 type CourseData = {
@@ -18,6 +31,8 @@ type CourseData = {
   description: string
   requirements: string
   terms_offered: TermsOffered
+  typically_offered?: string
+  term_offerings?: TermOffering[]
   instructors: string[]
 }
 
@@ -193,6 +208,9 @@ async function scrapeCourses() {
   // Sort courses by ID
   courses.sort((a, b) => a.id.localeCompare(b.id))
 
+  // Layer in real per-term availability from Pitt's class search
+  await augmentWithClassSearch(courses)
+
   const data: CourseInfoDataType = {
     metadata: {
       generated: new Date().toISOString(),
@@ -219,6 +237,103 @@ export const CourseInfoData: CourseInfoDataType = ${JSON.stringify(
   const outputPath = path.join(process.cwd(), "data", "CourseInfoData.ts")
   fs.writeFileSync(outputPath, fileContent)
   console.log(`Successfully wrote ${courses.length} courses to ${outputPath}`)
+}
+
+/**
+ * Enrich courses from Pitt's class-search API: terms_offered /
+ * typically_offered from the catalog's typ_offr, and term_offerings with
+ * real section counts per published term. Any failure falls back to the
+ * previous run's data — an API outage must never flip a course to
+ * "not offered".
+ */
+async function augmentWithClassSearch(courses: CourseData[]) {
+  const previousCourses = new Map(
+    CourseInfoData.courses.map((course) => [course.id, course])
+  )
+
+  const keepPreviousData = () => {
+    for (const course of courses) {
+      const previous = previousCourses.get(course.id)
+      if (previous?.typically_offered)
+        course.typically_offered = previous.typically_offered
+      if (previous?.term_offerings)
+        course.term_offerings = previous.term_offerings
+    }
+  }
+
+  let catalog
+  try {
+    catalog = await fetchCatalog(["CS", "CMPINF"])
+  } catch (error) {
+    console.error(
+      "Class-search catalog fetch failed; keeping previous term data:",
+      error
+    )
+    keepPreviousData()
+    return
+  }
+  console.log(`Class-search catalog: ${catalog.size} courses`)
+
+  // Only query terms whose schedule the registrar has actually published;
+  // for an unpublished term, 0 sections means nothing.
+  const publishedTerms = []
+  for (const term of upcomingTerms()) {
+    if (await isTermPublished(term.term, catalog)) {
+      publishedTerms.push(term)
+    } else {
+      console.log(
+        `Term ${term.name} (${term.term}) not published yet; skipping`
+      )
+    }
+  }
+  console.log(
+    `Published terms: ${publishedTerms.map((t) => t.name).join(", ")}`
+  )
+
+  for (const course of courses) {
+    const previous = previousCourses.get(course.id)
+    const entry = catalog.get(course.id)
+
+    if (!entry) {
+      if (previous?.typically_offered)
+        course.typically_offered = previous.typically_offered
+      if (previous?.term_offerings)
+        course.term_offerings = previous.term_offerings
+      continue
+    }
+
+    if (entry.typOffrDescr) course.typically_offered = entry.typOffrDescr
+    if (entry.typOffr) {
+      course.terms_offered = {
+        FALL: entry.typOffr.includes("FALL"),
+        SPRING: entry.typOffr.includes("SPR"),
+        SUMMER: entry.typOffr.includes("SUM"),
+      }
+    }
+
+    const offerings: TermOffering[] = []
+    for (const term of publishedTerms) {
+      const count = await fetchSectionCount(entry, term.term)
+      await sleep(75)
+      if (count !== null) {
+        offerings.push({ term: term.term, name: term.name, sections: count })
+      } else {
+        const previousOffering = previous?.term_offerings?.find(
+          (offering) => offering.term === term.term
+        )
+        if (previousOffering) offerings.push(previousOffering)
+      }
+    }
+    if (offerings.length > 0) course.term_offerings = offerings
+    else if (previous?.term_offerings)
+      course.term_offerings = previous.term_offerings
+
+    console.log(
+      `  ${course.id}: ${offerings
+        .map((offering) => `${offering.name}=${offering.sections}`)
+        .join(" ")}`
+    )
+  }
 }
 
 scrapeCourses().catch(console.error)

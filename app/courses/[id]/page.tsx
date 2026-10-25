@@ -1,6 +1,6 @@
 "use client"
 import Breadcrumb from "@/components/Breadcrumb"
-import TermPill from "@/components/Courses/TermPill"
+import TermAvailability from "@/components/Courses/TermAvailability"
 import RequirementsListing from "@/components/Requirement/RequirementsListing"
 import { CourseInfoData } from "@/data/CourseInfoData"
 import { SetDocumentTitle } from "@/utils/set-document-title"
@@ -37,7 +37,10 @@ export default function CoursePage({ params }: { params: { id: string } }) {
           <h1 className="title">{displayCourseId}</h1>
           <h2 className="sub-title">{courseTitle}</h2>
         </div>
-        <TermPill termsMap={courseData.terms_offered} />
+        <TermAvailability
+          course={courseData}
+          generatedAt={CourseInfoData.metadata.generated}
+        />
         <div className="my-4">
           <RequirementsListing
             requirements={COURSE_REQUIREMENTS[CURRENT_COURSE_ID]}
