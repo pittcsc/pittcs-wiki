@@ -2,7 +2,10 @@ import { CoursesDataType } from "@/types/CoursesDataType"
 import TermPills from "./TermPill"
 
 type TermAvailabilityProps = {
-  course: CoursesDataType
+  course: Pick<
+    CoursesDataType,
+    "terms_offered" | "typically_offered" | "term_offerings"
+  >
   /** ISO date of the last course-data scrape */
   generatedAt?: string
 }

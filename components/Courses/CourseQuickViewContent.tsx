@@ -1,8 +1,8 @@
 import { cleanCourseId, cleanCourseTitle } from "@/utils/course-namer"
 import RequirementsListing from "../Requirement/RequirementsListing"
-import TermPills from "./TermPill"
+import TermAvailability from "./TermAvailability"
 import Link from "next/link"
-import { TermsOfferedType } from "@/types/CoursesDataType"
+import { TermOfferingType, TermsOfferedType } from "@/types/CoursesDataType"
 import rmpRatings from "@/data/rmp-ratings.json"
 
 interface CourseRequirements {
@@ -20,6 +20,8 @@ type CourseQuickViewContentProps = {
   description?: string
   title?: string
   terms_offered?: TermsOfferedType
+  typically_offered?: string
+  term_offerings?: TermOfferingType[]
   instructors?: string[]
 }
 
@@ -28,6 +30,8 @@ const CourseQuickViewContent = ({
   description,
   title,
   terms_offered,
+  typically_offered,
+  term_offerings,
   instructors,
 }: CourseQuickViewContentProps) => {
   return (
@@ -84,7 +88,11 @@ const CourseQuickViewContent = ({
             })}
         </p>
       )}
-      {terms_offered && <TermPills termsMap={terms_offered} />}
+      {terms_offered && (
+        <TermAvailability
+          course={{ terms_offered, typically_offered, term_offerings }}
+        />
+      )}
       <div className="mt-4 mb-2">
         <RequirementsListing requirements={COURSE_REQUIREMENTS[id]} />
       </div>
