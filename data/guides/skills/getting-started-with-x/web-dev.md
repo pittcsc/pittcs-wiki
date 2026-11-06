@@ -26,11 +26,12 @@ Well now you made a website, but how do you get it up on the internet?
 
 - [TraversyMedia on YouTube](https://www.youtube.com/c/TraversyMedia) has excellent tutorials for many different web-dev stacks.
 - [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Learn) is a good go-to for learning HTML, CSS, and JS. This website will likely appear a lot on Google while you're learning things.
+- [FrontendAtlas JavaScript prep path](https://frontendatlas.com/guides/framework-prep/javascript-prep-path) is a free 7/14/30-day study plan for front-end JavaScript interviews (event loop, closures, `this`, promises, debounce and throttle). Some of the practice drills it links are paid.
 
 ### React
 
-- [ReactJS Docs](https://reactjs.org/tutorial/tutorial.html) have good beginner tutorials.
-- [NextJS Docs](https://nextjs.org/learn/basics/create-nextjs-app) have good beginner tutorials.
+- [React Docs](https://react.dev/learn) have good beginner tutorials.
+- [NextJS Docs](https://nextjs.org/learn) have good beginner tutorials.
 
 ### TypeScript
 
