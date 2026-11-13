@@ -3,6 +3,14 @@ const path = require("path")
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   pageExtensions: ["js", "jsx", "mdx", "md", "ts", "tsx"],
+  async headers() {
+    return [
+      {
+        source: "/sw.js",
+        headers: [{ key: "Cache-Control", value: "no-store" }],
+      },
+    ]
+  },
   webpack: (config) => {
     config.module.rules.push({
       test: /\.md$/,

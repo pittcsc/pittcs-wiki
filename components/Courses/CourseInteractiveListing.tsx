@@ -10,6 +10,18 @@ type CourseInteractiveListingProps = {
   selectedCourseId: string
 }
 
+// Prefer live class-search data (does this course have sections in the
+// upcoming published term of that season?) over the typically-offered flag.
+const offeredInSeason = (course: any, season: string) => {
+  const offerings = course.term_offerings?.filter(({ name }: any) =>
+    name.toUpperCase().startsWith(season)
+  )
+  if (offerings && offerings.length > 0) {
+    return offerings.some(({ sections }: any) => sections > 0)
+  }
+  return course.terms_offered[season]
+}
+
 const CourseInteractiveListing = ({
   setCurrentCourse,
   filters: {
@@ -35,8 +47,8 @@ const CourseInteractiveListing = ({
     const termFilteredCourses =
       termOfferedFilter === "OFF"
         ? category.courses
-        : category.courses.filter(
-            ({ terms_offered }: any) => terms_offered[termOfferedFilter]
+        : category.courses.filter((course: any) =>
+            offeredInSeason(course, termOfferedFilter)
           )
     const courses = termFilteredCourses.filter(matchesSearch)
     if (!show || courses.length === 0) return null

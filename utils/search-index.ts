@@ -1,23 +1,13 @@
+// Server-only search index builder (uses fs to read guide markdown).
+// Served to the client as JSON by app/api/search-index/route.ts.
 import { CourseInfoData } from "@/data/CourseInfoData"
 import { CoreCoursesData } from "@/data/CoreCoursesData"
 import { getMDFrontMatter } from "@/utils/frontmatter-parser"
+import { SearchIndex, SearchResult } from "@/utils/search"
 import { promises as fs } from "fs"
 import path from "path"
 
-export type SearchResult = {
-  id: string
-  type: "course" | "guide"
-  title: string
-  description: string
-  href: string
-  relevance: number
-  searchableText: string
-}
-
-export type SearchIndex = {
-  results: SearchResult[]
-  buildTime: string
-}
+export type { SearchIndex, SearchResult }
 
 /**
  * Extract the first 150 characters of meaningful text from markdown content
@@ -62,7 +52,9 @@ const getGuideFiles = async (
 
       if (stat.isDirectory()) {
         arrayOfFiles = await getGuideFiles(filePath, arrayOfFiles)
-      } else if (file.endsWith(".md") && file !== "index.md") {
+      } else if (file.endsWith(".md") || file.endsWith(".mdx")) {
+        // index.md files are real category pages ("Registering for Special
+        // Classes", "Academics", ...) and are indexed at the folder URL
         arrayOfFiles.push(filePath)
       }
     }
@@ -73,37 +65,57 @@ const getGuideFiles = async (
   return arrayOfFiles
 }
 
+const titleCase = (s: string) =>
+  s.replace(/\b\w/g, (c) => c.toUpperCase()).replace(/-/g, " ")
+
+const SMALL_WORDS = new Set([
+  "a",
+  "an",
+  "and",
+  "for",
+  "in",
+  "of",
+  "or",
+  "the",
+  "to",
+  "with",
+])
+
+/** "ALGORITHMS AND DATA STRUCTURES 1" -> "Algorithms and Data Structures 1" */
+const titleCaseCourse = (s: string) =>
+  s
+    .toLowerCase()
+    .replace(/[a-z]+/g, (word, offset) =>
+      offset > 0 && SMALL_WORDS.has(word)
+        ? word
+        : word.charAt(0).toUpperCase() + word.slice(1)
+    )
+
 // Build search index from courses and guides
 export const buildSearchIndex = async (): Promise<SearchIndex> => {
   const results: SearchResult[] = []
 
-  // Add all courses from CourseInfoData
-  CourseInfoData.courses.forEach((course) => {
-    const searchableText =
-      `${course.title} ${course.id} ${course.description}`.toLowerCase()
-    results.push({
-      id: course.id,
-      type: "course",
-      title: course.title,
-      description: course.description.substring(0, 150),
-      href: `/courses/${course.id}`,
-      relevance: 0,
-      searchableText,
-    })
-  })
+  // CoreCoursesData has nicer, properly-cased titles/descriptions for the
+  // core classes; merge it into the full course list by course number.
+  const coreByNumber = CoreCoursesData
 
-  // Add all courses from CoreCoursesData
-  Object.values(CoreCoursesData).forEach((course) => {
-    const searchableText =
-      `${course.title} ${course.code} ${course.id} ${course.description}`.toLowerCase()
+  CourseInfoData.courses.forEach((course) => {
+    const courseNumber = parseInt(course.id.replace(/\D/g, ""), 10).toString()
+    const core = coreByNumber[courseNumber]
+    // Only use core data if it refers to the same course (code matches id)
+    const coreMatches =
+      core && core.code.replace(/\s/g, "").toUpperCase() === course.id
+
     results.push({
       id: course.id,
       type: "course",
-      title: `${course.code} - ${course.title}`,
-      description: course.description.substring(0, 150),
+      title: coreMatches ? core.title : titleCaseCourse(course.title),
+      description: (coreMatches
+        ? core.description
+        : course.description
+      ).substring(0, 150),
       href: `/courses/${course.id}`,
-      relevance: 0,
-      searchableText,
+      courseId: course.id,
     })
   })
 
@@ -117,20 +129,30 @@ export const buildSearchIndex = async (): Promise<SearchIndex> => {
         const fileContent = await fs.readFile(filePath, "utf-8")
         const frontmatter = getMDFrontMatter(fileContent)
 
-        // Extract relative path and convert to URL
+        // Extract relative path and convert to URL; a folder's index.md is
+        // indexed at the folder's own URL
         const relativePath = filePath
           .replace(process.cwd() + "/data/guides/", "")
-          .replace(/\.md$/, "")
+          .replace(/\.(md|mdx)$/, "")
+          .replace(/(^|\/)index$/, "")
+          .replace(/\/$/, "")
+
+        // The top-level index.md is the guides landing page itself; skip it
+        if (!relativePath) continue
 
         const href = `/guides/${relativePath}`
         const id = `guide-${relativePath}`
         const title = frontmatter.title || "Untitled Guide"
         const description = extractDescription(fileContent)
-        const tagsString = Array.isArray(frontmatter.search_tags)
-          ? frontmatter.search_tags.join(" ")
-          : ""
-        const searchableText =
-          `${title} ${description} ${tagsString}`.toLowerCase()
+        // Folder and file names carry useful words the body may not repeat
+        // (e.g. "registration" in academics/registration/cross-register)
+        const pathWords = relativePath.split(/[\/\-_]+/).filter(Boolean)
+        const tags = (
+          Array.isArray(frontmatter.search_tags)
+            ? frontmatter.search_tags.map(String)
+            : []
+        ).concat(pathWords)
+        const category = titleCase(relativePath.split("/")[0] ?? "")
 
         results.push({
           id,
@@ -138,8 +160,8 @@ export const buildSearchIndex = async (): Promise<SearchIndex> => {
           title,
           description,
           href,
-          relevance: 0,
-          searchableText,
+          category,
+          tags,
         })
       } catch (error) {
         console.error(`Error parsing guide ${filePath}:`, error)
@@ -153,48 +175,4 @@ export const buildSearchIndex = async (): Promise<SearchIndex> => {
     results,
     buildTime: new Date().toISOString(),
   }
-}
-
-// Fuzzy search helper - simple substring matching with scoring
-export const fuzzySearch = (query: string, searchText: string): number => {
-  const q = query.toLowerCase()
-  const text = searchText.toLowerCase()
-
-  if (text.includes(q)) {
-    // Exact substring match - highest priority
-    if (text.startsWith(q)) return 3
-    return 2
-  }
-
-  // Check if all characters of query exist in order
-  let queryIndex = 0
-  for (let i = 0; i < text.length && queryIndex < q.length; i++) {
-    if (text[i] === q[queryIndex]) {
-      queryIndex++
-    }
-  }
-
-  if (queryIndex === q.length) {
-    return 1
-  }
-
-  return 0
-}
-
-// Search the index
-export const searchIndex = (
-  query: string,
-  index: SearchIndex
-): SearchResult[] => {
-  if (!query.trim()) return []
-
-  const scored = index.results
-    .map((result) => ({
-      ...result,
-      relevance: fuzzySearch(query, result.searchableText),
-    }))
-    .filter((result) => result.relevance > 0)
-    .sort((a, b) => b.relevance - a.relevance)
-
-  return scored.slice(0, 10) // Return top 10 results
 }

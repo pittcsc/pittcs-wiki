@@ -1,31 +1,58 @@
 import { useCallback, useEffect, useState, useRef } from "react"
-import {
-  buildSearchIndex,
-  searchIndex,
-  SearchResult,
-} from "@/utils/search-index"
+import { searchIndex, SearchIndex, SearchResult } from "@/utils/search"
 
 export const useSearch = () => {
   const [query, setQuery] = useState("")
   const [results, setResults] = useState<SearchResult[]>([])
   const [isLoading, setIsLoading] = useState(false)
   const debounceTimerRef = useRef<NodeJS.Timeout>()
-  const indexRef = useRef<Awaited<ReturnType<typeof buildSearchIndex>> | null>(
-    null
-  )
+  const indexRef = useRef<SearchIndex | null>(null)
+  const pendingQueryRef = useRef<string | null>(null)
 
-  // Initialize search index on mount
+  const performSearch = useCallback((searchQuery: string) => {
+    if (!indexRef.current) {
+      // Index still loading; remember the query and run it when it arrives
+      pendingQueryRef.current = searchQuery
+      return
+    }
+
+    try {
+      setResults(searchIndex(searchQuery, indexRef.current))
+    } catch (error) {
+      console.error("Search error:", error)
+      setResults([])
+    } finally {
+      setIsLoading(false)
+    }
+  }, [])
+
+  // Fetch the prebuilt search index (built server-side; the guide markdown
+  // can't be read in the browser) once on mount.
   useEffect(() => {
     let isMounted = true
 
     const initializeIndex = async () => {
       try {
-        const index = await buildSearchIndex()
+        // no-cache = revalidate with the server (304 when unchanged) so a
+        // stale cached index doesn't outlive a deploy
+        const response = await fetch("/api/search-index", {
+          cache: "no-cache",
+        })
+        if (!response.ok) {
+          throw new Error(`Failed to load search index: ${response.status}`)
+        }
+        const index: SearchIndex = await response.json()
         if (isMounted) {
           indexRef.current = index
+          if (pendingQueryRef.current !== null) {
+            const pending = pendingQueryRef.current
+            pendingQueryRef.current = null
+            performSearch(pending)
+          }
         }
       } catch (error) {
-        console.error("Error building search index:", error)
+        console.error("Error loading search index:", error)
+        if (isMounted) setIsLoading(false)
       }
     }
 
@@ -36,36 +63,21 @@ export const useSearch = () => {
     return () => {
       isMounted = false
     }
-  }, [])
-
-  const performSearch = useCallback((searchQuery: string) => {
-    if (!indexRef.current) return
-
-    setIsLoading(true)
-    try {
-      const searchResults = searchIndex(searchQuery, indexRef.current)
-      setResults(searchResults)
-    } catch (error) {
-      console.error("Search error:", error)
-      setResults([])
-    } finally {
-      setIsLoading(false)
-    }
-  }, [])
+  }, [performSearch])
 
   const handleQueryChange = useCallback(
     (newQuery: string) => {
       setQuery(newQuery)
+      setIsLoading(!!newQuery.trim())
 
-      // Clear existing debounce timer
       if (debounceTimerRef.current) {
         clearTimeout(debounceTimerRef.current)
       }
 
-      // Debounce search by 300ms
+      // Small debounce keeps typing snappy without re-scoring every keystroke
       debounceTimerRef.current = setTimeout(() => {
         performSearch(newQuery)
-      }, 300)
+      }, 120)
     },
     [performSearch]
   )
@@ -82,6 +94,8 @@ export const useSearch = () => {
   const clearSearch = useCallback(() => {
     setQuery("")
     setResults([])
+    setIsLoading(false)
+    pendingQueryRef.current = null
   }, [])
 
   return {
