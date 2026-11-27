@@ -34,6 +34,30 @@ const nextConfig = {
   experimental: {
     // webpackBuildWorker: true,
   },
+  async redirects() {
+    return [
+      {
+        source: "/guides/zero-to-offer/ace-your-interview",
+        destination: "/guides/zero-to-offer/technical-interviews",
+        permanent: false,
+      },
+      {
+        source: "/guides/zero-to-offer/potpourri",
+        destination: "/guides/zero-to-offer",
+        permanent: false,
+      },
+      {
+        source: "/zero-to-offer/intro",
+        destination: "/zero-to-offer",
+        permanent: false,
+      },
+      {
+        source: "/guides/zero-to-offer/intro",
+        destination: "/guides/zero-to-offer",
+        permanent: false,
+      },
+    ]
+  },
 }
 
 module.exports = nextConfig
