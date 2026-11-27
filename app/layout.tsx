@@ -10,11 +10,9 @@ const inter = Inter({ subsets: ["latin"] })
 
 // Render every route dynamically so the HTML document is served with
 // `Cache-Control: no-store` (Next.js emits this for dynamic routes). This
-// guarantees browsers never show a stale page after a deploy without a hard
-// refresh. Next.js hardcodes a cacheable header on statically-prerendered
-// pages and ignores any override from middleware or next.config.js, so
-// dynamic rendering is the only reliable way to get no-store. Hashed assets
-// under /_next/static keep their long-lived immutable cache.
+// prevents HTTP caches from reusing old HTML. Legacy Gatsby service worker
+// caches are retired separately by public/sw.js; HTTP headers cannot evict
+// those caches. Hashed assets under /_next/static keep their long-lived cache.
 export const dynamic = "force-dynamic"
 
 export const metadata: Metadata = {

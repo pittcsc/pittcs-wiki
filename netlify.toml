@@ -5,10 +5,17 @@
 [functions]
   directory = ".next/server/functions"
 
-# Document Cache-Control is set by Next.js (see async headers() in
-# next.config.js), which the runtime honors over netlify.toml. Here we only
+# Document Cache-Control is set by Next.js (see force-dynamic in
+# app/layout.tsx), which the runtime honors over netlify.toml. Here we only
 # reassert the long-lived immutable cache for hashed build assets.
 [[headers]]
   for = "/_next/static/*"
   [headers.values]
   cache-control = 'public,max-age=31536000,immutable'
+
+# The old Gatsby worker must remain reachable at its original URL so browsers
+# can replace it with the retirement worker, even while showing cached pages.
+[[headers]]
+  for = "/sw.js"
+  [headers.values]
+  cache-control = 'no-store'

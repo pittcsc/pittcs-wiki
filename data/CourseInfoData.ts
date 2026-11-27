@@ -9,7 +9,7 @@ export type CourseInfoDataType = {
 
 export const CourseInfoData: CourseInfoDataType = {
   "metadata": {
-    "generated": "2026-10-25T22:49:51.580Z"
+    "generated": "2026-11-22T00:37:40.996Z"
   },
   "courses": [
     {
@@ -1336,7 +1336,7 @@ export const CourseInfoData: CourseInfoDataType = {
         {
           "term": "2274",
           "name": "Spring 2027",
-          "sections": 0
+          "sections": 1
         },
         {
           "term": "2277",
@@ -3323,7 +3323,7 @@ export const CourseInfoData: CourseInfoDataType = {
         {
           "term": "2274",
           "name": "Spring 2027",
-          "sections": 1
+          "sections": 0
         },
         {
           "term": "2277",
@@ -3878,7 +3878,7 @@ export const CourseInfoData: CourseInfoDataType = {
         {
           "term": "2274",
           "name": "Spring 2027",
-          "sections": 0
+          "sections": 1
         },
         {
           "term": "2277",

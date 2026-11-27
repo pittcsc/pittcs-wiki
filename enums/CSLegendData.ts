@@ -5,7 +5,7 @@ export const CSLegendData: { [course: string]: string } = {
   CS0445: "#2196f3", // blue
   CS1501: "#00838f", //dark blue
   CS0449: "#4caf50", // green
-  CS1550: "#673ab7", // purple
+  CS1503: "#673ab7", // purple
   OTHER: "#47494c", // gray
   // insert joke about how ming is a cs legend
 }
