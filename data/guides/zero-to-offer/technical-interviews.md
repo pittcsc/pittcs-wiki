@@ -67,7 +67,7 @@ Avoid the three most common traps: checking the solution after 5 minutes, practi
 
 ### Practice Articulation in `#mock-interview`
 
-Because solo LeetCode doesn't test communication, open a ticket in PittCSC Discord **`#mock-interview`** with your **Whenly** availability, target company, and focus area. PittCSC members who do mock interviews before real rounds have an **over 90% pass rate**.
+Because solo LeetCode doesn't test communication, open a ticket in PittCSC Discord **`#mock-interview`** with your **[Whenly](https://pittcsc.org/meet)** availability, target company, and focus area. PittCSC members who do mock interviews before real rounds have an **over 90% pass rate**.
 
 ### A Note on AI in Prep & OAs
 

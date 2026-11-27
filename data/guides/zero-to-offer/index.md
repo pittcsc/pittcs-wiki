@@ -27,7 +27,7 @@ Read straight through if you're starting from scratch, or jump to the bottleneck
 2. **[2. Mindset](/guides/zero-to-offer/mindset):** Finding your "why," staying sane through rejections, "The Pitt Potential," and ignoring TikTok/Reddit doomscrolling.
 3. **[3. Building Your Case](/guides/zero-to-offer/building-your-case):** `Building != Coding`, mining job descriptions for real projects, AI guardrails, CSC Dev Lab, SteelHacks, and networking.
 4. **[4. Resumes & ATS](/guides/zero-to-offer/resume):** Surviving the 7-second skim, Jake's template, `#resume-reviews`, `vmock.com/pitt`, and Google XYZ bullets.
-5. **[5. Behavioral Interviews](/guides/zero-to-offer/behavioral-interviews):** Passing the vibe check, linear STAR stories, `💻 + 🏢 + 🚀`, and selling potential without prior internships.
+5. **[5. Behavioral Interviews](/guides/zero-to-offer/behavioral-interviews):** Passing the vibe check, linear STAR stories, `Field + Company + Growth`, and selling potential without prior internships.
 6. **[6. Technical Interviews & OAs](/guides/zero-to-offer/technical-interviews):** Auto vs. non-auto OAs, CodeSignal GCA strategy, the T.A.C.O. framework, NeetCode 150, and `#mock-interview`.
 7. **[7. Post-Interview, Offers & Rejection](/guides/zero-to-offer/post-interview):** Rejection autopsies, accelerating competing pipelines, offer-extension emails, and reneging realities.
 

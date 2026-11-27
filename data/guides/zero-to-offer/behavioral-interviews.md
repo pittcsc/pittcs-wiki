@@ -41,10 +41,10 @@ Instead of memorizing answers to 100 prompts:
 
 1. **Make a Story-Bank Spreadsheet:** Create columns for **`Situation | Task | Action | Result | Company Values`** and fill in **5–7 shorthand stories**. That single doc covers roughly 90% of behavioral questions.
 2. **Research the company's actual values:** Look up what the company cares about before the call (for example, Meta's *Move fast / Be direct*, Google's *Focus on the user*, or NVIDIA's *Intellectual Honesty / Speed & Agility*) and map your stories to them.
-3. **Use `💻 + 🏢 + 🚀` for Values questions:** For *"Tell me about yourself"*, *"Why this company?"*, or *"What are your strengths/weaknesses?"*, make sure your answer signals all three:
- - **💻 Passion for your field:** You genuinely like building and solving engineering problems.
- - **🏢 Passion for THIS company & role:** Specific details showing you did your homework.
- - **🚀 Passion for self-growth:** You seek feedback, learn fast, and level up.
+3. **Use `Field + Company + Growth` for Values questions:** For *"Tell me about yourself"*, *"Why this company?"*, or *"What are your strengths/weaknesses?"*, make sure your answer signals all three:
+ - **Passion for your field:** You genuinely like building and solving engineering problems.
+ - **Passion for THIS company & role:** Specific details showing you did your homework.
+ - **Passion for self-growth:** You seek feedback, learn fast, and level up.
 
 ## Tip 4: No Tech Internships Yet? Sell Your Potential
 
@@ -79,6 +79,6 @@ Never say *"No, I think you answered everything"* when they hand the floor to yo
 
 ## Get Your Reps In (`#mock-interview`)
 
-Open a ticket in PittCSC Discord **`#mock-interview`** with your **Whenly** availability, target company, and what you want to practice. **Do not** request a mock the night before your real interview: give at least a week's notice so officers can match you.
+Open a ticket in PittCSC Discord **`#mock-interview`** with your **[Whenly](https://pittcsc.org/meet)** availability, target company, and what you want to practice. **Do not** request a mock the night before your real interview: give at least a week's notice so officers can match you.
 
 _Next: [Technical Interviews & OAs](/guides/zero-to-offer/technical-interviews)_

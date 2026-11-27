@@ -53,8 +53,8 @@
     "originalAuthorEmail": "",
     "updaters": [],
     "updaterEmails": [],
-    "lastModified": "2026-11-27T23:40:27.163Z",
-    "created": "2026-11-27T23:40:27.163Z",
+    "lastModified": "2026-11-27T23:44:10.014Z",
+    "created": "2026-11-27T23:44:10.014Z",
     "wordCount": 266,
     "readingTime": 2,
     "commits": 0
@@ -854,16 +854,16 @@
   "guide-zero-to-offer/behavioral-interviews": {
     "path": "zero-to-offer/behavioral-interviews",
     "author": "PittCSC",
-    "authorEmail": "",
+    "authorEmail": "56934841+codingshreyash@users.noreply.github.com",
     "originalAuthor": "PittCSC",
-    "originalAuthorEmail": "",
+    "originalAuthorEmail": "56934841+codingshreyash@users.noreply.github.com",
     "updaters": [],
     "updaterEmails": [],
-    "lastModified": "2026-11-27T23:40:31.591Z",
+    "lastModified": "2026-11-27T23:41:00.000Z",
     "created": "2026-09-10",
-    "wordCount": 1011,
+    "wordCount": 1008,
     "readingTime": 6,
-    "commits": 0
+    "commits": 1
   },
   "guide-zero-to-offer/building-your-case": {
     "path": "zero-to-offer/building-your-case",
@@ -877,7 +877,7 @@
     "created": "2023-11-28T19:56:49.000Z",
     "wordCount": 1150,
     "readingTime": 6,
-    "commits": 5
+    "commits": 6
   },
   "guide-zero-to-offer/mindset": {
     "path": "zero-to-offer/mindset",
@@ -895,7 +895,7 @@
     "created": "2023-11-28T19:56:49.000Z",
     "wordCount": 1712,
     "readingTime": 9,
-    "commits": 4
+    "commits": 5
   },
   "guide-zero-to-offer/overview": {
     "path": "zero-to-offer/overview",
@@ -913,7 +913,7 @@
     "created": "2023-11-28T19:56:49.000Z",
     "wordCount": 1392,
     "readingTime": 7,
-    "commits": 4
+    "commits": 5
   },
   "guide-zero-to-offer/post-interview": {
     "path": "zero-to-offer/post-interview",
@@ -931,34 +931,34 @@
     "created": "2026-09-10",
     "wordCount": 1682,
     "readingTime": 9,
-    "commits": 4
+    "commits": 5
   },
   "guide-zero-to-offer/resume": {
     "path": "zero-to-offer/resume",
     "author": "PittCSC",
-    "authorEmail": "",
+    "authorEmail": "56934841+codingshreyash@users.noreply.github.com",
     "originalAuthor": "PittCSC",
-    "originalAuthorEmail": "",
+    "originalAuthorEmail": "56934841+codingshreyash@users.noreply.github.com",
     "updaters": [],
     "updaterEmails": [],
-    "lastModified": "2026-11-27T23:40:32.056Z",
+    "lastModified": "2026-11-27T23:41:00.000Z",
     "created": "2026-09-10",
     "wordCount": 847,
     "readingTime": 5,
-    "commits": 0
+    "commits": 1
   },
   "guide-zero-to-offer/technical-interviews": {
     "path": "zero-to-offer/technical-interviews",
     "author": "PittCSC",
-    "authorEmail": "",
+    "authorEmail": "56934841+codingshreyash@users.noreply.github.com",
     "originalAuthor": "PittCSC",
-    "originalAuthorEmail": "",
+    "originalAuthorEmail": "56934841+codingshreyash@users.noreply.github.com",
     "updaters": [],
     "updaterEmails": [],
-    "lastModified": "2026-11-27T23:40:32.141Z",
+    "lastModified": "2026-11-27T23:41:00.000Z",
     "created": "2026-09-10",
     "wordCount": 1030,
     "readingTime": 6,
-    "commits": 0
+    "commits": 1
   }
 }

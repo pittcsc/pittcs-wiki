@@ -14,7 +14,7 @@ Almost every Pitt CS student graduates knowing how to write code for `CS 0445` o
 Not every project belongs on your resume:
 
 - **Learning projects** (calculators, To-Do apps, tic-tac-toe, following a YouTube tutorial, or reproducing GPT-2 from a video) are great for spending a weekend learning syntax or a new framework. Build them, learn from them, and leave them on GitHub.
-- **Resume projects** solve a real problem, have real users or measurable performance, or target the exact industry you want to break into. Think **Whenly** (built by PittCSC's Jon Coulter as a better When2Meet) or a deployed service with real traffic and latency numbers (like a Discord bot serving 100K+ users or a custom Rust/C++ chemical database).
+- **Resume projects** solve a real problem, have real users or measurable performance, or target the exact industry you want to break into. Think **[Whenly](https://pittcsc.org/meet)** (built by PittCSC's Jon Coulter as a better When2Meet) or a deployed service with real traffic and latency numbers (like a Discord bot serving 100K+ users or a custom Rust/C++ chemical database).
 
 ### How to Pick an Idea: Mine Job Descriptions
 
