@@ -11,11 +11,18 @@ export const newGuides = [
   "career/working-at-startup", // Working at a Startup - NEW
   "skills/csc-dev-lab/0-what-is-csc-dev-lab", // What is CSC Dev Lab - NEW
   "skills/student-success", // SCI Student Success - NEW
+  "zero-to-offer/resume", // Zero to Offer: Resume - NEW
+  "zero-to-offer/behavioral-interviews", // Zero to Offer: Behavioral Interviews - NEW
 ]
 
 export const updatedGuides = [
   "career/general-college-advice", // General College Advice - UPDATED
   "academics/study-abroad", // Study Abroad - UPDATED
+  "zero-to-offer/overview", // Zero to Offer: Overview - UPDATED
+  "zero-to-offer/mindset", // Zero to Offer: Mindset - UPDATED
+  "zero-to-offer/building-your-case", // Zero to Offer: Building Your Case - UPDATED
+  "zero-to-offer/technical-interviews", // Zero to Offer: Technical Interviews - UPDATED
+  "zero-to-offer/post-interview", // Zero to Offer: Post-Interview - UPDATED
 ]
 
 /**
